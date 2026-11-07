@@ -45,30 +45,57 @@ export default function CampCard({
     );
   };
 
+  const isArmy = camp.type === "army";
+  const isHighway = camp.type === "highway";
+
+  const badgeColor = isArmy
+    ? "bg-emerald-500/15 text-emerald-300 border-emerald-500/30"
+    : isHighway
+    ? "bg-purple-500/15 text-purple-300 border-purple-500/30"
+    : "bg-blue-500/15 text-blue-300 border-blue-500/30";
+
+  const iconBg = isSelected
+    ? "bg-amber-400 text-slate-950 ring-2 ring-amber-300"
+    : isArmy
+    ? "bg-emerald-800 text-amber-300"
+    : isHighway
+    ? "bg-purple-800 text-white"
+    : "bg-blue-800 text-white";
+
   return (
     <div
       onClick={() => onSelect(camp)}
       className={`p-4 rounded-xl transition-all duration-200 cursor-pointer border text-left ${
         isSelected
-          ? "bg-emerald-950/80 border-amber-400 ring-2 ring-amber-400/30 shadow-lg shadow-emerald-950/50"
-          : "bg-slate-900/90 hover:bg-slate-850 border-slate-800 hover:border-emerald-500/50 shadow-sm"
+          ? "bg-slate-900 border-amber-400 ring-2 ring-amber-400/40 shadow-lg shadow-black/60"
+          : "bg-slate-900/90 hover:bg-slate-850 border-slate-800 hover:border-slate-700 shadow-sm"
       }`}
     >
-      {/* Top Header: Name & Distance */}
-      <div className="flex items-start justify-between gap-2 mb-2.5">
-        <div className="flex items-center gap-2">
+      {/* Top Header: Badge, Name & Distance */}
+      <div className="flex items-start justify-between gap-2 mb-2">
+        <div className="flex items-start gap-2.5">
           <div
-            className={`w-7 h-7 rounded-lg flex items-center justify-center flex-shrink-0 text-xs font-bold ${
-              isSelected
-                ? "bg-amber-400 text-slate-950"
-                : "bg-emerald-800/80 text-emerald-200"
-            }`}
+            className={`w-7 h-7 rounded-lg flex items-center justify-center flex-shrink-0 text-xs font-bold mt-0.5 ${iconBg}`}
           >
-            <FiMapPin className="w-3.5 h-3.5" />
+            {isArmy ? "⭐" : isHighway ? "🛣️" : "👮"}
           </div>
-          <h3 className="font-bold text-base text-white tracking-wide">
-            {camp.name} সেনা ক্যাম্প
-          </h3>
+          <div>
+            <div className="flex items-center gap-1.5 flex-wrap">
+              <span
+                className={`inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold border ${badgeColor}`}
+              >
+                {camp.categoryName || (isArmy ? "সেনা ক্যাম্প" : isHighway ? "হাইওয়ে থানা" : "পুলিশ থানা")}
+              </span>
+              {camp.division && (
+                <span className="text-[11px] text-slate-400">
+                  • {camp.division}
+                </span>
+              )}
+            </div>
+            <h3 className="font-bold text-sm sm:text-base text-white tracking-wide mt-0.5">
+              {camp.name}
+            </h3>
+          </div>
         </div>
 
         <div className="flex items-center gap-1.5 flex-shrink-0">
@@ -82,7 +109,7 @@ export default function CampCard({
             type="button"
             onClick={handleShare}
             className="p-1.5 text-slate-400 hover:text-emerald-300 hover:bg-slate-800 rounded-lg transition"
-            title="ক্যাম্পের বিবরণ ও লোকেশন শেয়ার করুন"
+            title="বিবরণ ও লোকেশন শেয়ার করুন"
           >
             {isShared ? (
               <FiCheck className="w-3.5 h-3.5 text-emerald-400" />
@@ -99,34 +126,66 @@ export default function CampCard({
           জরুরি যোগাযোগ নম্বর:
         </span>
         <div className="flex flex-wrap gap-2">
-          {camp.contacts?.map((contact, idx) => (
-            <div
-              key={idx}
-              className="inline-flex items-center gap-1.5 bg-slate-800/90 hover:bg-emerald-900/60 border border-slate-700 hover:border-emerald-500/60 rounded-lg px-2.5 py-1 transition group"
-            >
-              <a
-                href={`tel:${contact}`}
-                onClick={(e) => e.stopPropagation()}
-                className="flex items-center gap-1.5 text-xs font-medium text-emerald-300 group-hover:text-emerald-200"
-                title="সরাসরি কল করতে ক্লিক করুন"
-              >
-                <FiPhone className="w-3 h-3 text-emerald-400" />
-                <span>{contact}</span>
-              </a>
-              <button
-                type="button"
-                onClick={(e) => handleCopy(e, contact)}
-                className="text-slate-400 hover:text-white p-0.5 ml-1 transition"
-                title="নম্বরটি কপি করুন"
-              >
-                {copiedNumber === contact ? (
-                  <FiCheck className="w-3 h-3 text-emerald-400" />
-                ) : (
-                  <FiCopy className="w-3 h-3" />
-                )}
-              </button>
-            </div>
-          ))}
+          {camp.contactRoles && camp.contactRoles.length > 0
+            ? camp.contactRoles.map((c, idx) => (
+                <div
+                  key={idx}
+                  className="inline-flex items-center gap-1.5 bg-slate-800/90 hover:bg-slate-750 border border-slate-700 hover:border-emerald-500/60 rounded-lg px-2.5 py-1 transition group"
+                >
+                  <a
+                    href={`tel:${c.number}`}
+                    onClick={(e) => e.stopPropagation()}
+                    className="flex items-center gap-1.5 text-xs font-medium text-emerald-300 group-hover:text-emerald-200"
+                    title={`${c.role} কে সরাসরি কল করতে ক্লিক করুন`}
+                  >
+                    <FiPhone className="w-3 h-3 text-emerald-400" />
+                    <span className="text-slate-400 font-semibold text-[11px]">
+                      {c.role}:
+                    </span>
+                    <span>{c.number}</span>
+                  </a>
+                  <button
+                    type="button"
+                    onClick={(e) => handleCopy(e, c.number)}
+                    className="text-slate-400 hover:text-white p-0.5 ml-1 transition"
+                    title="নম্বরটি কপি করুন"
+                  >
+                    {copiedNumber === c.number ? (
+                      <FiCheck className="w-3 h-3 text-emerald-400" />
+                    ) : (
+                      <FiCopy className="w-3 h-3" />
+                    )}
+                  </button>
+                </div>
+              ))
+            : camp.contacts?.map((contact, idx) => (
+                <div
+                  key={idx}
+                  className="inline-flex items-center gap-1.5 bg-slate-800/90 hover:bg-slate-750 border border-slate-700 hover:border-emerald-500/60 rounded-lg px-2.5 py-1 transition group"
+                >
+                  <a
+                    href={`tel:${contact}`}
+                    onClick={(e) => e.stopPropagation()}
+                    className="flex items-center gap-1.5 text-xs font-medium text-emerald-300 group-hover:text-emerald-200"
+                    title="সরাসরি কল করতে ক্লিক করুন"
+                  >
+                    <FiPhone className="w-3 h-3 text-emerald-400" />
+                    <span>{contact}</span>
+                  </a>
+                  <button
+                    type="button"
+                    onClick={(e) => handleCopy(e, contact)}
+                    className="text-slate-400 hover:text-white p-0.5 ml-1 transition"
+                    title="নম্বরটি কপি করুন"
+                  >
+                    {copiedNumber === contact ? (
+                      <FiCheck className="w-3 h-3 text-emerald-400" />
+                    ) : (
+                      <FiCopy className="w-3 h-3" />
+                    )}
+                  </button>
+                </div>
+              ))}
         </div>
       </div>
 
@@ -139,7 +198,7 @@ export default function CampCard({
             onNavigateMap(camp);
           }}
           className="flex items-center gap-1 text-slate-300 hover:text-emerald-300 font-semibold transition"
-          title="ম্যাপে এই ক্যাম্পটি ফোকাস করুন"
+          title="ম্যাপে এই লোকেশনটি ফোকাস করুন"
         >
           <FiMapPin className="w-3.5 h-3.5 text-emerald-400" />
           <span>ফোকাস</span>
@@ -152,7 +211,7 @@ export default function CampCard({
             if (onShowRoute) onShowRoute(camp);
           }}
           className="flex items-center gap-1.5 text-emerald-300 hover:text-emerald-200 font-bold bg-emerald-900/60 hover:bg-emerald-800/80 px-2.5 py-1 rounded-lg border border-emerald-500/40 shadow-sm transition"
-          title="আপনার অবস্থান থেকে এই ক্যাম্পের রুট দেখুন"
+          title="আপনার অবস্থান থেকে এই লোকেশনের রুট দেখুন"
         >
           <FiNavigation className="w-3.5 h-3.5 text-emerald-400" />
           <span>রুট দেখুন</span>

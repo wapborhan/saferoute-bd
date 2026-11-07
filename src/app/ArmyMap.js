@@ -13,6 +13,7 @@ import {
   FiRefreshCw,
   FiMap,
   FiList,
+  FiShield,
 } from "react-icons/fi";
 import CampCard from "@/components/CampCard";
 import Header from "@/components/Header";
@@ -29,26 +30,27 @@ import {
 // Dynamically import react-leaflet components to ensure ssr: false
 const MapContainer = dynamic(
   () => import("react-leaflet").then((mod) => mod.MapContainer),
-  { ssr: false },
+  { ssr: false }
 );
 const TileLayer = dynamic(
   () => import("react-leaflet").then((mod) => mod.TileLayer),
-  { ssr: false },
+  { ssr: false }
 );
 const Marker = dynamic(
   () => import("react-leaflet").then((mod) => mod.Marker),
-  { ssr: false },
+  { ssr: false }
 );
-const Popup = dynamic(() => import("react-leaflet").then((mod) => mod.Popup), {
-  ssr: false,
-});
+const Popup = dynamic(
+  () => import("react-leaflet").then((mod) => mod.Popup),
+  { ssr: false }
+);
 const Circle = dynamic(
   () => import("react-leaflet").then((mod) => mod.Circle),
-  { ssr: false },
+  { ssr: false }
 );
 const Polyline = dynamic(
   () => import("react-leaflet").then((mod) => mod.Polyline),
-  { ssr: false },
+  { ssr: false }
 );
 
 // Default Bangladesh center coordinates
@@ -73,10 +75,16 @@ function isValidLatLng(coords) {
 }
 
 // Map View Controller for Pan/Zoom, Route Bounds Fitting, and InvalidateSize
-function MapController({ targetCenter, targetZoom, routeBounds, mobileView }) {
+function MapController({
+  targetCenter,
+  targetZoom,
+  routeBounds,
+  mobileView,
+  isMapVisible,
+}) {
   const map = useMap();
 
-  // Invalidate size on initial mount and whenever mobile view changes
+  // Invalidate size on initial mount and whenever mobile view or desktop map visibility changes
   useEffect(() => {
     if (!map) return;
     const invalidate = () => {
@@ -97,7 +105,7 @@ function MapController({ targetCenter, targetZoom, routeBounds, mobileView }) {
       clearTimeout(t2);
       clearTimeout(t3);
     };
-  }, [map, mobileView]);
+  }, [map, mobileView, isMapVisible]);
 
   // Adjust center/zoom or fit route bounds safely without division by zero
   useEffect(() => {
@@ -122,7 +130,7 @@ function MapController({ targetCenter, targetZoom, routeBounds, mobileView }) {
         const safeZoom = Number(targetZoom) || 13;
         const size = map.getSize();
 
-        // If map container is not yet measured (size is 0,0 on mobile view switch),
+        // If map container is not yet measured (size is 0,0 on view switch),
         // use setView instead of flyTo to avoid Leaflet internal division by zero (NaN, NaN)
         if (!size || size.x <= 0 || size.y <= 0) {
           map.setView(safeCenter, safeZoom);
@@ -141,12 +149,12 @@ function MapController({ targetCenter, targetZoom, routeBounds, mobileView }) {
     } catch (err) {
       console.warn("Map navigation safely handled:", err);
     }
-  }, [map, targetCenter, targetZoom, routeBounds, mobileView]);
+  }, [map, targetCenter, targetZoom, routeBounds, mobileView, isMapVisible]);
 
   return null;
 }
 
-export default function ArmyMap({ allCamps = [] }) {
+export default function ArmyMap({ allLocations = [], allCamps = [] }) {
   const [leaflet, setLeaflet] = useState(null);
   const [userLocation, setUserLocation] = useState(null);
   const [locationName, setLocationName] = useState("");
@@ -156,9 +164,11 @@ export default function ArmyMap({ allCamps = [] }) {
   const [mapZoom, setMapZoom] = useState(BD_DEFAULT_ZOOM);
   const [searchQuery, setSearchQuery] = useState("");
   const [filterMode, setFilterMode] = useState("all"); // 'all' | 'nearest'
+  const [selectedCategory, setSelectedCategory] = useState("all"); // 'all' | 'army' | 'thana' | 'highway'
   const [selectedDivision, setSelectedDivision] = useState("সকল");
   const [isEmergencyOpen, setIsEmergencyOpen] = useState(false);
-  const [mobileView, setMobileView] = useState("map"); // 'map' | 'list'
+  const [mobileView, setMobileView] = useState("list"); // 'map' | 'list'
+  const [isMapVisible, setIsMapVisible] = useState(false); // Controls desktop right-side map visibility
 
   // Route state
   const [routeData, setRouteData] = useState(null);
@@ -167,6 +177,27 @@ export default function ArmyMap({ allCamps = [] }) {
 
   const markerRefs = useRef({});
 
+  // Use allLocations or fall back to allCamps
+  const rawLocations = useMemo(() => {
+    if (allLocations && allLocations.length > 0) return allLocations;
+    if (allCamps && allCamps.length > 0) {
+      return allCamps.map((item, idx) => ({
+        id: `army-${idx}`,
+        type: "army",
+        categoryName: "সেনা ক্যাম্প",
+        name: item.name.includes("ক্যাম্প") ? item.name : `${item.name} সেনা ক্যাম্প`,
+        lat: Number(item.lat),
+        lng: Number(item.lng),
+        contacts: item.contacts || [],
+        contactRoles: (item.contacts || []).map((num, i) => ({
+          role: `হটলাইন ${i + 1}`,
+          number: num,
+        })),
+      }));
+    }
+    return [];
+  }, [allLocations, allCamps]);
+
   // Asynchronously load Leaflet client-side only
   useEffect(() => {
     import("leaflet").then((mod) => {
@@ -174,46 +205,75 @@ export default function ArmyMap({ allCamps = [] }) {
     });
   }, []);
 
-  // Custom SVG Pin for Army Camps
-  const campIcon = useMemo(() => {
-    if (!leaflet) return undefined;
-    return leaflet.divIcon({
-      className: "custom-camp-pin",
-      html: `
-        <div style="transform: translate(-50%, -100%);" class="relative flex flex-col items-center cursor-pointer transition-transform duration-200 hover:scale-110 z-10">
-          <div class="w-8 h-8 rounded-full bg-emerald-800 ring-2 ring-white shadow-emerald-950/60 shadow-lg flex items-center justify-center text-white transition-all">
-            <svg class="w-4 h-4 text-amber-300 fill-current" viewBox="0 0 24 24">
-              <path d="M12 2L3 7v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-9-5zm0 4.5l2.2 4.45 4.9.71-3.55 3.46.84 4.88L12 17.7l-4.39 2.3.84-4.88-3.55-3.46 4.9-.71L12 6.5z"/>
-            </svg>
-          </div>
-          <div class="w-0 h-0 border-l-[5px] border-l-transparent border-r-[5px] border-r-transparent border-t-[6px] border-t-emerald-800"></div>
-        </div>
-      `,
-      iconSize: [0, 0],
-      iconAnchor: [0, 0],
-      popupAnchor: [0, -38],
+  // Category counts
+  const categoryCounts = useMemo(() => {
+    let army = 0, thana = 0, highway = 0;
+    rawLocations.forEach((item) => {
+      if (item.type === "army") army++;
+      else if (item.type === "highway") highway++;
+      else thana++;
     });
-  }, [leaflet]);
+    return {
+      all: rawLocations.length,
+      army,
+      thana,
+      highway,
+    };
+  }, [rawLocations]);
 
-  // Selected Pin in Gold/Amber
-  const selectedCampIcon = useMemo(() => {
-    if (!leaflet) return undefined;
-    return leaflet.divIcon({
-      className: "custom-camp-pin-selected",
-      html: `
-        <div style="transform: translate(-50%, -100%);" class="relative flex flex-col items-center cursor-pointer transition-transform duration-200 scale-125 z-[1000]">
-          <div class="w-8 h-8 rounded-full bg-amber-400 ring-4 ring-amber-300/80 shadow-amber-500/50 shadow-lg flex items-center justify-center text-slate-950 transition-all">
-            <svg class="w-4 h-4 text-slate-950 fill-current" viewBox="0 0 24 24">
-              <path d="M12 2L3 7v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-9-5zm0 4.5l2.2 4.45 4.9.71-3.55 3.46.84 4.88L12 17.7l-4.39 2.3.84-4.88-3.55-3.46 4.9-.71L12 6.5z"/>
-            </svg>
+  // Distinct Vector Pins for Army, Thana, and Highway
+  const iconsMap = useMemo(() => {
+    if (!leaflet) return {};
+
+    const createPin = (type, isSelected) => {
+      const isArmy = type === "army";
+      const isHighway = type === "highway";
+
+      let bg = isArmy
+        ? "bg-emerald-800 ring-2 ring-white shadow-emerald-950/60"
+        : isHighway
+        ? "bg-purple-800 ring-2 ring-white shadow-purple-950/60"
+        : "bg-blue-800 ring-2 ring-white shadow-blue-950/60";
+
+      let borderT = isArmy
+        ? "border-t-emerald-800"
+        : isHighway
+        ? "border-t-purple-800"
+        : "border-t-blue-800";
+
+      if (isSelected) {
+        bg = "bg-amber-400 ring-4 ring-amber-300 shadow-amber-500/50";
+        borderT = "border-t-amber-400";
+      }
+
+      const emoji = isArmy ? "⭐" : isHighway ? "🛣️" : "👮";
+
+      return leaflet.divIcon({
+        className: `custom-pin-${type}`,
+        html: `
+          <div style="transform: translate(-50%, -100%);" class="relative flex flex-col items-center cursor-pointer transition-transform duration-200 ${
+            isSelected ? "scale-125 z-[1000]" : "hover:scale-110 z-10"
+          }">
+            <div class="w-8 h-8 rounded-full ${bg} shadow-lg flex items-center justify-center text-xs font-bold text-white transition-all">
+              <span>${emoji}</span>
+            </div>
+            <div class="w-0 h-0 border-l-[5px] border-l-transparent border-r-[5px] border-r-transparent border-t-[6px] ${borderT}"></div>
           </div>
-          <div class="w-0 h-0 border-l-[5px] border-l-transparent border-r-[5px] border-r-transparent border-t-[6px] border-t-amber-400"></div>
-        </div>
-      `,
-      iconSize: [0, 0],
-      iconAnchor: [0, 0],
-      popupAnchor: [0, -38],
-    });
+        `,
+        iconSize: [0, 0],
+        iconAnchor: [0, 0],
+        popupAnchor: [0, -38],
+      });
+    };
+
+    return {
+      army: createPin("army", false),
+      armySelected: createPin("army", true),
+      thana: createPin("thana", false),
+      thanaSelected: createPin("thana", true),
+      highway: createPin("highway", false),
+      highwaySelected: createPin("highway", true),
+    };
   }, [leaflet]);
 
   // Custom User Location Pin
@@ -235,42 +295,50 @@ export default function ArmyMap({ allCamps = [] }) {
     });
   }, [leaflet]);
 
-  // Calculate camps with distance when userLocation is present
-  const campsWithDistance = useMemo(() => {
-    return allCamps.map((camp) => {
-      if (!userLocation) return camp;
+  // Calculate distance when userLocation is present
+  const locationsWithDistance = useMemo(() => {
+    return rawLocations.map((item) => {
+      if (!userLocation) return item;
       const dist = calculateDistance(
         userLocation[0],
         userLocation[1],
-        camp.lat,
-        camp.lng,
+        item.lat,
+        item.lng
       );
-      return { ...camp, distance: dist };
+      return { ...item, distance: dist };
     });
-  }, [allCamps, userLocation]);
+  }, [rawLocations, userLocation]);
 
-  // Filtered and sorted camps
-  const displayedCamps = useMemo(() => {
-    let list = [...campsWithDistance];
+  // Filtered and sorted locations
+  const displayedLocations = useMemo(() => {
+    let list = [...locationsWithDistance];
 
-    // Filter by division if selected
-    if (selectedDivision && selectedDivision !== "সকল") {
-      list = list.filter(
-        (camp) => districtDivisionMap[camp.name] === selectedDivision,
-      );
+    // Filter by Category (army, thana, highway)
+    if (selectedCategory !== "all") {
+      list = list.filter((item) => item.type === selectedCategory);
     }
 
-    // If search query exists
+    // Filter by Division
+    if (selectedDivision && selectedDivision !== "সকল") {
+      list = list.filter((item) => {
+        if (item.division && item.division.includes(selectedDivision)) return true;
+        const mapped = districtDivisionMap[item.name.replace(/ থানা| সেনা ক্যাম্প/g, "")];
+        return mapped === selectedDivision;
+      });
+    }
+
+    // Filter by Search Query
     const query = searchQuery.trim().toLowerCase();
     if (query) {
       const aliasTarget = districtAliases[query] || "";
-      list = list.filter((camp) => {
-        const nameMatch = camp.name.toLowerCase().includes(query);
-        const aliasMatch = aliasTarget && camp.name.includes(aliasTarget);
-        const contactMatch = camp.contacts?.some((c) =>
-          c.replace(/[^0-9]/g, "").includes(query.replace(/[^0-9]/g, "")),
+      list = list.filter((item) => {
+        const nameMatch = item.name.toLowerCase().includes(query);
+        const aliasMatch = aliasTarget && item.name.includes(aliasTarget);
+        const divMatch = item.division && item.division.toLowerCase().includes(query);
+        const contactMatch = item.contacts?.some((c) =>
+          c.replace(/[^0-9]/g, "").includes(query.replace(/[^0-9]/g, ""))
         );
-        return nameMatch || aliasMatch || contactMatch;
+        return nameMatch || aliasMatch || divMatch || contactMatch;
       });
     }
 
@@ -279,17 +347,18 @@ export default function ArmyMap({ allCamps = [] }) {
       list.sort((a, b) => (a.distance ?? 99999) - (b.distance ?? 99999));
     }
 
-    // If filterMode is 'nearest'
+    // Filter nearest 5
     if (filterMode === "nearest" && userLocation) {
       return list.slice(0, 5);
     }
 
     return list;
   }, [
-    campsWithDistance,
+    locationsWithDistance,
+    selectedCategory,
+    selectedDivision,
     searchQuery,
     filterMode,
-    selectedDivision,
     userLocation,
   ]);
 
@@ -312,7 +381,7 @@ export default function ArmyMap({ allCamps = [] }) {
 
         try {
           const res = await fetch(
-            `https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lon}&format=json&accept-language=bn`,
+            `https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lon}&format=json&accept-language=bn`
           );
           const data = await res.json();
           setLocationName(data.display_name || "আপনার বর্তমান অবস্থান");
@@ -326,11 +395,11 @@ export default function ArmyMap({ allCamps = [] }) {
       (err) => {
         console.warn("Geolocation error:", err.message);
         alert(
-          "আপনার অবস্থান নির্ণয় করা সম্ভব হয়নি। অনুগ্রহ করে ব্রাউজারের লোকেশন পারমিশন দিন।",
+          "আপনার অবস্থান নির্ণয় করা সম্ভব হয়নি। অনুগ্রহ করে ব্রাউজারের লোকেশন পারমিশন দিন।"
         );
         setLocating(false);
       },
-      { enableHighAccuracy: true, timeout: 15000 },
+      { enableHighAccuracy: true, timeout: 15000 }
     );
   };
 
@@ -343,6 +412,7 @@ export default function ArmyMap({ allCamps = [] }) {
     setSelectedCamp(camp);
     setMapCenter([safeLat, safeLng]);
     setMapZoom(13);
+    setIsMapVisible(true);
 
     if (shouldSwitchMobile) {
       setMobileView("map");
@@ -365,6 +435,7 @@ export default function ArmyMap({ allCamps = [] }) {
     setSelectedCamp(camp);
     setMapCenter([safeLat, safeLng]);
     setIsRouteActive(true);
+    setIsMapVisible(true);
     setMobileView("map");
 
     if (!userLocation) {
@@ -397,7 +468,7 @@ export default function ArmyMap({ allCamps = [] }) {
 
     const fallbackStraightLine = () => {
       const dist = calculateDistance(userLat, userLon, campLat, campLon);
-      const estMinutes = Math.max(1, Math.round((dist / 35) * 60)); // ~35 km/h average driving speed
+      const estMinutes = Math.max(1, Math.round((dist / 35) * 60)); // ~35 km/h avg speed
       return {
         coordinates: [
           [userLat, userLon],
@@ -410,7 +481,7 @@ export default function ArmyMap({ allCamps = [] }) {
     };
 
     fetch(
-      `https://router.project-osrm.org/route/v1/driving/${userLon},${userLat};${campLon},${campLat}?overview=full&geometries=geojson`,
+      `https://router.project-osrm.org/route/v1/driving/${userLon},${userLat};${campLon},${campLat}?overview=full&geometries=geojson`
     )
       .then((res) => {
         if (!res.ok) throw new Error("OSRM routing unavailable");
@@ -451,16 +522,35 @@ export default function ArmyMap({ allCamps = [] }) {
 
   // Compute bounding box for map view when route is visible
   const routeBounds = useMemo(() => {
-    if (
-      userLocation &&
-      selectedCamp &&
-      isRouteActive &&
-      routeData?.coordinates?.length
-    ) {
-      return [userLocation, [selectedCamp.lat, selectedCamp.lng]];
+    if (userLocation && selectedCamp && isRouteActive && routeData?.coordinates?.length) {
+      return [
+        userLocation,
+        [selectedCamp.lat, selectedCamp.lng],
+      ];
     }
     return null;
   }, [userLocation, selectedCamp, isRouteActive, routeData]);
+
+  // Open map view (both mobile and desktop)
+  const handleOpenMap = () => {
+    setIsMapVisible(true);
+    setMobileView("map");
+  };
+
+  // Close map view (both mobile and desktop)
+  const handleCloseMap = () => {
+    setIsMapVisible(false);
+    setMobileView("list");
+  };
+
+  // Toggle map view
+  const handleToggleMap = () => {
+    if (isMapVisible || mobileView === "map") {
+      handleCloseMap();
+    } else {
+      handleOpenMap();
+    }
+  };
 
   // Reset map view to entire Bangladesh
   const handleResetMap = () => {
@@ -485,21 +575,28 @@ export default function ArmyMap({ allCamps = [] }) {
     <div className="flex flex-col h-[100dvh] w-full bg-slate-950 text-slate-100 font-sans selection:bg-emerald-500 selection:text-white overflow-hidden">
       {/* Header */}
       <Header
-        totalCamps={allCamps.length}
+        totalLocations={rawLocations.length}
         onOpenEmergency={() => setIsEmergencyOpen(true)}
         mobileView={mobileView}
-        setMobileView={setMobileView}
+        isMapVisible={isMapVisible}
+        onOpenMap={handleOpenMap}
+        onCloseMap={handleCloseMap}
+        onToggleMap={handleToggleMap}
       />
 
       {/* Main Workspace Layout */}
       <div className="flex-1 flex flex-col md:flex-row relative w-full h-[calc(100dvh-64px)] overflow-hidden">
         {/* Left Sidebar / List View */}
         <aside
-          className={`w-full md:w-[420px] lg:w-[460px] xl:w-[500px] flex-shrink-0 bg-slate-900 border-r border-slate-800 flex flex-col h-full z-20 transition-all ${
+          className={`bg-slate-900 flex flex-col h-full z-20 transition-all duration-300 ${
             mobileView === "list" ? "flex" : "hidden md:flex"
+          } ${
+            isMapVisible
+              ? "w-full md:w-[440px] lg:w-[480px] xl:w-[500px] flex-shrink-0 md:border-r md:border-slate-800"
+              : "w-full border-r-0"
           }`}
         >
-          {/* Top Actions: Search & GPS Finder */}
+          {/* Top Actions: Search, Category Tabs & GPS Finder */}
           <div className="p-4 border-b border-slate-800/80 bg-slate-900/90 backdrop-blur-sm space-y-3 flex-shrink-0">
             {/* GPS Location Trigger */}
             <div className="flex flex-col gap-2">
@@ -520,8 +617,8 @@ export default function ArmyMap({ allCamps = [] }) {
                   {locating
                     ? "অবস্থান নির্ণয় হচ্ছে..."
                     : userLocation
-                      ? "অবস্থান পুনরায় খুঁজুন"
-                      : "আমার অবস্থান খুঁজুন (GPS)"}
+                    ? "অবস্থান পুনরায় খুঁজুন"
+                    : "আমার অবস্থান খুঁজুন (GPS)"}
                 </span>
               </button>
 
@@ -555,46 +652,124 @@ export default function ArmyMap({ allCamps = [] }) {
               )}
             </div>
 
-            {/* Search Input Bar */}
-            <div className="relative">
-              <FiSearch className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
-              <input
-                type="text"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                placeholder="জেলা বা ক্যাম্পের নাম খুঁজুন (যেমন: ঢাকা, কুমিল্লা)..."
-                className="w-full bg-slate-950 border border-slate-700/80 rounded-xl pl-9 pr-8 py-2.5 text-xs sm:text-sm text-slate-100 placeholder-slate-400 focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition"
-              />
-              {searchQuery && (
-                <button
-                  type="button"
-                  onClick={() => setSearchQuery("")}
-                  className="absolute right-2.5 top-1/2 -translate-y-1/2 p-1 text-slate-400 hover:text-white"
-                >
-                  <FiX className="w-4 h-4" />
-                </button>
-              )}
-            </div>
-
-            {/* Filter Tabs: All vs Nearest */}
-            <div className="flex items-center gap-2">
+            {/* Category Filter Pills: All vs Army vs Thana vs Highway */}
+            <div className="grid grid-cols-4 gap-1.5 p-1 bg-slate-950 rounded-xl border border-slate-800 text-[11px] font-bold">
               <button
                 type="button"
-                onClick={() => setFilterMode("all")}
-                className={`flex-1 py-1.5 px-3 rounded-lg text-xs font-semibold transition border ${
-                  filterMode === "all"
-                    ? "bg-slate-800 text-emerald-300 border-emerald-500/40 shadow-sm"
-                    : "bg-slate-950 text-slate-400 border-slate-800 hover:text-slate-200"
+                onClick={() => setSelectedCategory("all")}
+                className={`py-1.5 px-1 rounded-lg transition text-center truncate ${
+                  selectedCategory === "all"
+                    ? "bg-slate-800 text-emerald-300 shadow-sm border border-emerald-500/40"
+                    : "text-slate-400 hover:text-slate-200"
                 }`}
               >
-                সবগুলো ({toBengaliNumber(allCamps.length)})
+                সব ({toBengaliNumber(categoryCounts.all)})
               </button>
+              <button
+                type="button"
+                onClick={() => setSelectedCategory("army")}
+                className={`py-1.5 px-1 rounded-lg transition text-center truncate ${
+                  selectedCategory === "army"
+                    ? "bg-emerald-900/70 text-emerald-200 shadow-sm border border-emerald-500/50"
+                    : "text-slate-400 hover:text-emerald-300"
+                }`}
+              >
+                সেনা ({toBengaliNumber(categoryCounts.army)})
+              </button>
+              <button
+                type="button"
+                onClick={() => setSelectedCategory("thana")}
+                className={`py-1.5 px-1 rounded-lg transition text-center truncate ${
+                  selectedCategory === "thana"
+                    ? "bg-blue-900/70 text-blue-200 shadow-sm border border-blue-500/50"
+                    : "text-slate-400 hover:text-blue-300"
+                }`}
+              >
+                থানা ({toBengaliNumber(categoryCounts.thana)})
+              </button>
+              <button
+                type="button"
+                onClick={() => setSelectedCategory("highway")}
+                className={`py-1.5 px-1 rounded-lg transition text-center truncate ${
+                  selectedCategory === "highway"
+                    ? "bg-purple-900/70 text-purple-200 shadow-sm border border-purple-500/50"
+                    : "text-slate-400 hover:text-purple-300"
+                }`}
+              >
+                হাইওয়ে ({toBengaliNumber(categoryCounts.highway)})
+              </button>
+            </div>
 
-              {userLocation && (
+            {/* Search Input Bar & Map Toggle */}
+            <div className="flex items-center gap-2">
+              <div className="relative flex-1">
+                <FiSearch className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
+                <input
+                  type="text"
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  placeholder="থানা, ক্যাম্প বা ফোন নম্বর খুঁজুন (যেমন: মিরপুর, উত্তরা)..."
+                  className="w-full bg-slate-950 border border-slate-700/80 rounded-xl pl-9 pr-8 py-2.5 text-xs sm:text-sm text-slate-100 placeholder-slate-400 focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition"
+                />
+                {searchQuery && (
+                  <button
+                    type="button"
+                    onClick={() => setSearchQuery("")}
+                    className="absolute right-2.5 top-1/2 -translate-y-1/2 p-1 text-slate-400 hover:text-white"
+                  >
+                    <FiX className="w-4 h-4" />
+                  </button>
+                )}
+              </div>
+
+              {/* Show/Hide Map Toggle Button (Desktop) */}
+              <button
+                type="button"
+                onClick={handleToggleMap}
+                className={`hidden md:flex items-center gap-1.5 px-3 py-2.5 rounded-xl text-xs font-bold transition shadow-sm border whitespace-nowrap ${
+                  isMapVisible
+                    ? "bg-red-950/80 hover:bg-red-900 text-red-200 border-red-500/50 hover:text-white"
+                    : "bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white border-emerald-500/40 shadow-emerald-950/40 hover:scale-[1.02] active:scale-[0.98]"
+                }`}
+                title={
+                  isMapVisible
+                    ? "ডানপাশের ম্যাপ বন্ধ করুন"
+                    : "ডানপাশে ম্যাপ প্রদর্শন করুন"
+                }
+              >
+                {isMapVisible ? (
+                  <>
+                    <FiX className="w-4 h-4 text-red-400" />
+                    <span>ম্যাপ বন্ধ করুন</span>
+                  </>
+                ) : (
+                  <>
+                    <FiMap className="w-4 h-4 text-white" />
+                    <span>ম্যাপ দেখুন</span>
+                  </>
+                )}
+              </button>
+            </div>
+
+            {/* Nearest Filter Pill */}
+            {userLocation && (
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={() => setFilterMode("all")}
+                  className={`flex-1 py-1 px-3 rounded-lg text-xs font-semibold transition border ${
+                    filterMode === "all"
+                      ? "bg-slate-800 text-emerald-300 border-emerald-500/40 shadow-sm"
+                      : "bg-slate-950 text-slate-400 border-slate-800 hover:text-slate-200"
+                  }`}
+                >
+                  তালিকার সবগুলো ({toBengaliNumber(displayedLocations.length)})
+                </button>
+
                 <button
                   type="button"
                   onClick={() => setFilterMode("nearest")}
-                  className={`flex-1 py-1.5 px-3 rounded-lg text-xs font-semibold transition border ${
+                  className={`flex-1 py-1 px-3 rounded-lg text-xs font-semibold transition border ${
                     filterMode === "nearest"
                       ? "bg-emerald-900/60 text-emerald-300 border-emerald-500/60 shadow-sm"
                       : "bg-slate-950 text-slate-400 border-slate-800 hover:text-slate-200"
@@ -602,8 +777,8 @@ export default function ArmyMap({ allCamps = [] }) {
                 >
                   নিকটস্থ ৫টি
                 </button>
-              )}
-            </div>
+              </div>
+            )}
 
             {/* Division Filter Chips with Horizontal Scroll */}
             <div className="flex items-center gap-1.5 overflow-x-auto pb-1 pt-0.5 custom-scrollbar text-xs">
@@ -623,19 +798,28 @@ export default function ArmyMap({ allCamps = [] }) {
             </div>
           </div>
 
-          {/* Camp Cards List */}
-          <div className="flex-1 overflow-y-auto p-4 space-y-3 custom-scrollbar pb-24 md:pb-6">
-            {displayedCamps.length === 0 ? (
-              <div className="p-8 text-center text-slate-400 space-y-2">
-                <p className="text-sm">কোনো সেনা ক্যাম্পের তথ্য পাওয়া যায়নি।</p>
-                <p className="text-xs text-slate-500">
-                  অন্য কোনো জেলা বা সঠিক বানানে অনুসন্ধান করুন।
+          {/* Camp & Thana Cards List */}
+          <div
+            className={`flex-1 overflow-y-auto p-4 custom-scrollbar pb-24 md:pb-6 ${
+              isMapVisible
+                ? "space-y-3"
+                : "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3.5 max-w-[1600px] mx-auto w-full"
+            }`}
+          >
+            {displayedLocations.length === 0 ? (
+              <div className="p-8 text-center text-slate-400 space-y-2 col-span-full">
+                <p className="text-sm">
+                  কোনো ক্যাম্প বা থানার তথ্য পাওয়া যায়নি।
                 </p>
-                {(searchQuery || selectedDivision !== "সকল") && (
+                <p className="text-xs text-slate-500">
+                  অন্য কোনো নাম, এরিয়া বা সঠিক বানানে অনুসন্ধান করুন।
+                </p>
+                {(searchQuery || selectedDivision !== "সকল" || selectedCategory !== "all") && (
                   <button
                     onClick={() => {
                       setSearchQuery("");
                       setSelectedDivision("সকল");
+                      setSelectedCategory("all");
                     }}
                     className="mt-2 text-xs text-emerald-400 hover:underline"
                   >
@@ -644,13 +828,13 @@ export default function ArmyMap({ allCamps = [] }) {
                 )}
               </div>
             ) : (
-              displayedCamps.map((camp, idx) => (
+              displayedLocations.map((item, idx) => (
                 <CampCard
-                  key={idx}
-                  camp={camp}
+                  key={item.id || idx}
+                  camp={item}
                   isSelected={
-                    selectedCamp?.name === camp.name &&
-                    selectedCamp?.lat === camp.lat
+                    selectedCamp?.name === item.name &&
+                    selectedCamp?.lat === item.lat
                   }
                   onSelect={(c) => handleSelectCamp(c, true)}
                   onNavigateMap={(c) => handleSelectCamp(c, true)}
@@ -662,30 +846,44 @@ export default function ArmyMap({ allCamps = [] }) {
         </aside>
 
         {/* Right Map Workspace */}
-        <section
-          className={`flex-1 relative w-full h-full min-h-[300px] bg-slate-900 ${
-            mobileView === "map"
-              ? "flex flex-col"
-              : "hidden md:flex md:flex-col"
-          }`}
-        >
-          {/* Floating Map Overlays & Control Toolbar */}
-          <div className="absolute top-4 right-4 z-[500] flex flex-col gap-2">
-            <button
-              onClick={handlePanToUser}
-              className="p-2.5 bg-slate-900/90 hover:bg-slate-850 text-white rounded-xl shadow-lg border border-slate-700/80 hover:border-emerald-500/50 backdrop-blur-sm transition hover:scale-105 active:scale-95 group"
-              title="আমার লোকেশন দেখুন"
-            >
-              <FiNavigation className="w-4 h-4 text-emerald-400 group-hover:rotate-45 transition" />
-            </button>
-            <button
-              onClick={handleResetMap}
-              className="p-2.5 bg-slate-900/90 hover:bg-slate-850 text-white rounded-xl shadow-lg border border-slate-700/80 hover:border-emerald-500/50 backdrop-blur-sm transition hover:scale-105 active:scale-95 group"
-              title="সমগ্র বাংলাদেশ দেখুন (রিসেট)"
-            >
-              <FiRefreshCw className="w-4 h-4 text-amber-400 group-hover:rotate-180 transition" />
-            </button>
-          </div>
+        {(isMapVisible || mobileView === "map") && (
+          <section
+            className={`relative w-full h-full min-h-[300px] bg-slate-900 ${
+              mobileView === "map" ? "flex flex-col z-10" : "hidden"
+            } ${
+              isMapVisible ? "md:flex md:flex-col md:flex-1" : "md:hidden"
+            }`}
+          >
+            {/* Top Left Close Map Button (Desktop & Mobile) */}
+            <div className="absolute top-4 left-4 z-[500]">
+              <button
+                type="button"
+                onClick={handleCloseMap}
+                className="flex items-center gap-1.5 px-3 py-2 bg-slate-900/90 hover:bg-slate-800 text-slate-200 hover:text-white text-xs font-bold rounded-xl shadow-lg border border-slate-700/80 hover:border-red-500/50 backdrop-blur-sm transition hover:scale-105 active:scale-95 group"
+                title="ডানপাশের ম্যাপ বন্ধ করুন"
+              >
+                <FiX className="w-4 h-4 text-red-400 group-hover:rotate-90 transition" />
+                <span>ম্যাপ বন্ধ করুন</span>
+              </button>
+            </div>
+
+            {/* Floating Map Overlays & Control Toolbar */}
+            <div className="absolute top-4 right-4 z-[500] flex flex-col gap-2">
+              <button
+                onClick={handlePanToUser}
+                className="p-2.5 bg-slate-900/90 hover:bg-slate-850 text-white rounded-xl shadow-lg border border-slate-700/80 hover:border-emerald-500/50 backdrop-blur-sm transition hover:scale-105 active:scale-95 group"
+                title="আমার লোকেশন দেখুন"
+              >
+                <FiNavigation className="w-4 h-4 text-emerald-400 group-hover:rotate-45 transition" />
+              </button>
+              <button
+                onClick={handleResetMap}
+                className="p-2.5 bg-slate-900/90 hover:bg-slate-850 text-white rounded-xl shadow-lg border border-slate-700/80 hover:border-emerald-500/50 backdrop-blur-sm transition hover:scale-105 active:scale-95 group"
+                title="সমগ্র বাংলাদেশ দেখুন (রিসেট)"
+              >
+                <FiRefreshCw className="w-4 h-4 text-amber-400 group-hover:rotate-180 transition" />
+              </button>
+            </div>
 
           {/* Floating Route Information Card */}
           {isRouteActive && selectedCamp && (
@@ -700,7 +898,7 @@ export default function ArmyMap({ allCamps = [] }) {
                       রুট ও নেভিগেশন
                     </h4>
                     <span className="text-[11px] text-emerald-400">
-                      আপনার অবস্থান ➔ {selectedCamp.name} ক্যাম্প
+                      আপনার অবস্থান ➔ {selectedCamp.name}
                     </span>
                   </div>
                 </div>
@@ -777,18 +975,14 @@ export default function ArmyMap({ allCamps = [] }) {
               zoom={mapZoom}
               scrollWheelZoom
               className="w-full h-full"
-              style={{
-                width: "100%",
-                height: "100%",
-                position: "absolute",
-                inset: 0,
-              }}
+              style={{ width: "100%", height: "100%", position: "absolute", inset: 0 }}
             >
               <MapController
                 targetCenter={mapCenter}
                 targetZoom={mapZoom}
                 routeBounds={routeBounds}
                 mobileView={mobileView}
+                isMapVisible={isMapVisible}
               />
 
               <TileLayer
@@ -853,80 +1047,118 @@ export default function ArmyMap({ allCamps = [] }) {
                 </>
               )}
 
-              {/* Camp Markers */}
-              {displayedCamps.map((camp, idx) => {
+              {/* Location Markers (Army, Thana, Highway) */}
+              {displayedLocations.map((item, idx) => {
                 const isSelected =
-                  selectedCamp?.name === camp.name &&
-                  selectedCamp?.lat === camp.lat;
+                  selectedCamp?.name === item.name &&
+                  selectedCamp?.lat === item.lat;
+
+                const iconKey = isSelected
+                  ? `${item.type || "thana"}Selected`
+                  : item.type || "thana";
+
+                const isArmy = item.type === "army";
+                const isHighway = item.type === "highway";
 
                 return (
                   <Marker
-                    key={`${camp.lat}-${camp.lng}-${idx}`}
-                    position={[camp.lat, camp.lng]}
-                    icon={isSelected ? selectedCampIcon : campIcon}
+                    key={item.id || `${item.lat}-${item.lng}-${idx}`}
+                    position={[item.lat, item.lng]}
+                    icon={iconsMap[iconKey] || iconsMap.thana}
                     ref={(ref) => {
                       if (ref) {
-                        markerRefs.current[`${camp.lat}-${camp.lng}`] = ref;
+                        markerRefs.current[`${item.lat}-${item.lng}`] = ref;
                       }
                     }}
                     eventHandlers={{
                       click: () => {
-                        setSelectedCamp(camp);
+                        setSelectedCamp(item);
                       },
                     }}
                   >
                     <Popup>
-                      <div className="p-1 font-sans text-slate-900 min-w-[200px]">
-                        {/* Popup Header */}
-                        <div className="flex items-center gap-2 border-b border-slate-200 pb-1.5 mb-2">
-                          <div className="w-5 h-5 rounded-md bg-emerald-800 text-white flex items-center justify-center text-[10px]">
-                            ⭐
+                      <div className="p-1 font-sans text-slate-900 min-w-[220px]">
+                        {/* Popup Header with Badge */}
+                        <div className="border-b border-slate-200 pb-2 mb-2">
+                          <div className="flex items-center gap-1.5 mb-1">
+                            <span
+                              className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${
+                                isArmy
+                                  ? "bg-emerald-100 text-emerald-800"
+                                  : isHighway
+                                  ? "bg-purple-100 text-purple-800"
+                                  : "bg-blue-100 text-blue-800"
+                              }`}
+                            >
+                              {item.categoryName || (isArmy ? "সেনা ক্যাম্প" : isHighway ? "হাইওয়ে থানা" : "পুলিশ থানা")}
+                            </span>
+                            {item.division && (
+                              <span className="text-[10px] text-slate-500">
+                                {item.division}
+                              </span>
+                            )}
                           </div>
-                          <h4 className="font-bold text-sm text-emerald-950">
-                            {camp.name} সেনা ক্যাম্প
+                          <h4 className="font-bold text-sm text-slate-900">
+                            {item.name}
                           </h4>
                         </div>
 
                         {/* Distance if available */}
-                        {camp.distance !== undefined && (
+                        {item.distance !== undefined && (
                           <div className="text-[11px] font-semibold text-emerald-700 bg-emerald-50 rounded px-2 py-0.5 mb-2 inline-block">
-                            ⚡ দূরত্ব: {toBengaliNumber(camp.distance)} কিমি
+                            ⚡ দূরত্ব: {toBengaliNumber(item.distance)} কিমি
                           </div>
                         )}
 
                         {/* Show Route Button in Popup */}
                         <button
                           type="button"
-                          onClick={() => handleShowRoute(camp)}
+                          onClick={() => handleShowRoute(item)}
                           className="flex items-center justify-center gap-1.5 w-full py-1.5 px-3 bg-emerald-800 hover:bg-emerald-900 text-white text-xs font-bold rounded shadow-sm transition mb-2"
                         >
                           <FiNavigation className="w-3 h-3 text-amber-300" />
                           <span>এখানে যাওয়ার রুট দেখুন</span>
                         </button>
 
-                        {/* Contact numbers */}
+                        {/* Contact numbers with roles */}
                         <div className="space-y-1 mb-2.5">
                           <span className="text-[10px] font-bold text-slate-500 uppercase tracking-wider block">
-                            যোগাযোগ নম্বর:
+                            জরুরি যোগাযোগ:
                           </span>
-                          {camp.contacts?.map((contact, i) => (
-                            <a
-                              key={i}
-                              href={`tel:${contact}`}
-                              className="flex items-center gap-1.5 text-xs font-semibold text-emerald-800 hover:text-emerald-600 bg-slate-100 hover:bg-emerald-50 px-2 py-1 rounded transition"
-                            >
-                              <FiPhone className="w-3 h-3 text-emerald-600" />
-                              <span>{contact}</span>
-                            </a>
-                          ))}
+                          {item.contactRoles && item.contactRoles.length > 0
+                            ? item.contactRoles.map((c, i) => (
+                                <a
+                                  key={i}
+                                  href={`tel:${c.number}`}
+                                  className="flex items-center justify-between text-xs font-semibold text-slate-800 hover:text-emerald-700 bg-slate-100 hover:bg-emerald-50 px-2 py-1 rounded transition"
+                                >
+                                  <span className="text-slate-500 text-[11px] font-medium">
+                                    {c.role}:
+                                  </span>
+                                  <span className="flex items-center gap-1 text-emerald-700 font-bold">
+                                    <FiPhone className="w-3 h-3 text-emerald-600" />
+                                    <span>{c.number}</span>
+                                  </span>
+                                </a>
+                              ))
+                            : item.contacts?.map((contact, i) => (
+                                <a
+                                  key={i}
+                                  href={`tel:${contact}`}
+                                  className="flex items-center gap-1.5 text-xs font-semibold text-emerald-800 hover:text-emerald-600 bg-slate-100 hover:bg-emerald-50 px-2 py-1 rounded transition"
+                                >
+                                  <FiPhone className="w-3 h-3 text-emerald-600" />
+                                  <span>{contact}</span>
+                                </a>
+                              ))}
                         </div>
 
                         {/* External Google Maps Link */}
                         <a
                           href={
                             userLocation
-                              ? `https://www.google.com/maps/dir/?api=1&origin=${userLocation[0]},${userLocation[1]}&destination=${camp.lat},${camp.lng}`
-                              : `https://www.google.com/maps/dir/?api=1&destination=${camp.lat},${camp.lng}`
+                              ? `https://www.google.com/maps/dir/?api=1&origin=${userLocation[0]},${userLocation[1]}&destination=${item.lat},${item.lng}`
+                              : `https://www.google.com/maps/dir/?api=1&destination=${item.lat},${item.lng}`
                           }
                           target="_blank"
                           rel="noopener noreferrer"
@@ -943,33 +1175,10 @@ export default function ArmyMap({ allCamps = [] }) {
             </MapContainer>
           </div>
         </section>
+      )}
       </div>
 
-      {/* Floating Mobile Toggle Switcher at Bottom */}
-      {/* <div className="fixed bottom-5 left-1/2 -translate-x-1/2 z-[1000] flex md:hidden items-center bg-slate-900/95 backdrop-blur-md p-1.5 rounded-full border border-emerald-500/40 shadow-2xl shadow-black/80">
-        <button
-          onClick={() => setMobileView("map")}
-          className={`flex items-center gap-2 px-5 py-2.5 rounded-full text-xs font-bold transition-all ${
-            mobileView === "map"
-              ? "bg-emerald-600 text-white shadow-md shadow-emerald-950"
-              : "text-slate-300 hover:text-white"
-          }`}
-        >
-          <FiMap className="w-4 h-4" />
-          <span>ম্যাপ ভিউ</span>
-        </button>
-        <button
-          onClick={() => setMobileView("list")}
-          className={`flex items-center gap-2 px-5 py-2.5 rounded-full text-xs font-bold transition-all ${
-            mobileView === "list"
-              ? "bg-emerald-600 text-white shadow-md shadow-emerald-950"
-              : "text-slate-300 hover:text-white"
-          }`}
-        >
-          <FiList className="w-4 h-4" />
-          <span>ক্যাম্প তালিকা ({toBengaliNumber(displayedCamps.length)})</span>
-        </button>
-      </div> */}
+      
 
       {/* Emergency Hotline Modal */}
       <EmergencyModal

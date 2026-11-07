@@ -149,14 +149,28 @@ export const districtDivisionMap = {
   জামালপুর: "ময়মনসিংহ",
 };
 
-// Share camp details via Web Share API or Clipboard
+// Share camp / thana details via Web Share API or Clipboard
 export async function shareCampDetails(camp) {
-  const shareText = `🇧🇩 ${camp.name} সেনা ক্যাম্প\n📞 জরুরি যোগাযোগ: ${camp.contacts?.join(", ")}\n📍 লোকেশন ম্যাপ: https://www.google.com/maps?q=${camp.lat},${camp.lng}`;
+  const typeText =
+    camp.type === "thana"
+      ? "বাংলাদেশ পুলিশ থানা"
+      : camp.type === "highway"
+      ? "হাইওয়ে পুলিশ থানা"
+      : "বাংলাদেশ সেনাবাহিনী ক্যাম্প";
+
+  const contactsText =
+    camp.contactRoles && camp.contactRoles.length > 0
+      ? camp.contactRoles.map((c) => `${c.role}: ${c.number}`).join(", ")
+      : (camp.contacts || []).join(", ");
+
+  const shareText = `🇧🇩 ${camp.name} (${typeText})\n${
+    camp.division ? `🏛️ এরিয়া/বিভাগ: ${camp.division}\n` : ""
+  }📞 জরুরি যোগাযোগ: ${contactsText}\n📍 লোকেশন ম্যাপ: https://www.google.com/maps?q=${camp.lat},${camp.lng}`;
 
   if (typeof navigator !== "undefined" && navigator.share) {
     try {
       await navigator.share({
-        title: `${camp.name} সেনা ক্যাম্প`,
+        title: `${camp.name} - ${typeText}`,
         text: shareText,
         url: `https://www.google.com/maps?q=${camp.lat},${camp.lng}`,
       });

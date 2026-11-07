@@ -1,0 +1,5384 @@
+[
+  {
+    "name": "দামকুড়া থানা",
+    "division": "আরএমপি, রাজশাহী",
+    "oc_mobile": "01320061911",
+    "inspector_mobile": "01320061912",
+    "duty_officer_mobile": "01320061918",
+    "latitude": 24.39986505,
+    "longitude": 88.52295565
+  },
+  {
+    "name": "কর্ণহার থানা",
+    "division": "আরএমপি, রাজশাহী",
+    "oc_mobile": "01320061939",
+    "inspector_mobile": "01320061940",
+    "duty_officer_mobile": "01320061946",
+    "latitude": 24.44514508,
+    "longitude": 88.55713841
+  },
+  {
+    "name": "কাশিয়াডাঙ্গা থানা",
+    "division": "আরএমপি, রাজশাহী",
+    "oc_mobile": "01320061883",
+    "inspector_mobile": "01320061884",
+    "duty_officer_mobile": "01320061890",
+    "latitude": 24.38126115,
+    "longitude": 88.55280933
+  },
+  {
+    "name": "রাজপাড়া থানা",
+    "division": "আরএমপি, রাজশাহী",
+    "oc_mobile": "01320061527",
+    "inspector_mobile": "01320061528",
+    "duty_officer_mobile": "01320061534",
+    "latitude": 24.3735656,
+    "longitude": 88.5723193
+  },
+  {
+    "name": "বোয়ালিয়া থানা",
+    "division": "আরএমপি, রাজশাহী",
+    "oc_mobile": "01320061499",
+    "inspector_mobile": "01320061500",
+    "duty_officer_mobile": "01320061506",
+    "latitude": 24.36494026,
+    "longitude": 88.60426775
+  },
+  {
+    "name": "চন্দ্রিমা থানা",
+    "division": "আরএমপি, রাজশাহী",
+    "oc_mobile": "01320061555",
+    "inspector_mobile": "01320061556",
+    "duty_officer_mobile": "01320061562",
+    "latitude": 24.3883011,
+    "longitude": 88.61885753
+  },
+  {
+    "name": "মতিহার থানা",
+    "division": "আরএমপি, রাজশাহী",
+    "oc_mobile": "01320061623",
+    "inspector_mobile": "01320061624",
+    "duty_officer_mobile": "01320061630",
+    "latitude": 24.360829,
+    "longitude": 88.628313
+  },
+  {
+    "name": "কাটাখালী থানা",
+    "division": "আরএমপি, রাজশাহী",
+    "oc_mobile": "01320061651",
+    "inspector_mobile": "01320061652",
+    "duty_officer_mobile": "01320061658",
+    "latitude": 24.3605,
+    "longitude": 88.69263
+  },
+  {
+    "name": "বেলপুকুর থানা",
+    "division": "আরএমপি, রাজশাহী",
+    "oc_mobile": "01320061679",
+    "inspector_mobile": "01320061680",
+    "duty_officer_mobile": "01320061686",
+    "latitude": 24.36636101,
+    "longitude": 88.73276453
+  },
+  {
+    "name": "শাহ মখ্দুম থানা",
+    "division": "আরএমপি, রাজশাহী",
+    "oc_mobile": "01320061753",
+    "inspector_mobile": "01320061754",
+    "duty_officer_mobile": "01320061760",
+    "latitude": 24.39388489,
+    "longitude": 88.60618512
+  },
+  {
+    "name": "এয়ারপোর্ট থানা",
+    "division": "আরএমপি, রাজশাহী",
+    "oc_mobile": "01320061781",
+    "inspector_mobile": "01320061782",
+    "duty_officer_mobile": "01320061788",
+    "latitude": 24.42012906,
+    "longitude": 88.61102481
+  },
+  {
+    "name": "কোতয়ালী (আরপিএমপি) থানা",
+    "division": "আরপিএমপি,রংপুর",
+    "oc_mobile": "01320073475",
+    "inspector_mobile": "01320073476",
+    "duty_officer_mobile": "01320073483",
+    "latitude": 25.74785089,
+    "longitude": 89.25032859
+  },
+  {
+    "name": "তাজহাট থানা",
+    "division": "আরপিএমপি,রংপুর",
+    "oc_mobile": "01320073504",
+    "inspector_mobile": "01320073505",
+    "duty_officer_mobile": "01320073512",
+    "latitude": 25.70580542,
+    "longitude": 89.26203857
+  },
+  {
+    "name": "পরশুরাম থানা",
+    "division": "আরপিএমপি,রংপুর",
+    "oc_mobile": "01320073603",
+    "inspector_mobile": "01320073604",
+    "duty_officer_mobile": "01320073611",
+    "latitude": 25.78404161,
+    "longitude": 89.23305058
+  },
+  {
+    "name": "মাহিগঞ্জ থানা",
+    "division": "আরপিএমপি,রংপুর",
+    "oc_mobile": "01320073539",
+    "inspector_mobile": "01320073540",
+    "duty_officer_mobile": "01320073547",
+    "latitude": 25.72980602,
+    "longitude": 89.28460665
+  },
+  {
+    "name": "হাজীরহাট থানা",
+    "division": "আরপিএমপি,রংপুর",
+    "oc_mobile": "01320073632",
+    "inspector_mobile": "01320073633",
+    "duty_officer_mobile": "01320073640",
+    "latitude": 25.79886309,
+    "longitude": 89.19636656
+  },
+  {
+    "name": "হারাগাছ থানা",
+    "division": "আরপিএমপি,রংপুর",
+    "oc_mobile": "01320073568",
+    "inspector_mobile": "01320073569",
+    "duty_officer_mobile": "01320073576",
+    "latitude": 25.81245944,
+    "longitude": 89.32580421
+  },
+  {
+    "name": "সিলেট সদর (কোতয়ালী) থানা",
+    "division": "এসএমপি, সিলেট",
+    "oc_mobile": "01320067568",
+    "inspector_mobile": "01320067569",
+    "duty_officer_mobile": "01320067573",
+    "latitude": 24.88881016,
+    "longitude": 91.86597981
+  },
+  {
+    "name": "এয়ারপোর্ট থানা",
+    "division": "এসএমপি, সিলেট",
+    "oc_mobile": "01320067620",
+    "inspector_mobile": "01320067621",
+    "duty_officer_mobile": "01320067625",
+    "latitude": 24.95967836,
+    "longitude": 91.86092863
+  },
+  {
+    "name": "জালালাবাদ থানা",
+    "division": "এসএমপি, সিলেট",
+    "oc_mobile": "01320067594",
+    "inspector_mobile": "01320067595",
+    "duty_officer_mobile": "01320067599",
+    "latitude": 24.92464343,
+    "longitude": 91.81678325
+  },
+  {
+    "name": "শাহপরান (রঃ) থানা",
+    "division": "এসএমপি, সিলেট",
+    "oc_mobile": "01320067740",
+    "inspector_mobile": "01320067741",
+    "duty_officer_mobile": "01320067745",
+    "latitude": 24.88020657,
+    "longitude": 91.91826318
+  },
+  {
+    "name": "মোগলাবাজার থানা",
+    "division": "এসএমপি, সিলেট",
+    "oc_mobile": "01320067714",
+    "inspector_mobile": "01320067715",
+    "duty_officer_mobile": "01320067719",
+    "latitude": 24.79708819,
+    "longitude": 91.90940809
+  },
+  {
+    "name": "দক্ষিণ সুরমা থানা",
+    "division": "এসএমপি, সিলেট",
+    "oc_mobile": "01320067688",
+    "inspector_mobile": "01320067689",
+    "duty_officer_mobile": "01320067690",
+    "latitude": 24.86828023,
+    "longitude": 91.85983358
+  },
+  {
+    "name": "উঁখিয়া থানা",
+    "division": "কক্সবাজার",
+    "oc_mobile": "01320108523",
+    "inspector_mobile": "01320108524",
+    "duty_officer_mobile": "01320108528",
+    "latitude": 21.24636288,
+    "longitude": 92.14579371
+  },
+  {
+    "name": "টেকনাফ থানা",
+    "division": "কক্সবাজার",
+    "oc_mobile": "01320108549",
+    "inspector_mobile": "01320108550",
+    "duty_officer_mobile": "01320108554",
+    "latitude": 20.86481925,
+    "longitude": 92.30065716
+  },
+  {
+    "name": "কক্সবাজার সদর থানা",
+    "division": "কক্সবাজার",
+    "oc_mobile": "01320108471",
+    "inspector_mobile": "01320108472",
+    "duty_officer_mobile": "01320108476",
+    "latitude": 21.44489109,
+    "longitude": 91.97428688
+  },
+  {
+    "name": "কুতুবদিয়া থানা",
+    "division": "কক্সবাজার",
+    "oc_mobile": "01320108653",
+    "inspector_mobile": "01320108657",
+    "duty_officer_mobile": "01320108658",
+    "latitude": 21.81883868,
+    "longitude": 91.8610255
+  },
+  {
+    "name": "চকরিয়া থানা",
+    "division": "কক্সবাজার",
+    "oc_mobile": "01320108575",
+    "inspector_mobile": "01320108576",
+    "duty_officer_mobile": "01320108580",
+    "latitude": 21.75693735,
+    "longitude": 92.07078202
+  },
+  {
+    "name": "পেকুয়া থানা",
+    "division": "কক্সবাজার",
+    "oc_mobile": "01320108601",
+    "inspector_mobile": "01320108602",
+    "duty_officer_mobile": "01320108606",
+    "latitude": 21.82863267,
+    "longitude": 91.96898811
+  },
+  {
+    "name": "মহেষখালী থানা",
+    "division": "কক্সবাজার",
+    "oc_mobile": "01320108627",
+    "inspector_mobile": "01320108628",
+    "duty_officer_mobile": "01320108632",
+    "latitude": 21.52039595,
+    "longitude": 91.96374924
+  },
+  {
+    "name": "রামু থানা",
+    "division": "কক্সবাজার",
+    "oc_mobile": "01320108497",
+    "inspector_mobile": "01320108498",
+    "duty_officer_mobile": "01320108402",
+    "latitude": 21.42372078,
+    "longitude": 92.1110018
+  },
+  {
+    "name": "ঈদগাঁও থানা",
+    "division": "কক্সবাজার",
+    "oc_mobile": "01320108475",
+    "inspector_mobile": "01320108476",
+    "duty_officer_mobile": "01320108493",
+    "latitude": 21.57285994,
+    "longitude": 92.0726097
+  },
+  {
+    "name": "অষ্টগ্রাম থানা",
+    "division": "কিশোরগঞ্জ",
+    "oc_mobile": "01320095703",
+    "inspector_mobile": "01320095704",
+    "duty_officer_mobile": "01320095708",
+    "latitude": 24.2727641,
+    "longitude": 91.10364435
+  },
+  {
+    "name": "ইটনা থানা",
+    "division": "কিশোরগঞ্জ",
+    "oc_mobile": "01320095625",
+    "inspector_mobile": "01320095626",
+    "duty_officer_mobile": "01320095630",
+    "latitude": 24.52876076,
+    "longitude": 91.09543439
+  },
+  {
+    "name": "কটিয়াদি থানা",
+    "division": "কিশোরগঞ্জ",
+    "oc_mobile": "01320095521",
+    "inspector_mobile": "01320095522",
+    "duty_officer_mobile": "01320095526",
+    "latitude": 24.24440662,
+    "longitude": 90.79832424
+  },
+  {
+    "name": "করিমগঞ্জ থানা",
+    "division": "কিশোরগঞ্জ",
+    "oc_mobile": "01320095418",
+    "inspector_mobile": "01320095419",
+    "duty_officer_mobile": "01320095422",
+    "latitude": 24.47096407,
+    "longitude": 90.86915375
+  },
+  {
+    "name": "কুলিয়ার চর থানা",
+    "division": "কিশোরগঞ্জ",
+    "oc_mobile": "01320095573",
+    "inspector_mobile": "01320095573",
+    "duty_officer_mobile": "01320095578",
+    "latitude": 24.15395789,
+    "longitude": 90.93223235
+  },
+  {
+    "name": "তারাইল থানা",
+    "division": "কিশোরগঞ্জ",
+    "oc_mobile": "01320095443",
+    "inspector_mobile": "01320095444",
+    "duty_officer_mobile": "01320095448",
+    "latitude": 24.54977105,
+    "longitude": 90.89244822
+  },
+  {
+    "name": "নিকলি থানা",
+    "division": "কিশোরগঞ্জ",
+    "oc_mobile": "01320095679",
+    "inspector_mobile": "01320095679",
+    "duty_officer_mobile": "01320095682",
+    "latitude": 24.3319179,
+    "longitude": 90.93401379
+  },
+  {
+    "name": "পাকুন্দিয়া থানা",
+    "division": "কিশোরগঞ্জ",
+    "oc_mobile": "01320095495",
+    "inspector_mobile": "01320095496",
+    "duty_officer_mobile": "01320095500",
+    "latitude": 24.32906438,
+    "longitude": 90.68063383
+  },
+  {
+    "name": "বাজিতপুর থানা",
+    "division": "কিশোরগঞ্জ",
+    "oc_mobile": "01320095547",
+    "inspector_mobile": "01320095548",
+    "duty_officer_mobile": "01320095552",
+    "latitude": 24.20754469,
+    "longitude": 90.94007662
+  },
+  {
+    "name": "মিঠামাইন থানা",
+    "division": "কিশোরগঞ্জ",
+    "oc_mobile": "01320095651",
+    "inspector_mobile": "01320095652",
+    "duty_officer_mobile": "01320095656",
+    "latitude": 24.422509,
+    "longitude": 91.063526
+  },
+  {
+    "name": "হোসেনপুর থানা",
+    "division": "কিশোরগঞ্জ",
+    "oc_mobile": "01320095469",
+    "inspector_mobile": "01320095470",
+    "duty_officer_mobile": "01320095474",
+    "latitude": 24.42572853,
+    "longitude": 90.65292778
+  },
+  {
+    "name": "কিশোরগঞ্জ সদর থানা",
+    "division": "কিশোরগঞ্জ",
+    "oc_mobile": "01320095391",
+    "inspector_mobile": "01320095392",
+    "duty_officer_mobile": "01320095396",
+    "latitude": 24.4382913,
+    "longitude": 90.78007422
+  },
+  {
+    "name": "চর রাজিবপুর থানা",
+    "division": "কুড়িগ্রাম",
+    "oc_mobile": "01320133594",
+    "inspector_mobile": "01320133595",
+    "duty_officer_mobile": "01320133599",
+    "latitude": 25.44203083,
+    "longitude": 89.79349401
+  },
+  {
+    "name": "চিলমারী থানা",
+    "division": "কুড়িগ্রাম",
+    "oc_mobile": "01320133542",
+    "inspector_mobile": "01320133543",
+    "duty_officer_mobile": "01320133447",
+    "latitude": 25.58825738,
+    "longitude": 89.66245658
+  },
+  {
+    "name": "নাগেশ্বরী থানা",
+    "division": "কুড়িগ্রাম",
+    "oc_mobile": "01320133464",
+    "inspector_mobile": "01320133465",
+    "duty_officer_mobile": "01320133469",
+    "latitude": 25.96483605,
+    "longitude": 89.69029736
+  },
+  {
+    "name": "ফুলবাড়ী থানা",
+    "division": "কুড়িগ্রাম",
+    "oc_mobile": "01320133438",
+    "inspector_mobile": "01320133439",
+    "duty_officer_mobile": "01320133443",
+    "latitude": 25.95045394,
+    "longitude": 89.55498162
+  },
+  {
+    "name": "ভূরুঙ্গামারী থানা",
+    "division": "কুড়িগ্রাম",
+    "oc_mobile": "01320133490",
+    "inspector_mobile": "01320133491",
+    "duty_officer_mobile": "01320133495",
+    "latitude": 26.1095843,
+    "longitude": 89.67179415
+  },
+  {
+    "name": "রাজারহাট থানা",
+    "division": "কুড়িগ্রাম",
+    "oc_mobile": "01320133412",
+    "inspector_mobile": "01320133413",
+    "duty_officer_mobile": "01320133417",
+    "latitude": 25.79711893,
+    "longitude": 89.5516151
+  },
+  {
+    "name": "রৌমারী থানা",
+    "division": "কুড়িগ্রাম",
+    "oc_mobile": "01320133468",
+    "inspector_mobile": "01320133469",
+    "duty_officer_mobile": "01320133573",
+    "latitude": 25.57731762,
+    "longitude": 89.83299813
+  },
+  {
+    "name": "উলিপুর থানা",
+    "division": "কুড়িগ্রাম",
+    "oc_mobile": "01320133516",
+    "inspector_mobile": "01320133517",
+    "duty_officer_mobile": "01320133521",
+    "latitude": 25.65477179,
+    "longitude": 89.61777992
+  },
+  {
+    "name": "কচাকাটা থানা",
+    "division": "কুড়িগ্রাম",
+    "oc_mobile": "01320133646",
+    "inspector_mobile": "01320133647",
+    "duty_officer_mobile": "01320133651",
+    "latitude": 26.00327243,
+    "longitude": 89.78614832
+  },
+  {
+    "name": "ঢুষমারা থানা",
+    "division": "কুড়িগ্রাম",
+    "oc_mobile": "01320133620",
+    "inspector_mobile": "01320133621",
+    "duty_officer_mobile": "01320133625",
+    "latitude": 25.5255722,
+    "longitude": 89.76568224
+  },
+  {
+    "name": "কুড়িগ্রাম সদর থানা",
+    "division": "কুড়িগ্রাম",
+    "oc_mobile": "01320133386",
+    "inspector_mobile": "01320133387",
+    "duty_officer_mobile": "01320133391",
+    "latitude": 25.8063706,
+    "longitude": 89.63680175
+  },
+  {
+    "name": "কুমিল্লা কোতয়ালী থানা",
+    "division": "কুমিল্লা",
+    "oc_mobile": "01320113996",
+    "inspector_mobile": "01320113997",
+    "duty_officer_mobile": "01320114001",
+    "latitude": 23.46498973,
+    "longitude": 91.18723521
+  },
+  {
+    "name": "কুমিল্লা সদর দক্ষিণ থানা",
+    "division": "কুমিল্লা",
+    "oc_mobile": "01320114386",
+    "inspector_mobile": "01320114387",
+    "duty_officer_mobile": "01320114391",
+    "latitude": 23.41089547,
+    "longitude": 91.19724826
+  },
+  {
+    "name": "চান্দিনা থানা",
+    "division": "কুমিল্লা",
+    "oc_mobile": "01320114178",
+    "inspector_mobile": "01320114179",
+    "duty_officer_mobile": "01320114183",
+    "latitude": 23.48553554,
+    "longitude": 91.00846321
+  },
+  {
+    "name": "চৌদ্দগ্রাম থানা",
+    "division": "কুমিল্লা",
+    "oc_mobile": "01320114022",
+    "inspector_mobile": "01320114023",
+    "duty_officer_mobile": "01320114027",
+    "latitude": 23.22364894,
+    "longitude": 91.31449114
+  },
+  {
+    "name": "তিতাস থানা",
+    "division": "কুমিল্লা",
+    "oc_mobile": "01320114360",
+    "inspector_mobile": "01320114361",
+    "duty_officer_mobile": "01320114365",
+    "latitude": 23.59382067,
+    "longitude": 90.79658928
+  },
+  {
+    "name": "দাউদকান্দি থানা",
+    "division": "কুমিল্লা",
+    "oc_mobile": "01320114126",
+    "inspector_mobile": "01320114127",
+    "duty_officer_mobile": "01320114131",
+    "latitude": 23.53729937,
+    "longitude": 90.71374119
+  },
+  {
+    "name": "দেবীদ্বার থানা",
+    "division": "কুমিল্লা",
+    "oc_mobile": "01320114048",
+    "inspector_mobile": "01320114050",
+    "duty_officer_mobile": "01320114053",
+    "latitude": 23.6068917,
+    "longitude": 90.98930059
+  },
+  {
+    "name": "বরুড়া থানা",
+    "division": "কুমিল্লা",
+    "oc_mobile": "01320114204",
+    "inspector_mobile": "01320114205",
+    "duty_officer_mobile": "01320114209",
+    "latitude": 23.37553177,
+    "longitude": 91.05294506
+  },
+  {
+    "name": "বুড়িচং থানা",
+    "division": "কুমিল্লা",
+    "oc_mobile": "01320114152",
+    "inspector_mobile": "01320114153",
+    "duty_officer_mobile": "01320114157",
+    "latitude": 23.55284444,
+    "longitude": 91.13250906
+  },
+  {
+    "name": "ব্রাহ্মনপাড়া থানা",
+    "division": "কুমিল্লা",
+    "oc_mobile": "01320114282",
+    "inspector_mobile": "01320114283",
+    "duty_officer_mobile": "01320114287",
+    "latitude": 23.61361089,
+    "longitude": 91.0952801
+  },
+  {
+    "name": "মনোহরগঞ্জ থানা",
+    "division": "কুমিল্লা",
+    "oc_mobile": "01320114334",
+    "inspector_mobile": "01320114335",
+    "duty_officer_mobile": "01320114339",
+    "latitude": 23.16331047,
+    "longitude": 91.05032091
+  },
+  {
+    "name": "মুরাদনগর থানা",
+    "division": "কুমিল্লা",
+    "oc_mobile": "01320114256",
+    "inspector_mobile": "01320114257",
+    "duty_officer_mobile": "01320114261",
+    "latitude": 23.63782852,
+    "longitude": 90.93116869
+  },
+  {
+    "name": "মেঘনা থানা",
+    "division": "কুমিল্লা",
+    "oc_mobile": "01320114308",
+    "inspector_mobile": "01320114309",
+    "duty_officer_mobile": "01320114313",
+    "latitude": 23.62839417,
+    "longitude": 90.7027832
+  },
+  {
+    "name": "লাকসাম থানা",
+    "division": "কুমিল্লা",
+    "oc_mobile": "01320114100",
+    "inspector_mobile": "01320114101",
+    "duty_officer_mobile": "01320114105",
+    "latitude": 23.31533592,
+    "longitude": 91.11115955
+  },
+  {
+    "name": "নাঙ্গলকোট থানা",
+    "division": "কুমিল্লা",
+    "oc_mobile": "01320114230",
+    "inspector_mobile": "01320114231",
+    "duty_officer_mobile": "01320114235",
+    "latitude": 23.16316902,
+    "longitude": 91.20084685
+  },
+  {
+    "name": "হোমনা থানা",
+    "division": "কুমিল্লা",
+    "oc_mobile": "01320114074",
+    "inspector_mobile": "01320114075",
+    "duty_officer_mobile": "01320114079",
+    "latitude": 23.68453814,
+    "longitude": 90.7808123
+  },
+  {
+    "name": "বাঙ্গরা বাজার থানা",
+    "division": "কুমিল্লা",
+    "oc_mobile": "01320114412",
+    "inspector_mobile": "01320114413",
+    "duty_officer_mobile": "01320114417",
+    "latitude": 23.71533848,
+    "longitude": 90.9888138
+  },
+  {
+    "name": "লালমাই থানা",
+    "division": "কুমিল্লা",
+    "oc_mobile": "01320114438",
+    "inspector_mobile": "01320114439",
+    "duty_officer_mobile": "01320114443",
+    "latitude": 23.32804394,
+    "longitude": 91.14162899
+  },
+  {
+    "name": "কুমারখালী থানা",
+    "division": "কুষ্টিয়া",
+    "oc_mobile": "01320147227",
+    "inspector_mobile": "01320147228",
+    "duty_officer_mobile": "01320147232",
+    "latitude": 23.862931,
+    "longitude": 89.23899435
+  },
+  {
+    "name": "দৌলতপুর থানা",
+    "division": "কুষ্টিয়া",
+    "oc_mobile": "01320147305",
+    "inspector_mobile": "01320147306",
+    "duty_officer_mobile": "01320147310",
+    "latitude": 24.00177439,
+    "longitude": 88.87663222
+  },
+  {
+    "name": "ভেড়ামারা থানা",
+    "division": "কুষ্টিয়া",
+    "oc_mobile": "01320147253",
+    "inspector_mobile": "01320147254",
+    "duty_officer_mobile": "01320147258",
+    "latitude": 24.02161204,
+    "longitude": 88.98985189
+  },
+  {
+    "name": "মিরপুর থানা",
+    "division": "কুষ্টিয়া",
+    "oc_mobile": "01320147279",
+    "inspector_mobile": "01320147280",
+    "duty_officer_mobile": "01320147284",
+    "latitude": 23.94030032,
+    "longitude": 89.00104301
+  },
+  {
+    "name": "খোকসা থানা",
+    "division": "কুষ্টিয়া",
+    "oc_mobile": "01320147201",
+    "inspector_mobile": "01320147202",
+    "duty_officer_mobile": "01320147206",
+    "latitude": 23.86068647,
+    "longitude": 89.23878137
+  },
+  {
+    "name": "ইসলামী বিশ্ববিদ্যালয় (ইবি) থানা",
+    "division": "কুষ্টিয়া",
+    "oc_mobile": "01320147331",
+    "inspector_mobile": "01320147332",
+    "duty_officer_mobile": "01320147336",
+    "latitude": 23.72142945,
+    "longitude": 89.15382277
+  },
+  {
+    "name": "কুষ্টিয়া সদর থানা",
+    "division": "কুষ্টিয়া",
+    "oc_mobile": "01320147175",
+    "inspector_mobile": "01320147176",
+    "duty_officer_mobile": "01320147180",
+    "latitude": 23.90802445,
+    "longitude": 89.12817633
+  },
+  {
+    "name": "খানজাহান আলী থানা",
+    "division": "কেএমপি, খুলনা",
+    "oc_mobile": "01320058593",
+    "inspector_mobile": "01320058594",
+    "duty_officer_mobile": "01320058599",
+    "latitude": 22.91456551,
+    "longitude": 89.50703683
+  },
+  {
+    "name": "খালিশপুর থানা",
+    "division": "কেএমপি, খুলনা",
+    "oc_mobile": "01320058512",
+    "inspector_mobile": "01320058513",
+    "duty_officer_mobile": "01320058518",
+    "latitude": 22.84929765,
+    "longitude": 89.54123849
+  },
+  {
+    "name": "দৌলতপুর থানা",
+    "division": "কেএমপি, খুলনা",
+    "oc_mobile": "01320058539",
+    "inspector_mobile": "01320058540",
+    "duty_officer_mobile": "01320058545",
+    "latitude": 22.87869083,
+    "longitude": 89.51803982
+  },
+  {
+    "name": "আড়ংঘাটা থানা",
+    "division": "কেএমপি, খুলনা",
+    "oc_mobile": "01320058566",
+    "inspector_mobile": "01320058567",
+    "duty_officer_mobile": "01320058572",
+    "latitude": 22.87416874,
+    "longitude": 89.51333902
+  },
+  {
+    "name": "খুলনা সদর থানা",
+    "division": "কেএমপি, খুলনা",
+    "oc_mobile": "01320058382",
+    "inspector_mobile": "01320058383",
+    "duty_officer_mobile": "01320058388",
+    "latitude": 22.81733692,
+    "longitude": 89.56487063
+  },
+  {
+    "name": "সোনাডাঙ্গা মডেল থানা",
+    "division": "কেএমপি, খুলনা",
+    "oc_mobile": "01320058409",
+    "inspector_mobile": "01320058410",
+    "duty_officer_mobile": "01320058415",
+    "latitude": 22.81610717,
+    "longitude": 89.54363447
+  },
+  {
+    "name": "হরিণটানা থানা",
+    "division": "কেএমপি, খুলনা",
+    "oc_mobile": "01320058463",
+    "inspector_mobile": "01320058464",
+    "duty_officer_mobile": "01320058469",
+    "latitude": 22.79557465,
+    "longitude": 89.52965094
+  },
+  {
+    "name": "লবনচরা থানা",
+    "division": "কেএমপি, খুলনা",
+    "oc_mobile": "01320058436",
+    "inspector_mobile": "01320058437",
+    "duty_officer_mobile": "01320058442",
+    "latitude": 22.78048739,
+    "longitude": 89.5535164
+  },
+  {
+    "name": "দিঘীনালা থানা",
+    "division": "খাগড়াছড়ি",
+    "oc_mobile": "01320110007",
+    "inspector_mobile": "01320110008",
+    "duty_officer_mobile": "013201100012",
+    "latitude": 23.24639666,
+    "longitude": 92.06431114
+  },
+  {
+    "name": "পানছড়ি থানা",
+    "division": "খাগড়াছড়ি",
+    "oc_mobile": "01320110059",
+    "inspector_mobile": "01320110060",
+    "duty_officer_mobile": "01320110064",
+    "latitude": 23.29607975,
+    "longitude": 91.8982326
+  },
+  {
+    "name": "মহালছড়ি থানা",
+    "division": "খাগড়াছড়ি",
+    "oc_mobile": "01320110033",
+    "inspector_mobile": "01320110034",
+    "duty_officer_mobile": "01320110038",
+    "latitude": 22.93299368,
+    "longitude": 92.03396177
+  },
+  {
+    "name": "মাটিরাঙ্গা থানা",
+    "division": "খাগড়াছড়ি",
+    "oc_mobile": "01320110111",
+    "inspector_mobile": "01320110112",
+    "duty_officer_mobile": "01320110116",
+    "latitude": 23.04354708,
+    "longitude": 91.87153878
+  },
+  {
+    "name": "মানিকছড়ি থানা",
+    "division": "খাগড়াছড়ি",
+    "oc_mobile": "01320110137",
+    "inspector_mobile": "01320110138",
+    "duty_officer_mobile": "01320110142",
+    "latitude": 22.85075121,
+    "longitude": 91.84137024
+  },
+  {
+    "name": "রামগড় থানা",
+    "division": "খাগড়াছড়ি",
+    "oc_mobile": "01320110085",
+    "inspector_mobile": "01320110086",
+    "duty_officer_mobile": "01320110090",
+    "latitude": 22.99930335,
+    "longitude": 91.73075138
+  },
+  {
+    "name": "লহ্মীছড়ি থানা",
+    "division": "খাগড়াছড়ি",
+    "oc_mobile": "01320110163",
+    "inspector_mobile": "01320110164",
+    "duty_officer_mobile": "01320110168",
+    "latitude": 22.80049694,
+    "longitude": 91.91137846
+  },
+  {
+    "name": "গুইমারা থানা",
+    "division": "খাগড়াছড়ি",
+    "oc_mobile": "01320110189",
+    "inspector_mobile": "01320110190",
+    "duty_officer_mobile": "01320110194",
+    "latitude": 22.97016414,
+    "longitude": 91.87653307
+  },
+  {
+    "name": "খাগড়াছড়ি সদর থানা",
+    "division": "খাগড়াছড়ি",
+    "oc_mobile": "01320109981",
+    "inspector_mobile": "01320109982",
+    "duty_officer_mobile": "01320109986",
+    "latitude": 23.11217366,
+    "longitude": 91.98995267
+  },
+  {
+    "name": "বটিয়াঘাটা থানা",
+    "division": "খুলনা",
+    "oc_mobile": "01320140363",
+    "inspector_mobile": "01320140364",
+    "duty_officer_mobile": "01320140368",
+    "latitude": 22.73734,
+    "longitude": 89.51774
+  },
+  {
+    "name": "ডুমুরিয়া থানা",
+    "division": "খুলনা",
+    "oc_mobile": "01320140285",
+    "inspector_mobile": "01320140286",
+    "duty_officer_mobile": "01320140294",
+    "latitude": 22.80236481,
+    "longitude": 89.41943363
+  },
+  {
+    "name": "কয়রা থানা",
+    "division": "খুলনা",
+    "oc_mobile": "01320140389",
+    "inspector_mobile": "01320140390",
+    "duty_officer_mobile": "01320140394",
+    "latitude": 22.35093738,
+    "longitude": 89.28503162
+  },
+  {
+    "name": "দাকোপ থানা",
+    "division": "খুলনা",
+    "oc_mobile": "01320140337",
+    "inspector_mobile": "01320140338",
+    "duty_officer_mobile": "01320140342",
+    "latitude": 22.60107816,
+    "longitude": 89.51627972
+  },
+  {
+    "name": "দিঘলিয়া থানা",
+    "division": "খুলনা",
+    "oc_mobile": "01320140233",
+    "inspector_mobile": "01320140234",
+    "duty_officer_mobile": "01320140238",
+    "latitude": 22.89875916,
+    "longitude": 89.54208628
+  },
+  {
+    "name": "পাইকগাছা থানা",
+    "division": "খুলনা",
+    "oc_mobile": "01320140311",
+    "inspector_mobile": "01320140312",
+    "duty_officer_mobile": "01320140316",
+    "latitude": 22.58055426,
+    "longitude": 89.32802023
+  },
+  {
+    "name": "ফুলতলা থানা",
+    "division": "খুলনা",
+    "oc_mobile": "01320140259",
+    "inspector_mobile": "01320140260",
+    "duty_officer_mobile": "01320140264",
+    "latitude": 22.97124521,
+    "longitude": 89.476583
+  },
+  {
+    "name": "রূপসা থানা",
+    "division": "খুলনা",
+    "oc_mobile": "01320140181",
+    "inspector_mobile": "01320140182",
+    "duty_officer_mobile": "01320140186",
+    "latitude": 22.79688786,
+    "longitude": 89.64796246
+  },
+  {
+    "name": "খুলনা রেলওয়ে থানা",
+    "division": "খুলনা রেলওয়ে জেলা",
+    "oc_mobile": "01320180126",
+    "inspector_mobile": "01320180127",
+    "duty_officer_mobile": "01320180167",
+    "latitude": 22.82279786,
+    "longitude": 89.55684441
+  },
+  {
+    "name": "পোড়াদহ রেলওয়ে থানা",
+    "division": "খুলনা রেলওয়ে জেলা",
+    "oc_mobile": "01320180141",
+    "inspector_mobile": "01320180142",
+    "duty_officer_mobile": "01320180168",
+    "latitude": 23.86421174,
+    "longitude": 89.03250958
+  },
+  {
+    "name": "রাজবাড়ী রেলওয়ে থানা",
+    "division": "খুলনা রেলওয়ে জেলা",
+    "oc_mobile": "01320180156",
+    "inspector_mobile": "01320180157",
+    "duty_officer_mobile": "01320180169",
+    "latitude": 23.76291605,
+    "longitude": 89.645181
+  },
+  {
+    "name": "গাইবান্ধা সদর থানা",
+    "division": "গাইবান্ধা",
+    "oc_mobile": "01320132376",
+    "inspector_mobile": "01320132377",
+    "duty_officer_mobile": "01320132381",
+    "latitude": 25.32793888,
+    "longitude": 89.54089697
+  },
+  {
+    "name": "গোবিন্দগঞ্জ থানা",
+    "division": "গাইবান্ধা",
+    "oc_mobile": "01320132480",
+    "inspector_mobile": "01320132481",
+    "duty_officer_mobile": "01320132485",
+    "latitude": 25.13738682,
+    "longitude": 89.3857933
+  },
+  {
+    "name": "পলাশবাড়ী থানা",
+    "division": "গাইবান্ধা",
+    "oc_mobile": "01320132454",
+    "inspector_mobile": "01320132455",
+    "duty_officer_mobile": "01320132459",
+    "latitude": 25.2811002,
+    "longitude": 89.35418569
+  },
+  {
+    "name": "ফুলছড়ি থানা",
+    "division": "গাইবান্ধা",
+    "oc_mobile": "01320132532",
+    "inspector_mobile": "01320132533",
+    "duty_officer_mobile": "01320132537",
+    "latitude": 25.27353213,
+    "longitude": 89.57689025
+  },
+  {
+    "name": "সাঘাটা থানা",
+    "division": "গাইবান্ধা",
+    "oc_mobile": "01320132506",
+    "inspector_mobile": "01320132507",
+    "duty_officer_mobile": "01320132511",
+    "latitude": 25.11024598,
+    "longitude": 89.58409365
+  },
+  {
+    "name": "সাদুল্যাপুর থানা",
+    "division": "গাইবান্ধা",
+    "oc_mobile": "01320132402",
+    "inspector_mobile": "01320132403",
+    "duty_officer_mobile": "01320132407",
+    "latitude": 25.39127793,
+    "longitude": 89.46601475
+  },
+  {
+    "name": "সুন্দরগঞ্জ থানা",
+    "division": "গাইবান্ধা",
+    "oc_mobile": "01320132428",
+    "inspector_mobile": "01320132429",
+    "duty_officer_mobile": "01320132433",
+    "latitude": 25.56942698,
+    "longitude": 89.52117739
+  },
+  {
+    "name": "জয়দেবপুর থানা",
+    "division": "গাজীপুর",
+    "oc_mobile": "01320092371",
+    "inspector_mobile": "01320092372",
+    "duty_officer_mobile": "01320092382",
+    "latitude": 24.12407745,
+    "longitude": 90.40956649
+  },
+  {
+    "name": "কাপাসিয়া থানা",
+    "division": "গাজীপুর",
+    "oc_mobile": "01320092449",
+    "inspector_mobile": "01320092450",
+    "duty_officer_mobile": "01320092454",
+    "latitude": 24.11302512,
+    "longitude": 90.56919191
+  },
+  {
+    "name": "কালিয়াকৈর থানা",
+    "division": "গাজীপুর",
+    "oc_mobile": "01320092397",
+    "inspector_mobile": "01320092398",
+    "duty_officer_mobile": "01320092402",
+    "latitude": 24.06912871,
+    "longitude": 90.21900903
+  },
+  {
+    "name": "শ্রীপুর থানা",
+    "division": "গাজীপুর",
+    "oc_mobile": "01320092423",
+    "inspector_mobile": "01320092424",
+    "duty_officer_mobile": "01320092428",
+    "latitude": 24.20012824,
+    "longitude": 90.4787798
+  },
+  {
+    "name": "কালীগঞ্জ থানা",
+    "division": "গাজীপুর",
+    "oc_mobile": "01320092475",
+    "inspector_mobile": "01320092476",
+    "duty_officer_mobile": "01320092480",
+    "latitude": 23.92149168,
+    "longitude": 90.56838494
+  },
+  {
+    "name": "কাশিয়ানি থানা",
+    "division": "গোপালগঞ্জ",
+    "oc_mobile": "01320099433",
+    "inspector_mobile": "01320099434",
+    "duty_officer_mobile": "01320099438",
+    "latitude": 23.23921,
+    "longitude": 89.71963
+  },
+  {
+    "name": "কোটালীপাড়া থানা",
+    "division": "গোপালগঞ্জ",
+    "oc_mobile": "01320099457",
+    "inspector_mobile": "01320099458",
+    "duty_officer_mobile": "01320099462",
+    "latitude": 22.99015142,
+    "longitude": 89.9907142
+  },
+  {
+    "name": "গোপালগঞ্জ সদর থানা",
+    "division": "গোপালগঞ্জ",
+    "oc_mobile": "01320099370",
+    "inspector_mobile": "01320099371",
+    "duty_officer_mobile": "01320099375",
+    "latitude": 23.01300562,
+    "longitude": 89.83334094
+  },
+  {
+    "name": "টুঙ্গিপাড়া থানা",
+    "division": "গোপালগঞ্জ",
+    "oc_mobile": "01320099479",
+    "inspector_mobile": "01320099480",
+    "duty_officer_mobile": "01320099484",
+    "latitude": 22.9109131,
+    "longitude": 89.89922063
+  },
+  {
+    "name": "মোকসুদপুর থানা",
+    "division": "গোপালগঞ্জ",
+    "oc_mobile": "01320099404",
+    "inspector_mobile": "01320099405",
+    "duty_officer_mobile": "01320099409",
+    "latitude": 23.32013539,
+    "longitude": 89.86988782
+  },
+  {
+    "name": "লোহাগাড়া থানা",
+    "division": "চট্টগ্রাম",
+    "oc_mobile": "01320107808",
+    "inspector_mobile": "01320107809",
+    "duty_officer_mobile": "01320107813",
+    "latitude": 21.99978459,
+    "longitude": 92.09606465
+  },
+  {
+    "name": "সাতকানিয়া থানা",
+    "division": "চট্টগ্রাম",
+    "oc_mobile": "01320107782",
+    "inspector_mobile": "01320107783",
+    "duty_officer_mobile": "01320107787",
+    "latitude": 22.07506666,
+    "longitude": 92.05222782
+  },
+  {
+    "name": "আনোয়ারা থানা",
+    "division": "চট্টগ্রাম",
+    "oc_mobile": "01320107834",
+    "inspector_mobile": "01230107835",
+    "duty_officer_mobile": "01320107839",
+    "latitude": 22.22414378,
+    "longitude": 91.90315802
+  },
+  {
+    "name": "চন্দনাইশ থানা",
+    "division": "চট্টগ্রাম",
+    "oc_mobile": "01320107886",
+    "inspector_mobile": "01320107887",
+    "duty_officer_mobile": "01320107891",
+    "latitude": 22.21150183,
+    "longitude": 92.01131498
+  },
+  {
+    "name": "পটিয়া থানা",
+    "division": "চট্টগ্রাম",
+    "oc_mobile": "01320107730",
+    "inspector_mobile": "01320107731",
+    "duty_officer_mobile": "01320107735",
+    "latitude": 22.29541984,
+    "longitude": 91.98102591
+  },
+  {
+    "name": "ফটিকছড়ি থানা",
+    "division": "চট্টগ্রাম",
+    "oc_mobile": "01320107626",
+    "inspector_mobile": "01320107627",
+    "duty_officer_mobile": "01320107631",
+    "latitude": 22.6892905,
+    "longitude": 91.7920995
+  },
+  {
+    "name": "বাঁশখালী থানা",
+    "division": "চট্টগ্রাম",
+    "oc_mobile": "01320107860",
+    "inspector_mobile": "01320107861",
+    "duty_officer_mobile": "01320107865",
+    "latitude": 21.99960999,
+    "longitude": 91.95193714
+  },
+  {
+    "name": "বোয়ালখালী থানা",
+    "division": "চট্টগ্রাম",
+    "oc_mobile": "01320107756",
+    "inspector_mobile": "01320107757",
+    "duty_officer_mobile": "01230107761",
+    "latitude": 22.37835086,
+    "longitude": 91.91845826
+  },
+  {
+    "name": "মীরসরাই থানা",
+    "division": "চট্টগ্রাম",
+    "oc_mobile": "01320107548",
+    "inspector_mobile": "01320107549",
+    "duty_officer_mobile": "01320107553",
+    "latitude": 22.7795732,
+    "longitude": 91.57055742
+  },
+  {
+    "name": "রাউজান থানা",
+    "division": "চট্টগ্রাম",
+    "oc_mobile": "01320107704",
+    "inspector_mobile": "01320107705",
+    "duty_officer_mobile": "01320107709",
+    "latitude": 22.53827767,
+    "longitude": 91.91555575
+  },
+  {
+    "name": "সীতাকুন্ড থানা",
+    "division": "চট্টগ্রাম",
+    "oc_mobile": "1320107496",
+    "inspector_mobile": "01320107497",
+    "duty_officer_mobile": "01320107501",
+    "latitude": 22.62094029,
+    "longitude": 91.65731757
+  },
+  {
+    "name": "সন্দীপ থানা",
+    "division": "চট্টগ্রাম",
+    "oc_mobile": "01320107522",
+    "inspector_mobile": "01320107523",
+    "duty_officer_mobile": "01320107527",
+    "latitude": 22.48598063,
+    "longitude": 91.48662905
+  },
+  {
+    "name": "হাটহাজারী থানা",
+    "division": "চট্টগ্রাম",
+    "oc_mobile": "01320107600",
+    "inspector_mobile": "`01320107601",
+    "duty_officer_mobile": "01320107605",
+    "latitude": 22.501703,
+    "longitude": 91.8067315
+  },
+  {
+    "name": "রাঙ্গুনিয়া থানা",
+    "division": "চট্টগ্রাম",
+    "oc_mobile": "01320107678",
+    "inspector_mobile": "01320107679",
+    "duty_officer_mobile": "01320107683",
+    "latitude": 22.46498398,
+    "longitude": 92.05714529
+  },
+  {
+    "name": "ভূজপুর থানা",
+    "division": "চট্টগ্রাম",
+    "oc_mobile": "01320107652",
+    "inspector_mobile": "01320107653",
+    "duty_officer_mobile": "01320107657",
+    "latitude": 22.75794538,
+    "longitude": 91.73384128
+  },
+  {
+    "name": "জোরারগঞ্জ থানা",
+    "division": "চট্টগ্রাম",
+    "oc_mobile": "01320107574",
+    "inspector_mobile": "01320107575",
+    "duty_officer_mobile": "01320107579",
+    "latitude": 22.9433341,
+    "longitude": 91.54260039
+  },
+  {
+    "name": "দক্ষিণ রাঙ্গুনিয়া থানা",
+    "division": "চট্টগ্রাম",
+    "oc_mobile": "01320107973",
+    "inspector_mobile": "01320107974",
+    "duty_officer_mobile": "01320107978",
+    "latitude": 22.37921933,
+    "longitude": 92.10032328
+  },
+  {
+    "name": "লাকসাম রেলওয়ে থানা",
+    "division": "চট্টগ্রাম রেলওয়ে জেলা",
+    "oc_mobile": "01320177667",
+    "inspector_mobile": "01320177668",
+    "duty_officer_mobile": "01320177672",
+    "latitude": 23.25578601,
+    "longitude": 91.12393013
+  },
+  {
+    "name": "চাঁদপুর রেলওয়ে থানা",
+    "division": "চট্টগ্রাম রেলওয়ে জেলা",
+    "oc_mobile": "01320177693",
+    "inspector_mobile": "01320177694",
+    "duty_officer_mobile": "01320177698",
+    "latitude": 23.23057558,
+    "longitude": 90.64345447
+  },
+  {
+    "name": "চট্টগ্রাম রেলওয়ে থানা",
+    "division": "চট্টগ্রাম রেলওয়ে জেলা",
+    "oc_mobile": "01320177641",
+    "inspector_mobile": "01320177642",
+    "duty_officer_mobile": "01320177646",
+    "latitude": 22.33496448,
+    "longitude": 91.82713544
+  },
+  {
+    "name": "হাইমচর থানা",
+    "division": "চাঁদপুর",
+    "oc_mobile": "01320116153",
+    "inspector_mobile": "01320116154",
+    "duty_officer_mobile": "01320116158",
+    "latitude": 23.08736992,
+    "longitude": 90.66504718
+  },
+  {
+    "name": "মতলব উত্তর থানা",
+    "division": "চাঁদপুর",
+    "oc_mobile": "01320116023",
+    "inspector_mobile": "01320116024",
+    "duty_officer_mobile": "01320116028",
+    "latitude": 23.44693873,
+    "longitude": 90.61874394
+  },
+  {
+    "name": "মতলব দক্ষিণ থানা",
+    "division": "চাঁদপুর",
+    "oc_mobile": "01320116049",
+    "inspector_mobile": "01320116050",
+    "duty_officer_mobile": "01320116054",
+    "latitude": 23.36015011,
+    "longitude": 90.70594935
+  },
+  {
+    "name": "চাঁদপুর সদর থানা",
+    "division": "চাঁদপুর",
+    "oc_mobile": "01320115981",
+    "inspector_mobile": "01320115982",
+    "duty_officer_mobile": "01320115986",
+    "latitude": 23.22432593,
+    "longitude": 90.65322221
+  },
+  {
+    "name": "ফরিদগঞ্জ থানা",
+    "division": "চাঁদপুর",
+    "oc_mobile": "01320116137",
+    "inspector_mobile": "01320116138",
+    "duty_officer_mobile": "01320116142",
+    "latitude": 23.13798963,
+    "longitude": 90.74300877
+  },
+  {
+    "name": "হাজীগঞ্জ থানা",
+    "division": "চাঁদপুর",
+    "oc_mobile": "01320115997",
+    "inspector_mobile": "01320115998",
+    "duty_officer_mobile": "01320116002",
+    "latitude": 23.25264506,
+    "longitude": 90.85612097
+  },
+  {
+    "name": "কঁচুয়া থানা",
+    "division": "চাঁদপুর",
+    "oc_mobile": "01320116101",
+    "inspector_mobile": "01320116102",
+    "duty_officer_mobile": "01320116106",
+    "latitude": 23.34520054,
+    "longitude": 90.89729411
+  },
+  {
+    "name": "শাহরাস্তি থানা",
+    "division": "চাঁদপুর",
+    "oc_mobile": "01320116075",
+    "inspector_mobile": "01320116067",
+    "duty_officer_mobile": "01320116080",
+    "latitude": 23.223538,
+    "longitude": 90.957062
+  },
+  {
+    "name": "গোমস্তাপুর থানা",
+    "division": "চাঁপাইনবাবগঞ্জ",
+    "oc_mobile": "01320125621",
+    "inspector_mobile": "01320125622",
+    "duty_officer_mobile": "01320125626",
+    "latitude": 24.78083774,
+    "longitude": 88.27783167
+  },
+  {
+    "name": "নাচোল থানা",
+    "division": "চাঁপাইনবাবগঞ্জ",
+    "oc_mobile": "01320125647",
+    "inspector_mobile": "01320125648",
+    "duty_officer_mobile": "01320125652",
+    "latitude": 24.73119017,
+    "longitude": 88.42333059
+  },
+  {
+    "name": "ভোলাহাট থানা",
+    "division": "চাঁপাইনবাবগঞ্জ",
+    "oc_mobile": "01320125673",
+    "inspector_mobile": "01320125674",
+    "duty_officer_mobile": "01320125678",
+    "latitude": 24.95279497,
+    "longitude": 88.19625462
+  },
+  {
+    "name": "শিবগঞ্জ থানা",
+    "division": "চাঁপাইনবাবগঞ্জ",
+    "oc_mobile": "01320125595",
+    "inspector_mobile": "01320125596",
+    "duty_officer_mobile": "01320125600",
+    "latitude": 24.68318819,
+    "longitude": 88.15592642
+  },
+  {
+    "name": "চাঁপাইনবাবগঞ্জ সদর থানা",
+    "division": "চাঁপাইনবাবগঞ্জ",
+    "oc_mobile": "01320125569",
+    "inspector_mobile": "01320125570",
+    "duty_officer_mobile": "01320125574",
+    "latitude": 24.62292795,
+    "longitude": 88.26392604
+  },
+  {
+    "name": "আলমডাঙ্গা থানা",
+    "division": "চুয়াডাঙ্গা",
+    "oc_mobile": "01320148195",
+    "inspector_mobile": "01320148196",
+    "duty_officer_mobile": "01320148200",
+    "latitude": 23.75899375,
+    "longitude": 88.94462807
+  },
+  {
+    "name": "জীবন নগর থানা",
+    "division": "চুয়াডাঙ্গা",
+    "oc_mobile": "01320148221",
+    "inspector_mobile": "01320148222",
+    "duty_officer_mobile": "01320148226",
+    "latitude": 23.43044329,
+    "longitude": 88.81182561
+  },
+  {
+    "name": "দামুড়হুদা থানা",
+    "division": "চুয়াডাঙ্গা",
+    "oc_mobile": "01320148247",
+    "inspector_mobile": "01320148248",
+    "duty_officer_mobile": "01320148252",
+    "latitude": 23.56423,
+    "longitude": 88.80758
+  },
+  {
+    "name": "চুয়াডাঙ্গা সদর থানা",
+    "division": "চুয়াডাঙ্গা",
+    "oc_mobile": "01320148169",
+    "inspector_mobile": "01320148170",
+    "duty_officer_mobile": "01320148174",
+    "latitude": 23.64529754,
+    "longitude": 88.84417515
+  },
+  {
+    "name": "দর্শনা থানা",
+    "division": "চুয়াডাঙ্গা",
+    "oc_mobile": "01320148273",
+    "inspector_mobile": "01320148274",
+    "duty_officer_mobile": "01320148278",
+    "latitude": 23.52760435,
+    "longitude": 88.79407355
+  },
+  {
+    "name": "আক্কেলপুর থানা",
+    "division": "জয়পুরহাট",
+    "oc_mobile": "01320127673",
+    "inspector_mobile": "01320127674",
+    "duty_officer_mobile": "01320127678",
+    "latitude": 24.9658168,
+    "longitude": 89.02069592
+  },
+  {
+    "name": "কালাই থানা",
+    "division": "জয়পুরহাট",
+    "oc_mobile": "01320127647",
+    "inspector_mobile": "01320127648",
+    "duty_officer_mobile": "01320127652",
+    "latitude": 25.0665937,
+    "longitude": 89.16271891
+  },
+  {
+    "name": "ক্ষেতলাল থানা",
+    "division": "জয়পুরহাট",
+    "oc_mobile": "01320127621",
+    "inspector_mobile": "01320127622",
+    "duty_officer_mobile": "01320127626",
+    "latitude": 25.03879049,
+    "longitude": 89.11966135
+  },
+  {
+    "name": "জয়পুরহাট সদর থানা",
+    "division": "জয়পুরহাট",
+    "oc_mobile": "01320127569",
+    "inspector_mobile": "01320127570",
+    "duty_officer_mobile": "01320127574",
+    "latitude": 25.10371323,
+    "longitude": 89.02462991
+  },
+  {
+    "name": "পাঁচবিবি থানা",
+    "division": "জয়পুরহাট",
+    "oc_mobile": "01320127595",
+    "inspector_mobile": "01320127596",
+    "duty_officer_mobile": "01320127600",
+    "latitude": 25.19031431,
+    "longitude": 89.01681011
+  },
+  {
+    "name": "জামালপুর সদর থানা",
+    "division": "জামালপুর",
+    "oc_mobile": "01320105179",
+    "inspector_mobile": "01320105180",
+    "duty_officer_mobile": "01320105184",
+    "latitude": 24.93873163,
+    "longitude": 89.9366355
+  },
+  {
+    "name": "সরিষাবাড়ী থানা",
+    "division": "জামালপুর",
+    "oc_mobile": "01320105205",
+    "inspector_mobile": "01320105206",
+    "duty_officer_mobile": "01320105210",
+    "latitude": 24.77017465,
+    "longitude": 89.84275284
+  },
+  {
+    "name": "ইসলামপুর থানা",
+    "division": "জামালপুর",
+    "oc_mobile": "01320105283",
+    "inspector_mobile": "01320105284",
+    "duty_officer_mobile": "01320105288",
+    "latitude": 25.07869867,
+    "longitude": 89.79479783
+  },
+  {
+    "name": "দেওয়ানগঞ্জ থানা",
+    "division": "জামালপুর",
+    "oc_mobile": "01320105309",
+    "inspector_mobile": "01320105310",
+    "duty_officer_mobile": "01320105314",
+    "latitude": 25.16425604,
+    "longitude": 89.76517927
+  },
+  {
+    "name": "মাদারগঞ্জ থানা",
+    "division": "জামালপুর",
+    "oc_mobile": "01320105257",
+    "inspector_mobile": "01320105258",
+    "duty_officer_mobile": "01320105262",
+    "latitude": 24.91339626,
+    "longitude": 89.7261559
+  },
+  {
+    "name": "মেলান্দহ থানা",
+    "division": "জামালপুর",
+    "oc_mobile": "01320105231",
+    "inspector_mobile": "01320105232",
+    "duty_officer_mobile": "01320105236",
+    "latitude": 24.97993126,
+    "longitude": 89.83032613
+  },
+  {
+    "name": "বকশীগঞ্জ থানা",
+    "division": "জামালপুর",
+    "oc_mobile": "01320105335",
+    "inspector_mobile": "01320105336",
+    "duty_officer_mobile": "01320105340",
+    "latitude": 25.1763187,
+    "longitude": 89.86666238
+  },
+  {
+    "name": "সদর  থানা",
+    "division": "জিএমপি, গাজীপুর",
+    "oc_mobile": "01320070524",
+    "inspector_mobile": "01320070525",
+    "duty_officer_mobile": "01320070532",
+    "latitude": 24.0034989,
+    "longitude": 90.41954211
+  },
+  {
+    "name": "বাসন থানা",
+    "division": "জিএমপি, গাজীপুর",
+    "oc_mobile": "01320070553",
+    "inspector_mobile": "01320070554",
+    "duty_officer_mobile": "01320070561",
+    "latitude": 23.98537499,
+    "longitude": 90.3652273
+  },
+  {
+    "name": "কোনাবাড়ী থানা",
+    "division": "জিএমপি, গাজীপুর",
+    "oc_mobile": "01320070582",
+    "inspector_mobile": "01320070583",
+    "duty_officer_mobile": "01320070590",
+    "latitude": 24.00562462,
+    "longitude": 90.32140049
+  },
+  {
+    "name": "কাশিমপুর থানা",
+    "division": "জিএমপি, গাজীপুর",
+    "oc_mobile": "01320070611",
+    "inspector_mobile": "01320070612",
+    "duty_officer_mobile": "01320070619",
+    "latitude": 23.98256037,
+    "longitude": 90.30220631
+  },
+  {
+    "name": "গাছা থানা",
+    "division": "জিএমপি, গাজীপুর",
+    "oc_mobile": "01320070664",
+    "inspector_mobile": "01320070665",
+    "duty_officer_mobile": "01320070672",
+    "latitude": 23.94886175,
+    "longitude": 90.39064628
+  },
+  {
+    "name": "পূবাইল থানা",
+    "division": "জিএমপি, গাজীপুর",
+    "oc_mobile": "01320070693",
+    "inspector_mobile": "01320070694",
+    "duty_officer_mobile": "01320070701",
+    "latitude": 23.93371286,
+    "longitude": 90.4499068
+  },
+  {
+    "name": "টঙ্গী পূর্ব থানা",
+    "division": "জিএমপি, গাজীপুর",
+    "oc_mobile": "01320070722",
+    "inspector_mobile": "01320070723",
+    "duty_officer_mobile": "01320070730",
+    "latitude": 23.89411609,
+    "longitude": 90.40319795
+  },
+  {
+    "name": "টঙ্গী পশ্চিম থানা",
+    "division": "জিএমপি, গাজীপুর",
+    "oc_mobile": "01320070751",
+    "inspector_mobile": "01320070752",
+    "duty_officer_mobile": "01320070759",
+    "latitude": 23.91719208,
+    "longitude": 90.39004974
+  },
+  {
+    "name": "কাঁঠালিয়া থানা",
+    "division": "ঝালকাঠি",
+    "oc_mobile": "01320154249",
+    "inspector_mobile": "01320154250",
+    "duty_officer_mobile": "01320154254",
+    "latitude": 22.40316603,
+    "longitude": 90.12459497
+  },
+  {
+    "name": "ঝালকাঠি সদর থানা",
+    "division": "ঝালকাঠি",
+    "oc_mobile": "01320154171",
+    "inspector_mobile": "01320154172",
+    "duty_officer_mobile": "01320154176",
+    "latitude": 22.63913268,
+    "longitude": 90.19748144
+  },
+  {
+    "name": "নলছিটি থানা",
+    "division": "ঝালকাঠি",
+    "oc_mobile": "01320154197",
+    "inspector_mobile": "01320154198",
+    "duty_officer_mobile": "01320154202",
+    "latitude": 22.63531074,
+    "longitude": 90.26778782
+  },
+  {
+    "name": "রাজাপুর থানা",
+    "division": "ঝালকাঠি",
+    "oc_mobile": "01320154123",
+    "inspector_mobile": "01320154124",
+    "duty_officer_mobile": "01320154128",
+    "latitude": 22.57066088,
+    "longitude": 90.14204278
+  },
+  {
+    "name": "কালীগঞ্জ থানা",
+    "division": "ঝিনাইদহ",
+    "oc_mobile": "01320144252",
+    "inspector_mobile": "01320144253",
+    "duty_officer_mobile": "01320144257",
+    "latitude": 23.41248216,
+    "longitude": 89.13702101
+  },
+  {
+    "name": "কোটচাঁদপুর থানা",
+    "division": "ঝিনাইদহ",
+    "oc_mobile": "01320144278",
+    "inspector_mobile": "01320144279",
+    "duty_officer_mobile": "01320144283",
+    "latitude": 23.40710258,
+    "longitude": 89.01889415
+  },
+  {
+    "name": "মহেষপুর থানা",
+    "division": "ঝিনাইদহ",
+    "oc_mobile": "01320144304",
+    "inspector_mobile": "01320144305",
+    "duty_officer_mobile": "01320144309",
+    "latitude": 23.35782467,
+    "longitude": 88.91500793
+  },
+  {
+    "name": "শৈলকুপা থানা",
+    "division": "ঝিনাইদহ",
+    "oc_mobile": "01320144200",
+    "inspector_mobile": "01320144201",
+    "duty_officer_mobile": "01320144205",
+    "latitude": 23.68398,
+    "longitude": 89.2487
+  },
+  {
+    "name": "হরিণাকুন্ড থানা",
+    "division": "ঝিনাইদহ",
+    "oc_mobile": "01320144226",
+    "inspector_mobile": "01320144227",
+    "duty_officer_mobile": "01320144231",
+    "latitude": 23.6458721,
+    "longitude": 89.0328283
+  },
+  {
+    "name": "ঝিনাইদহ সদর থানা",
+    "division": "ঝিনাইদহ",
+    "oc_mobile": "01320144174",
+    "inspector_mobile": "01320144175",
+    "duty_officer_mobile": "01320144179",
+    "latitude": 23.54665166,
+    "longitude": 89.17397015
+  },
+  {
+    "name": "কালিহাতি থানা",
+    "division": "টাঙ্গাইল",
+    "oc_mobile": "01320096547",
+    "inspector_mobile": "01320096548",
+    "duty_officer_mobile": "01320096552",
+    "latitude": 24.38479679,
+    "longitude": 89.99052113
+  },
+  {
+    "name": "গোপালপুর থানা",
+    "division": "টাঙ্গাইল",
+    "oc_mobile": "01320096651",
+    "inspector_mobile": "01320096652",
+    "duty_officer_mobile": "01320096656",
+    "latitude": 24.56222459,
+    "longitude": 89.92926475
+  },
+  {
+    "name": "ঘাটাইল থানা",
+    "division": "টাঙ্গাইল",
+    "oc_mobile": "01320096573",
+    "inspector_mobile": "01320096574",
+    "duty_officer_mobile": "01320096578",
+    "latitude": 24.48550938,
+    "longitude": 89.97206567
+  },
+  {
+    "name": "দেলদুয়ার থানা",
+    "division": "টাঙ্গাইল",
+    "oc_mobile": "01320096417",
+    "inspector_mobile": "01320096418",
+    "duty_officer_mobile": "01320096422",
+    "latitude": 24.16383615,
+    "longitude": 89.96707592
+  },
+  {
+    "name": "ধনবাড়ি থানা",
+    "division": "টাঙ্গাইল",
+    "oc_mobile": "01320096625",
+    "inspector_mobile": "01320096626",
+    "duty_officer_mobile": "01320096630",
+    "latitude": 24.669406,
+    "longitude": 89.95734954
+  },
+  {
+    "name": "নাগরপুর থানা",
+    "division": "টাঙ্গাইল",
+    "oc_mobile": "01320096443",
+    "inspector_mobile": "01320096444",
+    "duty_officer_mobile": "01320096448",
+    "latitude": 24.0620567,
+    "longitude": 89.87974449
+  },
+  {
+    "name": "বাসাইল থানা",
+    "division": "টাঙ্গাইল",
+    "oc_mobile": "01320096495",
+    "inspector_mobile": "01320096496",
+    "duty_officer_mobile": "01320096500",
+    "latitude": 24.23013286,
+    "longitude": 90.05296021
+  },
+  {
+    "name": "ভুঞাপুর থানা",
+    "division": "টাঙ্গাইল",
+    "oc_mobile": "01320096677",
+    "inspector_mobile": "01320096678",
+    "duty_officer_mobile": "01320096682",
+    "latitude": 24.46280008,
+    "longitude": 89.87343191
+  },
+  {
+    "name": "মধুপুর থানা",
+    "division": "টাঙ্গাইল",
+    "oc_mobile": "01320096599",
+    "inspector_mobile": "01320096600",
+    "duty_officer_mobile": "01320096604",
+    "latitude": 24.60538294,
+    "longitude": 90.02591887
+  },
+  {
+    "name": "মির্জাপুর থানা",
+    "division": "টাঙ্গাইল",
+    "oc_mobile": "01320096469",
+    "inspector_mobile": "01320096470",
+    "duty_officer_mobile": "01320096474",
+    "latitude": 24.10182975,
+    "longitude": 90.09902144
+  },
+  {
+    "name": "সখিপুর থানা",
+    "division": "টাঙ্গাইল",
+    "oc_mobile": "01320096521",
+    "inspector_mobile": "01320096522",
+    "duty_officer_mobile": "01320096526",
+    "latitude": 23.25550832,
+    "longitude": 90.65574691
+  },
+  {
+    "name": "টাঙ্গাইল সদর থানা",
+    "division": "টাঙ্গাইল",
+    "oc_mobile": "01320096391",
+    "inspector_mobile": "01320096392",
+    "duty_officer_mobile": "01320096396",
+    "latitude": 24.24687704,
+    "longitude": 89.91346826
+  },
+  {
+    "name": "পীরগঞ্জ(ঠাকুরগাঁও) থানা",
+    "division": "ঠাকুরগাঁও",
+    "oc_mobile": "01320137454",
+    "inspector_mobile": "01320137455",
+    "duty_officer_mobile": "01320137459",
+    "latitude": 25.85874567,
+    "longitude": 88.35991494
+  },
+  {
+    "name": "বালিয়াডাঙ্গি থানা",
+    "division": "ঠাকুরগাঁও",
+    "oc_mobile": "01320137402",
+    "inspector_mobile": "01320137403",
+    "duty_officer_mobile": "01320137407",
+    "latitude": 26.09138611,
+    "longitude": 88.27748048
+  },
+  {
+    "name": "রাণীশংকৈল থানা",
+    "division": "ঠাকুরগাঁও",
+    "oc_mobile": "01320137428",
+    "inspector_mobile": "01320137429",
+    "duty_officer_mobile": "01320137433",
+    "latitude": 25.9021181,
+    "longitude": 88.25284253
+  },
+  {
+    "name": "হরিপুর থানা",
+    "division": "ঠাকুরগাঁও",
+    "oc_mobile": "01320137480",
+    "inspector_mobile": "01320137481",
+    "duty_officer_mobile": "01320137485",
+    "latitude": 25.82778566,
+    "longitude": 88.12855071
+  },
+  {
+    "name": "ঠাকুরগাঁও সদর থানা",
+    "division": "ঠাকুরগাঁও",
+    "oc_mobile": "01320137376",
+    "inspector_mobile": "01320137377",
+    "duty_officer_mobile": "01320137381",
+    "latitude": 26.03486772,
+    "longitude": 88.46112131
+  },
+  {
+    "name": "রুহিয়া থানা",
+    "division": "ঠাকুরগাঁও",
+    "oc_mobile": "01320137506",
+    "inspector_mobile": "01320137507",
+    "duty_officer_mobile": "01320137511",
+    "latitude": 26.17381132,
+    "longitude": 88.40185042
+  },
+  {
+    "name": "উত্তরখান থানা",
+    "division": "ডিএমপি, ঢাকা",
+    "oc_mobile": "01320041929",
+    "inspector_mobile": "01320041930",
+    "duty_officer_mobile": "01320041936",
+    "latitude": 24.76438308,
+    "longitude": 90.25708574
+  },
+  {
+    "name": "ক্যান্টনমেন্ট থানা",
+    "division": "ডিএমপি, ঢাকা",
+    "oc_mobile": "01320041556",
+    "inspector_mobile": "01320041557",
+    "duty_officer_mobile": "01320041563",
+    "latitude": 23.82464094,
+    "longitude": 90.40610258
+  },
+  {
+    "name": "খিলক্ষেত থানা",
+    "division": "ডিএমপি, ঢাকা",
+    "oc_mobile": "01320041528",
+    "inspector_mobile": "01320041529",
+    "duty_officer_mobile": "01320041535",
+    "latitude": 23.82816831,
+    "longitude": 90.41985627
+  },
+  {
+    "name": "বাড্ডা থানা",
+    "division": "ডিএমপি, ঢাকা",
+    "oc_mobile": "01320041500",
+    "inspector_mobile": "01320041501",
+    "duty_officer_mobile": "01320041507",
+    "latitude": 23.77160586,
+    "longitude": 90.42777873
+  },
+  {
+    "name": "ভাটারা থানা",
+    "division": "ডিএমপি, ঢাকা",
+    "oc_mobile": "01320041584",
+    "inspector_mobile": "01320041585",
+    "duty_officer_mobile": "01320041591",
+    "latitude": 23.79773052,
+    "longitude": 90.42391626
+  },
+  {
+    "name": "বনানী থানা",
+    "division": "ডিএমপি, ঢাকা",
+    "oc_mobile": "01320041612",
+    "inspector_mobile": "01320041613",
+    "duty_officer_mobile": "01320041619",
+    "latitude": 23.79019069,
+    "longitude": 90.40185794
+  },
+  {
+    "name": "শাহআলী থানা",
+    "division": "ডিএমপি, ঢাকা",
+    "oc_mobile": "01320041150",
+    "inspector_mobile": "01320041151",
+    "duty_officer_mobile": "01320041157",
+    "latitude": 23.80624,
+    "longitude": 90.34952
+  },
+  {
+    "name": "রুপনগর থানা",
+    "division": "ডিএমপি, ঢাকা",
+    "oc_mobile": "01320041234",
+    "inspector_mobile": "01320041235",
+    "duty_officer_mobile": "01320041241",
+    "latitude": 23.81751581,
+    "longitude": 90.36011274
+  },
+  {
+    "name": "ধানমন্ডি থানা",
+    "division": "ডিএমপি, ঢাকা",
+    "oc_mobile": "01320039548",
+    "inspector_mobile": "01320039549",
+    "duty_officer_mobile": "01320039555",
+    "latitude": 23.74345109,
+    "longitude": 90.38151603
+  },
+  {
+    "name": "শাহবাগ থানা",
+    "division": "ডিএমপি, ঢাকা",
+    "oc_mobile": "01320039520",
+    "inspector_mobile": "01320039521",
+    "duty_officer_mobile": "01320039527",
+    "latitude": 23.73731758,
+    "longitude": 90.39616074
+  },
+  {
+    "name": "হাজারীবাগ থানা",
+    "division": "ডিএমপি, ঢাকা",
+    "oc_mobile": "01320039604",
+    "inspector_mobile": "01320039605",
+    "duty_officer_mobile": "01320039611",
+    "latitude": 23.7352957,
+    "longitude": 90.3691635
+  },
+  {
+    "name": "নবাবগঞ্জ থানা",
+    "division": "ঢাকা",
+    "oc_mobile": "01320089507",
+    "inspector_mobile": "01320089508",
+    "duty_officer_mobile": "01320089512",
+    "latitude": 23.66293768,
+    "longitude": 90.16033748
+  },
+  {
+    "name": "ধামরাই থানা",
+    "division": "ঢাকা",
+    "oc_mobile": "01320089429",
+    "inspector_mobile": "01320089430",
+    "duty_officer_mobile": "01320089434",
+    "latitude": 23.91490274,
+    "longitude": 90.21636942
+  },
+  {
+    "name": "আশুলিয়া থানা",
+    "division": "ঢাকা",
+    "oc_mobile": "01320089403",
+    "inspector_mobile": "01320089404",
+    "duty_officer_mobile": "01320089408",
+    "latitude": 23.943131,
+    "longitude": 90.27058088
+  },
+  {
+    "name": "দক্ষিণ কেরানীগঞ্জ থানা",
+    "division": "ঢাকা",
+    "oc_mobile": "01320089481",
+    "inspector_mobile": "01320089482",
+    "duty_officer_mobile": "01320089486",
+    "latitude": 23.68211646,
+    "longitude": 90.41608573
+  },
+  {
+    "name": "কেরাণীগঞ্জ মডেল  থানা",
+    "division": "ঢাকা",
+    "oc_mobile": "01320089455",
+    "inspector_mobile": "01320089456",
+    "duty_officer_mobile": "01320089460",
+    "latitude": 23.7061735,
+    "longitude": 90.39659128
+  },
+  {
+    "name": "দোহার থানা",
+    "division": "ঢাকা",
+    "oc_mobile": "01320089533",
+    "inspector_mobile": "01320089534",
+    "duty_officer_mobile": "01320089538",
+    "latitude": 23.62643623,
+    "longitude": 90.11843604
+  },
+  {
+    "name": "সাভার থানা",
+    "division": "ঢাকা",
+    "oc_mobile": "01320089377",
+    "inspector_mobile": "01320089378",
+    "duty_officer_mobile": "01320089382",
+    "latitude": 23.84016872,
+    "longitude": 90.24749365
+  },
+  {
+    "name": "জামালপুর রেলওয়ে থানা",
+    "division": "ঢাকা রেলওয়ে জেলা",
+    "oc_mobile": "01320178745",
+    "inspector_mobile": "01320178746",
+    "duty_officer_mobile": "01320178750",
+    "latitude": 24.91459658,
+    "longitude": 89.95485027
+  },
+  {
+    "name": "কিশোরগঞ্জ রেলওয়ে থানা",
+    "division": "ঢাকা রেলওয়ে জেলা",
+    "oc_mobile": "01320178693",
+    "inspector_mobile": "01320178694",
+    "duty_officer_mobile": "01320178698",
+    "latitude": 24.426247,
+    "longitude": 90.78846789
+  },
+  {
+    "name": "ভৈরব রেলওয়ে থানা",
+    "division": "ঢাকা রেলওয়ে জেলা",
+    "oc_mobile": "01320178667",
+    "inspector_mobile": "01320178668",
+    "duty_officer_mobile": "01320178672",
+    "latitude": 24.04956129,
+    "longitude": 90.97664151
+  },
+  {
+    "name": "ময়মনসিংহ রেলওয়ে থানা",
+    "division": "ঢাকা রেলওয়ে জেলা",
+    "oc_mobile": "01320178719",
+    "inspector_mobile": "01320178720",
+    "duty_officer_mobile": "01320178724",
+    "latitude": 24.75453795,
+    "longitude": 90.40873155
+  },
+  {
+    "name": "ঢাকা রেলওয়ে থানা",
+    "division": "ঢাকা রেলওয়ে জেলা",
+    "oc_mobile": "01320178641",
+    "inspector_mobile": "01320178642",
+    "duty_officer_mobile": "01320178646",
+    "latitude": 23.7314398,
+    "longitude": 90.4267993
+  },
+  {
+    "name": "কাহারোল থানা",
+    "division": "দিনাজপুর",
+    "oc_mobile": "01320136547",
+    "inspector_mobile": "01320136548",
+    "duty_officer_mobile": "01320136552",
+    "latitude": 25.78794515,
+    "longitude": 88.60221199
+  },
+  {
+    "name": "খানসামা থানা",
+    "division": "দিনাজপুর",
+    "oc_mobile": "01320136573",
+    "inspector_mobile": "01320136574",
+    "duty_officer_mobile": "01320136578",
+    "latitude": 25.9281625,
+    "longitude": 88.7276046
+  },
+  {
+    "name": "ঘোড়াঘাট থানা",
+    "division": "দিনাজপুর",
+    "oc_mobile": "01320136677",
+    "inspector_mobile": "01320136678",
+    "duty_officer_mobile": "01320136682",
+    "latitude": 25.24560252,
+    "longitude": 89.28404867
+  },
+  {
+    "name": "চিরিরবন্দর থানা",
+    "division": "দিনাজপুর",
+    "oc_mobile": "01320136417",
+    "inspector_mobile": "01320136418",
+    "duty_officer_mobile": "01320136422",
+    "latitude": 25.64420548,
+    "longitude": 88.7765881
+  },
+  {
+    "name": "দিনাজপুর সদর থানা",
+    "division": "দিনাজপুর",
+    "oc_mobile": "01320136391",
+    "inspector_mobile": "01320136392",
+    "duty_officer_mobile": "01320136396",
+    "latitude": 25.63616746,
+    "longitude": 88.63859749
+  },
+  {
+    "name": "নবাবগঞ্জ থানা",
+    "division": "দিনাজপুর",
+    "oc_mobile": "01320136651",
+    "inspector_mobile": "01320136652",
+    "duty_officer_mobile": "01320136656",
+    "latitude": 25.42021376,
+    "longitude": 89.07852162
+  },
+  {
+    "name": "পার্বতীপুর থানা",
+    "division": "দিনাজপুর",
+    "oc_mobile": "01320136469",
+    "inspector_mobile": "01320136470",
+    "duty_officer_mobile": "01320136474",
+    "latitude": 25.6642709,
+    "longitude": 88.9063373
+  },
+  {
+    "name": "ফুলবাড়ী থানা",
+    "division": "দিনাজপুর",
+    "oc_mobile": "01320136599",
+    "inspector_mobile": "01320136600",
+    "duty_officer_mobile": "01320136604",
+    "latitude": 25.48997269,
+    "longitude": 88.97806515
+  },
+  {
+    "name": "বিরল থানা",
+    "division": "দিনাজপুর",
+    "oc_mobile": "01320136443",
+    "inspector_mobile": "01320136444",
+    "duty_officer_mobile": "01320136448",
+    "latitude": 25.63283554,
+    "longitude": 88.54916631
+  },
+  {
+    "name": "বিরামপুর থানা",
+    "division": "দিনাজপুর",
+    "oc_mobile": "01320136625",
+    "inspector_mobile": "01320136626",
+    "duty_officer_mobile": "01320136630",
+    "latitude": 25.38627242,
+    "longitude": 88.99419316
+  },
+  {
+    "name": "বীরগঞ্জ থানা",
+    "division": "দিনাজপুর",
+    "oc_mobile": "01320136495",
+    "inspector_mobile": "01320136496",
+    "duty_officer_mobile": "01320136500",
+    "latitude": 25.86056754,
+    "longitude": 88.65627696
+  },
+  {
+    "name": "বোচাগঞ্জ থানা",
+    "division": "দিনাজপুর",
+    "oc_mobile": "01320136521",
+    "inspector_mobile": "01320136522",
+    "duty_officer_mobile": "01320136526",
+    "latitude": 25.8038258,
+    "longitude": 88.4607614
+  },
+  {
+    "name": "হাকিমপুর থানা",
+    "division": "দিনাজপুর",
+    "oc_mobile": "01320136703",
+    "inspector_mobile": "01320136704",
+    "duty_officer_mobile": "01320136708",
+    "latitude": 25.28510098,
+    "longitude": 89.01706688
+  },
+  {
+    "name": "পত্মীতলা থানা",
+    "division": "নওগাঁ",
+    "oc_mobile": "01320123746",
+    "inspector_mobile": "01320123747",
+    "duty_officer_mobile": "01320123752",
+    "latitude": 25.04865993,
+    "longitude": 88.75029112
+  },
+  {
+    "name": "বদলগাছী থানা",
+    "division": "নওগাঁ",
+    "oc_mobile": "01320123694",
+    "inspector_mobile": "01320123695",
+    "duty_officer_mobile": "01320123699",
+    "latitude": 24.96671589,
+    "longitude": 88.90542392
+  },
+  {
+    "name": "আত্রাই থানা",
+    "division": "নওগাঁ",
+    "oc_mobile": "01320123642",
+    "inspector_mobile": "01320123643",
+    "duty_officer_mobile": "01320123647",
+    "latitude": 24.61137526,
+    "longitude": 88.97730935
+  },
+  {
+    "name": "ধামুইরহাট থানা",
+    "division": "নওগাঁ",
+    "oc_mobile": "01320123668",
+    "inspector_mobile": "01320123669",
+    "duty_officer_mobile": "01320123673",
+    "latitude": 25.15002766,
+    "longitude": 88.85371235
+  },
+  {
+    "name": "নিয়ামতপুর থানা",
+    "division": "নওগাঁ",
+    "oc_mobile": "01320123772",
+    "inspector_mobile": "01320123773",
+    "duty_officer_mobile": "01320123777",
+    "latitude": 24.83174566,
+    "longitude": 88.5725408
+  },
+  {
+    "name": "পোরশা থানা",
+    "division": "নওগাঁ",
+    "oc_mobile": "01320123850",
+    "inspector_mobile": "01320123851",
+    "duty_officer_mobile": "01320123855",
+    "latitude": 25.02569216,
+    "longitude": 88.45685832
+  },
+  {
+    "name": "মহাদেবপুর থানা",
+    "division": "নওগাঁ",
+    "oc_mobile": "01320123720",
+    "inspector_mobile": "01320123721",
+    "duty_officer_mobile": "01320123725",
+    "latitude": 24.92017237,
+    "longitude": 88.74714818
+  },
+  {
+    "name": "মান্দা থানা",
+    "division": "নওগাঁ",
+    "oc_mobile": "01320123798",
+    "inspector_mobile": "01320123799",
+    "duty_officer_mobile": "01320123803",
+    "latitude": 24.77627497,
+    "longitude": 88.70248404
+  },
+  {
+    "name": "রাণীনগর থানা",
+    "division": "নওগাঁ",
+    "oc_mobile": "01320123616",
+    "inspector_mobile": "01320123617",
+    "duty_officer_mobile": "01320123621",
+    "latitude": 24.74164558,
+    "longitude": 88.96858612
+  },
+  {
+    "name": "সাপাহার থানা",
+    "division": "নওগাঁ",
+    "oc_mobile": "01320123824",
+    "inspector_mobile": "01320123825",
+    "duty_officer_mobile": "01320123829",
+    "latitude": 25.12835961,
+    "longitude": 88.58806325
+  },
+  {
+    "name": "নওগাঁ সদর থানা",
+    "division": "নওগাঁ",
+    "oc_mobile": "01320123590",
+    "inspector_mobile": "01320123591",
+    "duty_officer_mobile": "01320123595",
+    "latitude": 24.82493718,
+    "longitude": 88.92985303
+  },
+  {
+    "name": "কালিয়া থানা",
+    "division": "নড়াইল",
+    "oc_mobile": "01320146195",
+    "inspector_mobile": "01320146196",
+    "duty_officer_mobile": "01320146200",
+    "latitude": 23.04061084,
+    "longitude": 89.62825087
+  },
+  {
+    "name": "লোহাগড়া থানা",
+    "division": "নড়াইল",
+    "oc_mobile": "01320146221",
+    "inspector_mobile": "01320146222",
+    "duty_officer_mobile": "01320146226",
+    "latitude": 23.18262194,
+    "longitude": 89.64857685
+  },
+  {
+    "name": "নড়াগাতী থানা",
+    "division": "নড়াইল",
+    "oc_mobile": "01320146247",
+    "inspector_mobile": "01320146248",
+    "duty_officer_mobile": "01320146252",
+    "latitude": 23.03109793,
+    "longitude": 89.72773965
+  },
+  {
+    "name": "নড়াইল সদর থানা",
+    "division": "নড়াইল",
+    "oc_mobile": "01320146169",
+    "inspector_mobile": "01320146170",
+    "duty_officer_mobile": "01320146174",
+    "latitude": 23.17092833,
+    "longitude": 89.50790701
+  },
+  {
+    "name": "পলাশ থানা",
+    "division": "নরসিংদী",
+    "oc_mobile": "01320091401",
+    "inspector_mobile": "01320091402",
+    "duty_officer_mobile": "01320091406",
+    "latitude": 23.9777323,
+    "longitude": 90.65461872
+  },
+  {
+    "name": "বেলাবো থানা",
+    "division": "নরসিংদী",
+    "oc_mobile": "01320091517",
+    "inspector_mobile": "01320091518",
+    "duty_officer_mobile": "01320091522",
+    "latitude": 24.10932065,
+    "longitude": 90.84981235
+  },
+  {
+    "name": "মনোহরদী থানা",
+    "division": "নরসিংদী",
+    "oc_mobile": "01320091453",
+    "inspector_mobile": "01320091454",
+    "duty_officer_mobile": "01320091458",
+    "latitude": 24.14937955,
+    "longitude": 90.69622932
+  },
+  {
+    "name": "রায়পুরা থানা",
+    "division": "নরসিংদী",
+    "oc_mobile": "01320091479",
+    "inspector_mobile": "01320091480",
+    "duty_officer_mobile": "01320091484",
+    "latitude": 23.9827747,
+    "longitude": 90.88009146
+  },
+  {
+    "name": "শিবপুর থানা",
+    "division": "নরসিংদী",
+    "oc_mobile": "01320091427",
+    "inspector_mobile": "01320091428",
+    "duty_officer_mobile": "01320091432",
+    "latitude": 24.03937852,
+    "longitude": 90.73904204
+  },
+  {
+    "name": "নরসিংদী সদর থানা",
+    "division": "নরসিংদী",
+    "oc_mobile": "01320091375",
+    "inspector_mobile": "01320091376",
+    "duty_officer_mobile": "01320091380",
+    "latitude": 23.92350565,
+    "longitude": 90.71003079
+  },
+  {
+    "name": "মাধবদী থানা",
+    "division": "নরসিংদী",
+    "oc_mobile": "01320091536",
+    "inspector_mobile": "01320091537",
+    "duty_officer_mobile": "01320091541",
+    "latitude": 23.85410496,
+    "longitude": 90.66721907
+  },
+  {
+    "name": "সিংড়া থানা",
+    "division": "নাটোর",
+    "oc_mobile": "01320124600\t",
+    "inspector_mobile": "01320124601",
+    "duty_officer_mobile": "01320124605",
+    "latitude": 24.50669612,
+    "longitude": 89.14240618
+  },
+  {
+    "name": "গুরুদাসপুর থানা",
+    "division": "নাটোর",
+    "oc_mobile": "01320124652",
+    "inspector_mobile": "01320124653",
+    "duty_officer_mobile": "01320124657",
+    "latitude": 24.36983319,
+    "longitude": 89.23323057
+  },
+  {
+    "name": "বাগাতিপাড়া থানা",
+    "division": "নাটোর",
+    "oc_mobile": "01320124626",
+    "inspector_mobile": "01320124627",
+    "duty_officer_mobile": "01320124631",
+    "latitude": 24.31322775,
+    "longitude": 88.95029064
+  },
+  {
+    "name": "লালপুর থানা",
+    "division": "নাটোর",
+    "oc_mobile": "01320124678",
+    "inspector_mobile": "01320124679",
+    "duty_officer_mobile": "01320124683",
+    "latitude": 24.17788219,
+    "longitude": 88.96114826
+  },
+  {
+    "name": "বড়াইগ্রাম থানা",
+    "division": "নাটোর",
+    "oc_mobile": "01320124704",
+    "inspector_mobile": "01320124705",
+    "duty_officer_mobile": "01320124709",
+    "latitude": 24.31053566,
+    "longitude": 89.16145156
+  },
+  {
+    "name": "নলডাঙ্গা থানা",
+    "division": "নাটোর",
+    "oc_mobile": "01320124730",
+    "inspector_mobile": "01320124731",
+    "duty_officer_mobile": "01320124735",
+    "latitude": 24.50219991,
+    "longitude": 88.95715451
+  },
+  {
+    "name": "নাটোর সদর থানা",
+    "division": "নাটোর",
+    "oc_mobile": "01320124574",
+    "inspector_mobile": "01320124575",
+    "duty_officer_mobile": "01320124579",
+    "latitude": 24.41162841,
+    "longitude": 88.99343805
+  },
+  {
+    "name": "আড়াইহাজার থানা",
+    "division": "নারায়ণগঞ্জ",
+    "oc_mobile": "01320090507",
+    "inspector_mobile": "01320090508",
+    "duty_officer_mobile": "01320090512",
+    "latitude": 23.78731478,
+    "longitude": 90.65777714
+  },
+  {
+    "name": "রূপগঞ্জ থানা",
+    "division": "নারায়ণগঞ্জ",
+    "oc_mobile": "01320090481",
+    "inspector_mobile": "01320090482",
+    "duty_officer_mobile": "01320090498",
+    "latitude": 23.79261597,
+    "longitude": 90.52083842
+  },
+  {
+    "name": "সিদ্ধিরগঞ্জ থানা",
+    "division": "নারায়ণগঞ্জ",
+    "oc_mobile": "01320090429",
+    "inspector_mobile": "01320090430",
+    "duty_officer_mobile": "01320090434",
+    "latitude": 23.67624777,
+    "longitude": 90.51829335
+  },
+  {
+    "name": "ফতুল্লা থানা",
+    "division": "নারায়ণগঞ্জ",
+    "oc_mobile": "01320090403",
+    "inspector_mobile": "01320090404",
+    "duty_officer_mobile": "01320090408",
+    "latitude": 23.63863007,
+    "longitude": 90.47350946
+  },
+  {
+    "name": "নারায়নগঞ্জ সদর থানা",
+    "division": "নারায়ণগঞ্জ",
+    "oc_mobile": "01320090377",
+    "inspector_mobile": "01320090378",
+    "duty_officer_mobile": "01320090382",
+    "latitude": 23.61530285,
+    "longitude": 90.50391631
+  },
+  {
+    "name": "কিশোরগঞ্জ থানা",
+    "division": "নীলফামারী",
+    "oc_mobile": "01320135454",
+    "inspector_mobile": "01320135455",
+    "duty_officer_mobile": "01320135459",
+    "latitude": 25.90735624,
+    "longitude": 89.04224067
+  },
+  {
+    "name": "জলঢাকা থানা",
+    "division": "নীলফামারী",
+    "oc_mobile": "01320135428",
+    "inspector_mobile": "01320135429",
+    "duty_officer_mobile": "01320135433",
+    "latitude": 26.02236644,
+    "longitude": 89.01654925
+  },
+  {
+    "name": "ডিমলা থানা",
+    "division": "নীলফামারী",
+    "oc_mobile": "01320135506",
+    "inspector_mobile": "01320135507",
+    "duty_officer_mobile": "01320135511",
+    "latitude": 26.15409038,
+    "longitude": 88.92148982
+  },
+  {
+    "name": "ডোমার থানা",
+    "division": "নীলফামারী",
+    "oc_mobile": "01320135480",
+    "inspector_mobile": "01320135481",
+    "duty_officer_mobile": "01320135485",
+    "latitude": 26.10794503,
+    "longitude": 88.81782116
+  },
+  {
+    "name": "সৈয়দপুর থানা",
+    "division": "নীলফামারী",
+    "oc_mobile": "01320135402",
+    "inspector_mobile": "01320135403",
+    "duty_officer_mobile": "01320135407",
+    "latitude": 25.78490848,
+    "longitude": 88.89570231
+  },
+  {
+    "name": "নীলফামারী সদর থানা",
+    "division": "নীলফামারী",
+    "oc_mobile": "01320135376",
+    "inspector_mobile": "01320135377",
+    "duty_officer_mobile": "01320135381",
+    "latitude": 25.93127097,
+    "longitude": 88.85714945
+  },
+  {
+    "name": "আটপাড়া থানা",
+    "division": "নেত্রকোণা",
+    "oc_mobile": "01320104263",
+    "inspector_mobile": "01320104264",
+    "duty_officer_mobile": "01320104268",
+    "latitude": 24.83966579,
+    "longitude": 90.8567988
+  },
+  {
+    "name": "কলমাকান্দা থানা",
+    "division": "নেত্রকোণা",
+    "oc_mobile": "01320104237",
+    "inspector_mobile": "01320104238",
+    "duty_officer_mobile": "01320104242",
+    "latitude": 25.07675667,
+    "longitude": 90.88710052
+  },
+  {
+    "name": "খালিয়াজুরি থানা",
+    "division": "নেত্রকোণা",
+    "oc_mobile": "01320104419",
+    "inspector_mobile": "01320104420",
+    "duty_officer_mobile": "01320104424",
+    "latitude": 24.68903043,
+    "longitude": 91.13891938
+  },
+  {
+    "name": "কেন্দুয়া থানা",
+    "division": "নেত্রকোণা",
+    "oc_mobile": "01320104341",
+    "inspector_mobile": "01320104342",
+    "duty_officer_mobile": "01320104346",
+    "latitude": 24.66320203,
+    "longitude": 90.84256845
+  },
+  {
+    "name": "দূর্গাপুর থানা",
+    "division": "নেত্রকোণা",
+    "oc_mobile": "01320104289",
+    "inspector_mobile": "01320104290",
+    "duty_officer_mobile": "01320104294",
+    "latitude": 25.11447155,
+    "longitude": 90.67698921
+  },
+  {
+    "name": "পূর্বধলা থানা",
+    "division": "নেত্রকোণা",
+    "oc_mobile": "01320104315",
+    "inspector_mobile": "01320104316",
+    "duty_officer_mobile": "01320104320",
+    "latitude": 24.93806564,
+    "longitude": 90.60513217
+  },
+  {
+    "name": "বারহাট্টা থানা",
+    "division": "নেত্রকোণা",
+    "oc_mobile": "01320104211",
+    "inspector_mobile": "01320104212",
+    "duty_officer_mobile": "01320104216",
+    "latitude": 24.89843354,
+    "longitude": 90.88850528
+  },
+  {
+    "name": "মদন থানা",
+    "division": "নেত্রকোণা",
+    "oc_mobile": "01320104367",
+    "inspector_mobile": "01320104368",
+    "duty_officer_mobile": "01320104372",
+    "latitude": 24.71826053,
+    "longitude": 90.96069766
+  },
+  {
+    "name": "মোহনগঞ্জ থানা",
+    "division": "নেত্রকোণা",
+    "oc_mobile": "01320104393",
+    "inspector_mobile": "01320104394",
+    "duty_officer_mobile": "01320104398",
+    "latitude": 24.87482,
+    "longitude": 90.98139
+  },
+  {
+    "name": "নেত্রকোনা থানা",
+    "division": "নেত্রকোণা",
+    "oc_mobile": "01320104185",
+    "inspector_mobile": "01320104186",
+    "duty_officer_mobile": "01320104190",
+    "latitude": 24.88602104,
+    "longitude": 90.73023881
+  },
+  {
+    "name": "কবিরহাট থানা",
+    "division": "নোয়াখালী",
+    "oc_mobile": "01320111189",
+    "inspector_mobile": "01320111190",
+    "duty_officer_mobile": "01320111194",
+    "latitude": 22.83641598,
+    "longitude": 91.19116801
+  },
+  {
+    "name": "চরজব্বর থানা",
+    "division": "নোয়াখালী",
+    "oc_mobile": "01320111163",
+    "inspector_mobile": "01320111164",
+    "duty_officer_mobile": "01320-111168",
+    "latitude": 22.65875949,
+    "longitude": 91.11594807
+  },
+  {
+    "name": "সেনবাগ থানা",
+    "division": "নোয়াখালী",
+    "oc_mobile": "01320111033",
+    "inspector_mobile": "01320111034",
+    "duty_officer_mobile": "01320-111038",
+    "latitude": 22.99090447,
+    "longitude": 91.23436262
+  },
+  {
+    "name": "চাটখিল থানা",
+    "division": "নোয়াখালী",
+    "oc_mobile": "01320111111",
+    "inspector_mobile": "01320111112",
+    "duty_officer_mobile": "01320-111113",
+    "latitude": 23.06319832,
+    "longitude": 90.96687196
+  },
+  {
+    "name": "কোম্পানীগঞ্জ থানা",
+    "division": "নোয়াখালী",
+    "oc_mobile": "01320111085",
+    "inspector_mobile": "01320111086",
+    "duty_officer_mobile": "01320-111090",
+    "latitude": 22.87195498,
+    "longitude": 91.27733545
+  },
+  {
+    "name": "বোদা থানা",
+    "division": "পঞ্চগড়",
+    "oc_mobile": "01320138397",
+    "inspector_mobile": "01320138398",
+    "duty_officer_mobile": "01320-138402",
+    "latitude": 26.19489538,
+    "longitude": 88.55686293
+  },
+  {
+    "name": "আটয়ারী থানা",
+    "division": "পঞ্চগড়",
+    "oc_mobile": "01320138423",
+    "inspector_mobile": "01320138424",
+    "duty_officer_mobile": "01320-138428",
+    "latitude": 26.23969214,
+    "longitude": 88.4108192
+  },
+  {
+    "name": "তেঁতুলিয়া থানা",
+    "division": "পঞ্চগড়",
+    "oc_mobile": "01320138449",
+    "inspector_mobile": "01320138450",
+    "duty_officer_mobile": "01320-138454",
+    "latitude": 26.49838806,
+    "longitude": 88.33826767
+  },
+  {
+    "name": "দ্বেবীগঞ্জ থানা",
+    "division": "পঞ্চগড়",
+    "oc_mobile": "01320138475",
+    "inspector_mobile": "01320138476",
+    "duty_officer_mobile": "01320-138480",
+    "latitude": 26.11874706,
+    "longitude": 88.75606321
+  },
+  {
+    "name": "পঞ্চগড় সদর থানা",
+    "division": "পঞ্চগড়",
+    "oc_mobile": "01320138371",
+    "inspector_mobile": "01320138372",
+    "duty_officer_mobile": "01320-138376",
+    "latitude": 26.33259685,
+    "longitude": 88.55428082
+  },
+  {
+    "name": "কলাপাড়া থানা",
+    "division": "পটুয়াখালী",
+    "oc_mobile": "01320155311",
+    "inspector_mobile": "01320155312",
+    "duty_officer_mobile": "01320-155316",
+    "latitude": 21.98414692,
+    "longitude": 90.22346879
+  },
+  {
+    "name": "গলাচিপা থানা",
+    "division": "পটুয়াখালী",
+    "oc_mobile": "01320155233",
+    "inspector_mobile": "01320155234",
+    "duty_officer_mobile": "01320-155238",
+    "latitude": 22.17092536,
+    "longitude": 90.40874455
+  },
+  {
+    "name": "দশমিনা থানা",
+    "division": "পটুয়াখালী",
+    "oc_mobile": "01320155259",
+    "inspector_mobile": "01320155260",
+    "duty_officer_mobile": "01320-155264",
+    "latitude": 22.28438342,
+    "longitude": 90.56407658
+  },
+  {
+    "name": "দুমকি থানা",
+    "division": "পটুয়াখালী",
+    "oc_mobile": "01320155285",
+    "inspector_mobile": "01320155286",
+    "duty_officer_mobile": "01320-155290",
+    "latitude": 22.46302759,
+    "longitude": 90.38650535
+  },
+  {
+    "name": "বাউফল থানা",
+    "division": "পটুয়াখালী",
+    "oc_mobile": "01320155207",
+    "inspector_mobile": "01320155208",
+    "duty_officer_mobile": "01320-155212",
+    "latitude": 22.41452139,
+    "longitude": 90.55827322
+  },
+  {
+    "name": "মির্জাগঞ্জ থানা",
+    "division": "পটুয়াখালী",
+    "oc_mobile": "01320155337",
+    "inspector_mobile": "01320155338",
+    "duty_officer_mobile": "01320-155342",
+    "latitude": 22.36027644,
+    "longitude": 90.39333539
+  },
+  {
+    "name": "রাঙ্গাবালী থানা",
+    "division": "পটুয়াখালী",
+    "oc_mobile": "01320155363",
+    "inspector_mobile": "01320155364",
+    "duty_officer_mobile": "01320-155368",
+    "latitude": 21.9745735,
+    "longitude": 90.4374303
+  },
+  {
+    "name": "পটুয়াখালী সদর থানা",
+    "division": "পটুয়াখালী",
+    "oc_mobile": "01320155181",
+    "inspector_mobile": "01320155182",
+    "duty_officer_mobile": "01320-155186",
+    "latitude": 22.3637524,
+    "longitude": 90.34035249
+  },
+  {
+    "name": "মহিপুর থানা",
+    "division": "পটুয়াখালী",
+    "oc_mobile": "01320155389",
+    "inspector_mobile": "01320155390",
+    "duty_officer_mobile": "01320-155394",
+    "latitude": 21.857381,
+    "longitude": 90.123628
+  },
+  {
+    "name": "শান্তাহার রেলওয়ে থানা",
+    "division": "পাকশী রেলওয়ে জেলা",
+    "oc_mobile": "01320178219",
+    "inspector_mobile": "01320178220",
+    "duty_officer_mobile": "01320-178224",
+    "latitude": 24.80813729,
+    "longitude": 88.98622685
+  },
+  {
+    "name": "ঈশ্বরদী রেলওয়ে থানা",
+    "division": "পাকশী রেলওয়ে জেলা",
+    "oc_mobile": "01320179167",
+    "inspector_mobile": "01320179168",
+    "duty_officer_mobile": "01320-179172",
+    "latitude": 24.13055521,
+    "longitude": 89.06281478
+  },
+  {
+    "name": "রাজশাহী রেলওয়ে থানা",
+    "division": "পাকশী রেলওয়ে জেলা",
+    "oc_mobile": "01320179141",
+    "inspector_mobile": "01320179142",
+    "duty_officer_mobile": "01320-179146",
+    "latitude": 24.37497105,
+    "longitude": 88.61064102
+  },
+  {
+    "name": "সিরাজগঞ্জ বাজার থানা",
+    "division": "পাকশী রেলওয়ে জেলা",
+    "oc_mobile": "01320179193",
+    "inspector_mobile": "01320179194",
+    "duty_officer_mobile": "01320-179198",
+    "latitude": 24.4513893,
+    "longitude": 89.7033983
+  },
+  {
+    "name": "আটঘরিয়া থানা",
+    "division": "পাবনা",
+    "oc_mobile": "01320128638",
+    "inspector_mobile": "01320128639",
+    "duty_officer_mobile": "01320128643",
+    "latitude": 24.11207304,
+    "longitude": 89.24157658
+  },
+  {
+    "name": "ঈশ্বরদী থানা",
+    "division": "পাবনা",
+    "oc_mobile": "01320128612",
+    "inspector_mobile": "01320128613",
+    "duty_officer_mobile": "01320128617",
+    "latitude": 24.12342897,
+    "longitude": 89.06521268
+  },
+  {
+    "name": "চাটমোহর থানা",
+    "division": "পাবনা",
+    "oc_mobile": "01320128664",
+    "inspector_mobile": "01320128665",
+    "duty_officer_mobile": "01320128669",
+    "latitude": 24.23166506,
+    "longitude": 89.28715171
+  },
+  {
+    "name": "ফরিদপুর থানা",
+    "division": "পাবনা",
+    "oc_mobile": "01320128716",
+    "inspector_mobile": "01320128717",
+    "duty_officer_mobile": "01320128721",
+    "latitude": 24.1631215,
+    "longitude": 89.44290476
+  },
+  {
+    "name": "বেড়া থানা",
+    "division": "পাবনা",
+    "oc_mobile": "01320128768",
+    "inspector_mobile": "01320128769",
+    "duty_officer_mobile": "01320128773",
+    "latitude": 24.08139507,
+    "longitude": 89.63136807
+  },
+  {
+    "name": "ভাঙ্গুরা থানা",
+    "division": "পাবনা",
+    "oc_mobile": "01320128690",
+    "inspector_mobile": "01320128691",
+    "duty_officer_mobile": "01320128695",
+    "latitude": 24.21605462,
+    "longitude": 89.37691728
+  },
+  {
+    "name": "সাঁথিয়া থানা",
+    "division": "পাবনা",
+    "oc_mobile": "01320128994",
+    "inspector_mobile": "01320128995",
+    "duty_officer_mobile": "01320128999",
+    "latitude": 24.05540089,
+    "longitude": 89.54732425
+  },
+  {
+    "name": "সুজানগর থানা",
+    "division": "পাবনা",
+    "oc_mobile": "01320128742",
+    "inspector_mobile": "01320128743",
+    "duty_officer_mobile": "01320128747",
+    "latitude": 23.96978522,
+    "longitude": 89.40593217
+  },
+  {
+    "name": "আতাইকুলা থানা",
+    "division": "পাবনা",
+    "oc_mobile": "01320128820",
+    "inspector_mobile": "01320128821",
+    "duty_officer_mobile": "01320128825",
+    "latitude": 24.03205776,
+    "longitude": 89.41282684
+  },
+  {
+    "name": "আমিনপুর থানা",
+    "division": "পাবনা",
+    "oc_mobile": "01320128846",
+    "inspector_mobile": "01320128847",
+    "duty_officer_mobile": "01320128851",
+    "latitude": 23.91416577,
+    "longitude": 89.62988604
+  },
+  {
+    "name": "পাবনা সদর থানা",
+    "division": "পাবনা",
+    "oc_mobile": "01320128586",
+    "inspector_mobile": "01320128587",
+    "duty_officer_mobile": "01320128591",
+    "latitude": 24.0152575,
+    "longitude": 89.2434325
+  },
+  {
+    "name": "কাউখালী থানা",
+    "division": "পিরোজপুর",
+    "oc_mobile": "01320153332",
+    "inspector_mobile": "01320-153333",
+    "duty_officer_mobile": "01320-153337",
+    "latitude": 22.63484333,
+    "longitude": 90.05377863
+  },
+  {
+    "name": "ইন্দুরকানী থানা",
+    "division": "পিরোজপুর",
+    "oc_mobile": "01320153228",
+    "inspector_mobile": "01320-153229",
+    "duty_officer_mobile": "01320-153233",
+    "latitude": 22.48686051,
+    "longitude": 89.9659029
+  },
+  {
+    "name": "নাজিরপুর থানা",
+    "division": "পিরোজপুর",
+    "oc_mobile": "01320153202",
+    "inspector_mobile": "01320-153203",
+    "duty_officer_mobile": "01320-153207",
+    "latitude": 22.70889701,
+    "longitude": 89.97268702
+  },
+  {
+    "name": "নেছারাবাদ (স্বরূপকাঠি) থানা",
+    "division": "পিরোজপুর",
+    "oc_mobile": "01320153306",
+    "inspector_mobile": "01320-153307",
+    "duty_officer_mobile": "01320-153311",
+    "latitude": 22.74020246,
+    "longitude": 90.1305689
+  },
+  {
+    "name": "ভান্ডারীয়া থানা",
+    "division": "পিরোজপুর",
+    "oc_mobile": "01320153280",
+    "inspector_mobile": "01320-153281",
+    "duty_officer_mobile": "01320-153285",
+    "latitude": 22.48385513,
+    "longitude": 90.05888455
+  },
+  {
+    "name": "মঠবাড়িয়া থানা",
+    "division": "পিরোজপুর",
+    "oc_mobile": "01320153254",
+    "inspector_mobile": "01320-153255",
+    "duty_officer_mobile": "01320-153259",
+    "latitude": 22.28431052,
+    "longitude": 89.9592261
+  },
+  {
+    "name": "পিরোজপুর থানা",
+    "division": "পিরোজপুর",
+    "oc_mobile": "01320153176",
+    "inspector_mobile": "01320-153177",
+    "duty_officer_mobile": "01320-153181",
+    "latitude": 22.57946611,
+    "longitude": 89.97211825
+  },
+  {
+    "name": "নগরকান্দা থানা",
+    "division": "ফরিদপুর",
+    "oc_mobile": "01320097510",
+    "inspector_mobile": "01320-097511",
+    "duty_officer_mobile": "01320-097515",
+    "latitude": 23.41855486,
+    "longitude": 89.8905981
+  },
+  {
+    "name": "আলফাডাঙ্গা থানা",
+    "division": "ফরিদপুর",
+    "oc_mobile": "01320097458",
+    "inspector_mobile": "01320-097459",
+    "duty_officer_mobile": "01320-097463",
+    "latitude": 23.29381642,
+    "longitude": 89.70088516
+  },
+  {
+    "name": "চরভদ্রাশন থানা",
+    "division": "ফরিদপুর",
+    "oc_mobile": "01320-097484",
+    "inspector_mobile": "01320-097485",
+    "duty_officer_mobile": "01320-097489",
+    "latitude": 23.56022789,
+    "longitude": 90.00744576
+  },
+  {
+    "name": "কোতয়ালী (ফরিদপুর) থানা",
+    "division": "ফরিদপুর",
+    "oc_mobile": "01320-097380",
+    "inspector_mobile": "01320-097381",
+    "duty_officer_mobile": "01320-097385",
+    "latitude": 23.60035388,
+    "longitude": 89.83456677
+  },
+  {
+    "name": "বোয়ালমারী থানা",
+    "division": "ফরিদপুর",
+    "oc_mobile": "01320-097432",
+    "inspector_mobile": "01320-097459",
+    "duty_officer_mobile": "01320-097437",
+    "latitude": 23.3861672,
+    "longitude": 89.68147529
+  },
+  {
+    "name": "ভাংগা থানা",
+    "division": "ফরিদপুর",
+    "oc_mobile": "01320-097588",
+    "inspector_mobile": "01320-097589",
+    "duty_officer_mobile": "01320-097593",
+    "latitude": 23.3849635,
+    "longitude": 89.97815848
+  },
+  {
+    "name": "মধুখালী থানা",
+    "division": "ফরিদপুর",
+    "oc_mobile": "01320-097406",
+    "inspector_mobile": "01320-097407",
+    "duty_officer_mobile": "01320-097411",
+    "latitude": 23.55114081,
+    "longitude": 89.62671918
+  },
+  {
+    "name": "সদরপুর থানা",
+    "division": "ফরিদপুর",
+    "oc_mobile": "01320-097536",
+    "inspector_mobile": "01320-097537",
+    "duty_officer_mobile": "01320-097541",
+    "latitude": 23.47680674,
+    "longitude": 90.02495516
+  },
+  {
+    "name": "সালথা থানা",
+    "division": "ফরিদপুর",
+    "oc_mobile": "01320-097562",
+    "inspector_mobile": "01320-097563",
+    "duty_officer_mobile": "01320-097567",
+    "latitude": 23.43411878,
+    "longitude": 89.78795119
+  },
+  {
+    "name": "ছাগলনাইয়া থানা",
+    "division": "ফেনী",
+    "oc_mobile": "01320-113054",
+    "inspector_mobile": "01320-113055",
+    "duty_officer_mobile": "01320-113059",
+    "latitude": 23.03769,
+    "longitude": 91.51802
+  },
+  {
+    "name": "দাগনভূঁইঞা থানা",
+    "division": "ফেনী",
+    "oc_mobile": "01320-113002",
+    "inspector_mobile": "01320-113003",
+    "duty_officer_mobile": "01320-113007",
+    "latitude": 22.94482,
+    "longitude": 91.314
+  },
+  {
+    "name": "পরশুরাম থানা",
+    "division": "ফেনী",
+    "oc_mobile": "01320-113106",
+    "inspector_mobile": "01320-113107",
+    "duty_officer_mobile": "01320-113111",
+    "latitude": 23.21757,
+    "longitude": 91.44619
+  },
+  {
+    "name": "ফুলগাজী থানা",
+    "division": "ফেনী",
+    "oc_mobile": "01320-113080",
+    "inspector_mobile": "01320-113081",
+    "duty_officer_mobile": "01320-113085",
+    "latitude": 23.15039,
+    "longitude": 91.43149
+  },
+  {
+    "name": "ফেনী সদর থানা",
+    "division": "ফেনী",
+    "oc_mobile": "01320-112976",
+    "inspector_mobile": "01320-112977",
+    "duty_officer_mobile": "01320-112981",
+    "latitude": 23.01208258,
+    "longitude": 91.39838493
+  },
+  {
+    "name": "সোনাগাজী থানা",
+    "division": "ফেনী",
+    "oc_mobile": "01320-113028",
+    "inspector_mobile": "01320-113029",
+    "duty_officer_mobile": "01320-113033",
+    "latitude": 22.84988656,
+    "longitude": 91.39215279
+  },
+  {
+    "name": "আদমদীঘি থানা",
+    "division": "বগুড়া",
+    "oc_mobile": "01320-126721",
+    "inspector_mobile": "01320-126722",
+    "duty_officer_mobile": "01320-126726",
+    "latitude": 24.81957982,
+    "longitude": 89.03823498
+  },
+  {
+    "name": "কাহালু থানা",
+    "division": "বগুড়া",
+    "oc_mobile": "01320-126773",
+    "inspector_mobile": "01320-126774",
+    "duty_officer_mobile": "01320-126778",
+    "latitude": 24.831577,
+    "longitude": 89.268446
+  },
+  {
+    "name": "গাবতলী থানা",
+    "division": "বগুড়া",
+    "oc_mobile": "01320-126679",
+    "inspector_mobile": "01320-126680",
+    "duty_officer_mobile": "01320-126684",
+    "latitude": 24.88048014,
+    "longitude": 89.4492189
+  },
+  {
+    "name": "দুঁপচাচিয়া থানা",
+    "division": "বগুড়া",
+    "oc_mobile": "01320-126747",
+    "inspector_mobile": "01320-126748",
+    "duty_officer_mobile": "01320-126752",
+    "latitude": 24.87486383,
+    "longitude": 89.18102496
+  },
+  {
+    "name": "ধুনট থানা",
+    "division": "বগুড়া",
+    "oc_mobile": "01320-126825",
+    "inspector_mobile": "01320-126826",
+    "duty_officer_mobile": "01320-126830",
+    "latitude": 24.690477,
+    "longitude": 89.532341
+  },
+  {
+    "name": "নন্দীগ্রাম থানা",
+    "division": "বগুড়া",
+    "oc_mobile": "01320-126851",
+    "inspector_mobile": "01320-126852",
+    "duty_officer_mobile": "01320-126856",
+    "latitude": 24.645847,
+    "longitude": 89.2497593
+  },
+  {
+    "name": "বগুড়া সদর থানা",
+    "division": "বগুড়া",
+    "oc_mobile": "01320-126601",
+    "inspector_mobile": "01320-126602",
+    "duty_officer_mobile": "01320-126606",
+    "latitude": 24.85068473,
+    "longitude": 89.37275368
+  },
+  {
+    "name": "শাজাহানপুর থানা",
+    "division": "বগুড়া",
+    "oc_mobile": "01320-126877",
+    "inspector_mobile": "01320-126878",
+    "duty_officer_mobile": "01320-126882",
+    "latitude": 24.780597,
+    "longitude": 89.39308232
+  },
+  {
+    "name": "শিবগঞ্জ থানা",
+    "division": "বগুড়া",
+    "oc_mobile": "01320-126627",
+    "inspector_mobile": "01320-126627",
+    "duty_officer_mobile": "01320-126632",
+    "latitude": 25.00248,
+    "longitude": 89.32243
+  },
+  {
+    "name": "শেরপুর থানা",
+    "division": "বগুড়া",
+    "oc_mobile": "01320-126799",
+    "inspector_mobile": "01320-126800",
+    "duty_officer_mobile": "01320-126804",
+    "latitude": 24.67969702,
+    "longitude": 89.41420561
+  },
+  {
+    "name": "সারিয়াকান্দি থানা",
+    "division": "বগুড়া",
+    "oc_mobile": "01320-126705",
+    "inspector_mobile": "01320-126706",
+    "duty_officer_mobile": "01320-126710",
+    "latitude": 24.88875652,
+    "longitude": 89.56940962
+  },
+  {
+    "name": "সোনাতলা থানা",
+    "division": "বগুড়া",
+    "oc_mobile": "01320-126653",
+    "inspector_mobile": "01320-126654",
+    "duty_officer_mobile": "01320-126658",
+    "latitude": 25.03770175,
+    "longitude": 89.50192946
+  },
+  {
+    "name": "আমতলী থানা",
+    "division": "বরগুনা",
+    "oc_mobile": "01320-156187",
+    "inspector_mobile": "01320-156188",
+    "duty_officer_mobile": "01320-156192",
+    "latitude": 22.13994932,
+    "longitude": 90.23000012
+  },
+  {
+    "name": "পাথরঘাটা থানা",
+    "division": "বরগুনা",
+    "oc_mobile": "01320-156213",
+    "inspector_mobile": "01320-156214",
+    "duty_officer_mobile": "01320-156218",
+    "latitude": 22.04341083,
+    "longitude": 89.96986464
+  },
+  {
+    "name": "বরগুনা সদর থানা",
+    "division": "বরগুনা",
+    "oc_mobile": "01320-156161",
+    "inspector_mobile": "01320-156162",
+    "duty_officer_mobile": "01320-156166",
+    "latitude": 22.16017925,
+    "longitude": 90.12403209
+  },
+  {
+    "name": "বামনা থানা",
+    "division": "বরগুনা",
+    "oc_mobile": "01320-156280",
+    "inspector_mobile": "01320-156281",
+    "duty_officer_mobile": "01320-156285",
+    "latitude": 22.30994643,
+    "longitude": 90.09455544
+  },
+  {
+    "name": "বেতাগী থানা",
+    "division": "বরগুনা",
+    "oc_mobile": "01320-156239",
+    "inspector_mobile": "01320-156240",
+    "duty_officer_mobile": "01320-156244",
+    "latitude": 22.4142121,
+    "longitude": 90.16681235
+  },
+  {
+    "name": "তালতলী থানা",
+    "division": "বরগুনা",
+    "oc_mobile": "01320-156306",
+    "inspector_mobile": "01320-156307",
+    "duty_officer_mobile": "01320-156311",
+    "latitude": 21.97743581,
+    "longitude": 90.08352095
+  },
+  {
+    "name": "আগৈলঝারা থানা",
+    "division": "বরিশাল",
+    "oc_mobile": "01320-151316",
+    "inspector_mobile": "01320-151317",
+    "duty_officer_mobile": "01320-151321",
+    "latitude": 22.9685238,
+    "longitude": 90.1519364
+  },
+  {
+    "name": "উজিরপুর থানা",
+    "division": "বরিশাল",
+    "oc_mobile": "01320-151238",
+    "inspector_mobile": "01320-151239",
+    "duty_officer_mobile": "01320-151243",
+    "latitude": 22.820936,
+    "longitude": 90.242507
+  },
+  {
+    "name": "গৌরনদী থানা",
+    "division": "বরিশাল",
+    "oc_mobile": "01320-151290",
+    "inspector_mobile": "01320-151291",
+    "duty_officer_mobile": "01320-151295",
+    "latitude": 22.97415001,
+    "longitude": 90.23102124
+  },
+  {
+    "name": "বাকেরগঞ্জ থানা",
+    "division": "বরিশাল",
+    "oc_mobile": "01320-151186",
+    "inspector_mobile": "01320-151187",
+    "duty_officer_mobile": "01320-151191",
+    "latitude": 22.5415163,
+    "longitude": 90.33822411
+  },
+  {
+    "name": "বানারীপাড়া থানা",
+    "division": "বরিশাল",
+    "oc_mobile": "01320-151264",
+    "inspector_mobile": "01320-151265",
+    "duty_officer_mobile": "01320-151269",
+    "latitude": 22.78714588,
+    "longitude": 90.15674361
+  },
+  {
+    "name": "বাবুগঞ্জ থানা",
+    "division": "বরিশাল",
+    "oc_mobile": "01320-151212",
+    "inspector_mobile": "01320-151213",
+    "duty_officer_mobile": "01320-151217",
+    "latitude": 23.29248818,
+    "longitude": 90.31856497
+  },
+  {
+    "name": "মুলাদী থানা",
+    "division": "বরিশাল",
+    "oc_mobile": "01320-151342",
+    "inspector_mobile": "01320-151343",
+    "duty_officer_mobile": "01320-151347",
+    "latitude": 22.90954216,
+    "longitude": 90.40855042
+  },
+  {
+    "name": "মেহেন্দীগঞ্জ থানা",
+    "division": "বরিশাল",
+    "oc_mobile": "01320-151394",
+    "inspector_mobile": "01320-151395",
+    "duty_officer_mobile": "01320-151399",
+    "latitude": 22.82431,
+    "longitude": 90.52586
+  },
+  {
+    "name": "কাজিরহাট থানা",
+    "division": "বরিশাল",
+    "oc_mobile": "01320-151420",
+    "inspector_mobile": "01320-151421",
+    "duty_officer_mobile": "01320-151425",
+    "latitude": 22.86196798,
+    "longitude": 90.43083056
+  },
+  {
+    "name": "কচুয়া থানা",
+    "division": "বাগেরহাট",
+    "oc_mobile": "01320-141283",
+    "inspector_mobile": "01320-141284",
+    "duty_officer_mobile": "01320-141288",
+    "latitude": 22.65221001,
+    "longitude": 89.88455768
+  },
+  {
+    "name": "চিতলমারী থানা",
+    "division": "বাগেরহাট",
+    "oc_mobile": "01320-141257",
+    "inspector_mobile": "01320-141258",
+    "duty_officer_mobile": "01320-141262",
+    "latitude": 22.78836274,
+    "longitude": 89.87813366
+  },
+  {
+    "name": "ফকিরহাট থানা",
+    "division": "বাগেরহাট",
+    "oc_mobile": "01320-141205",
+    "inspector_mobile": "01320-141206",
+    "duty_officer_mobile": "01320-141210",
+    "latitude": 22.78148308,
+    "longitude": 89.7032404
+  },
+  {
+    "name": "বাগেরহাট সদর থানা",
+    "division": "বাগেরহাট",
+    "oc_mobile": "01320-141179",
+    "inspector_mobile": "01320-141180",
+    "duty_officer_mobile": "01320-141184",
+    "latitude": 22.66175209,
+    "longitude": 89.79469107
+  },
+  {
+    "name": "মংলা থানা",
+    "division": "বাগেরহাট",
+    "oc_mobile": "01320-141361",
+    "inspector_mobile": "01320-141362",
+    "duty_officer_mobile": "01320-141366",
+    "latitude": 22.47451548,
+    "longitude": 89.60499039
+  },
+  {
+    "name": "মোল্লারহাট থানা",
+    "division": "বাগেরহাট",
+    "oc_mobile": "01320-141231",
+    "inspector_mobile": "01320-141232",
+    "duty_officer_mobile": "01320-141236",
+    "latitude": 22.9288861,
+    "longitude": 89.8078273
+  },
+  {
+    "name": "মোরেলগঞ্জ থানা",
+    "division": "বাগেরহাট",
+    "oc_mobile": "01320-141309",
+    "inspector_mobile": "01320-141310",
+    "duty_officer_mobile": "01320-141314",
+    "latitude": 22.46169128,
+    "longitude": 89.85357266
+  },
+  {
+    "name": "রামপাল থানা",
+    "division": "বাগেরহাট",
+    "oc_mobile": "01320-141387",
+    "inspector_mobile": "01320-141388",
+    "duty_officer_mobile": "01320-141392",
+    "latitude": 22.55235898,
+    "longitude": 89.65329646
+  },
+  {
+    "name": "শরণখোলা থানা",
+    "division": "বাগেরহাট",
+    "oc_mobile": "01320-141335",
+    "inspector_mobile": "01320-141336",
+    "duty_officer_mobile": "01320-141340",
+    "latitude": 22.31318759,
+    "longitude": 89.85154508
+  },
+  {
+    "name": "আলীকদম থানা",
+    "division": "বান্দরবান",
+    "oc_mobile": "01320-110606",
+    "inspector_mobile": "01320-110607",
+    "duty_officer_mobile": "01320-110611",
+    "latitude": 21.65372941,
+    "longitude": 92.30945168
+  },
+  {
+    "name": "থানচি থানা",
+    "division": "বান্দরবান",
+    "oc_mobile": "01320-110554",
+    "inspector_mobile": "01320-110555",
+    "duty_officer_mobile": "01320-110559",
+    "latitude": 21.8172709,
+    "longitude": 92.44039316
+  },
+  {
+    "name": "নাইক্ষ্যংছড়ি থানা",
+    "division": "বান্দরবান",
+    "oc_mobile": "01320-110632",
+    "inspector_mobile": "01320-110633",
+    "duty_officer_mobile": "01320-110637",
+    "latitude": 21.43058322,
+    "longitude": 92.17879182
+  },
+  {
+    "name": "বান্দরবান সদর থানা",
+    "division": "বান্দরবান",
+    "oc_mobile": "01320-110476",
+    "inspector_mobile": "01320-110477",
+    "duty_officer_mobile": "01320-110481",
+    "latitude": 22.19472416,
+    "longitude": 92.21645604
+  },
+  {
+    "name": "রুমা থানা",
+    "division": "বান্দরবান",
+    "oc_mobile": "01320110528",
+    "inspector_mobile": "01320-110529",
+    "duty_officer_mobile": "01320-110533",
+    "latitude": 22.0423378,
+    "longitude": 92.40227142
+  },
+  {
+    "name": "রোয়াংছড়ি থানা",
+    "division": "বান্দরবান",
+    "oc_mobile": "01320110502",
+    "inspector_mobile": "01320-110503",
+    "duty_officer_mobile": "01320-110507",
+    "latitude": 22.18195498,
+    "longitude": 92.33707695
+  },
+  {
+    "name": "লামা থানা",
+    "division": "বান্দরবান",
+    "oc_mobile": "01320110580",
+    "inspector_mobile": "01320-110581",
+    "duty_officer_mobile": "01320-110585",
+    "latitude": 21.7722925,
+    "longitude": 92.19752153
+  },
+  {
+    "name": "বরিশাল বিমানবন্দর থানা",
+    "division": "বিএমপি, বরিশাল",
+    "oc_mobile": "01320065634",
+    "inspector_mobile": "01320-065635",
+    "duty_officer_mobile": "01320-065641",
+    "latitude": 22.70355042,
+    "longitude": 90.36636849
+  },
+  {
+    "name": "কাউনিয়া  থানা",
+    "division": "বিএমপি, বরিশাল",
+    "oc_mobile": "01320065744",
+    "inspector_mobile": "01320-065745",
+    "duty_officer_mobile": "01320-065751",
+    "latitude": 25.77237936,
+    "longitude": 89.41547276
+  },
+  {
+    "name": "বরিশাল সদর (কোতয়ালী) থানা",
+    "division": "বিএমপি, বরিশাল",
+    "oc_mobile": "01320065826",
+    "inspector_mobile": "01320-065827",
+    "duty_officer_mobile": "01320-065833",
+    "latitude": 22.70652,
+    "longitude": 90.37182
+  },
+  {
+    "name": "বরিশাল বন্দর থানা",
+    "division": "বিএমপি, বরিশাল",
+    "oc_mobile": "01320065496",
+    "inspector_mobile": "01320-065497",
+    "duty_officer_mobile": "01320-065503",
+    "latitude": 22.69659649,
+    "longitude": 90.45156324
+  },
+  {
+    "name": "আখাউড়া থানা",
+    "division": "ব্রাহ্মণবাড়িয়া",
+    "oc_mobile": "01320115163",
+    "inspector_mobile": "01320115164",
+    "duty_officer_mobile": "01320115168",
+    "latitude": 23.86773008,
+    "longitude": 91.21071091
+  },
+  {
+    "name": "আশুগঞ্জ থানা",
+    "division": "ব্রাহ্মণবাড়িয়া",
+    "oc_mobile": "01320115007",
+    "inspector_mobile": "01320115008",
+    "duty_officer_mobile": "01320115012",
+    "latitude": 24.03691735,
+    "longitude": 91.01263564
+  },
+  {
+    "name": "কসবা থানা",
+    "division": "ব্রাহ্মণবাড়িয়া",
+    "oc_mobile": "01320115137",
+    "inspector_mobile": "01320115138",
+    "duty_officer_mobile": "01320115142",
+    "latitude": 23.74502443,
+    "longitude": 91.15281703
+  },
+  {
+    "name": "নবী নগর থানা",
+    "division": "ব্রাহ্মণবাড়িয়া",
+    "oc_mobile": "01320115085",
+    "inspector_mobile": "01320115086",
+    "duty_officer_mobile": "01320115090",
+    "latitude": 23.88612114,
+    "longitude": 90.97020465
+  },
+  {
+    "name": "নাসিরনগর থানা",
+    "division": "ব্রাহ্মণবাড়িয়া",
+    "oc_mobile": "01320115059",
+    "inspector_mobile": "01320115060",
+    "duty_officer_mobile": "01320115064",
+    "latitude": 24.19919535,
+    "longitude": 91.19559707
+  },
+  {
+    "name": "বাঞ্ছারামপুর থানা",
+    "division": "ব্রাহ্মণবাড়িয়া",
+    "oc_mobile": "01320115111",
+    "inspector_mobile": "01320115112",
+    "duty_officer_mobile": "01320115116",
+    "latitude": 23.77041146,
+    "longitude": 90.80214132
+  },
+  {
+    "name": "ব্রাহ্মনবাড়িয়া সদর থানা",
+    "division": "ব্রাহ্মণবাড়িয়া",
+    "oc_mobile": "01320114981",
+    "inspector_mobile": "01320114982",
+    "duty_officer_mobile": "01320114986",
+    "latitude": 23.97397218,
+    "longitude": 91.11181354
+  },
+  {
+    "name": "সড়াইল থানা",
+    "division": "ব্রাহ্মণবাড়িয়া",
+    "oc_mobile": "01320115033",
+    "inspector_mobile": "01320115034",
+    "duty_officer_mobile": "01320115038",
+    "latitude": 24.06957319,
+    "longitude": 91.11215145
+  },
+  {
+    "name": "বিজয়নগর থানা",
+    "division": "ব্রাহ্মণবাড়িয়া",
+    "oc_mobile": "01320115189",
+    "inspector_mobile": "01320115190",
+    "duty_officer_mobile": "01320115194",
+    "latitude": 24.01573386,
+    "longitude": 91.22638998
+  },
+  {
+    "name": "চর ফ্যাশন থানা",
+    "division": "ভোলা",
+    "oc_mobile": "01320152311",
+    "inspector_mobile": "01320152312",
+    "duty_officer_mobile": "01320152316",
+    "latitude": 22.18538198,
+    "longitude": 90.76283934
+  },
+  {
+    "name": "তজমুদ্দিন থানা",
+    "division": "ভোলা",
+    "oc_mobile": "01320152233",
+    "inspector_mobile": "01320152234",
+    "duty_officer_mobile": "01320152238",
+    "latitude": 22.41530086,
+    "longitude": 90.85254282
+  },
+  {
+    "name": "দৌলতখান থানা",
+    "division": "ভোলা",
+    "oc_mobile": "01320152207",
+    "inspector_mobile": "01320152208",
+    "duty_officer_mobile": "01320152212",
+    "latitude": 22.60604839,
+    "longitude": 90.74738781
+  },
+  {
+    "name": "বোরহানউদ্দিন থানা",
+    "division": "ভোলা",
+    "oc_mobile": "01320152259",
+    "inspector_mobile": "01320152260",
+    "duty_officer_mobile": "01320152264",
+    "latitude": 22.50180082,
+    "longitude": 90.72972629
+  },
+  {
+    "name": "ভোলা সদর থানা",
+    "division": "ভোলা",
+    "oc_mobile": "01320152181",
+    "inspector_mobile": "01320152182",
+    "duty_officer_mobile": "01320152186",
+    "latitude": 22.68752814,
+    "longitude": 90.66251333
+  },
+  {
+    "name": "মনপুরা থানা",
+    "division": "ভোলা",
+    "oc_mobile": "01320152333",
+    "inspector_mobile": "01320152334",
+    "duty_officer_mobile": "01320152338",
+    "latitude": 22.25897498,
+    "longitude": 90.96590168
+  },
+  {
+    "name": "লালমোহন থানা",
+    "division": "ভোলা",
+    "oc_mobile": "01320152285",
+    "inspector_mobile": "01320152286",
+    "duty_officer_mobile": "01320152290",
+    "latitude": 22.340551,
+    "longitude": 90.736883
+  },
+  {
+    "name": "শশীভূষণ থানা",
+    "division": "ভোলা",
+    "oc_mobile": "01320152363",
+    "inspector_mobile": "01320152364",
+    "duty_officer_mobile": "01320152368",
+    "latitude": 22.10790758,
+    "longitude": 90.70241252
+  },
+  {
+    "name": "দক্ষিণ আইচা থানা",
+    "division": "ভোলা",
+    "oc_mobile": "01320152389",
+    "inspector_mobile": "01320152390",
+    "duty_officer_mobile": "01320152394",
+    "latitude": 22.02637002,
+    "longitude": 90.67852178
+  },
+  {
+    "name": "দুলারহাট থানা",
+    "division": "ভোলা",
+    "oc_mobile": "01320152415",
+    "inspector_mobile": "01320152416",
+    "duty_officer_mobile": "01320152420",
+    "latitude": 22.23778328,
+    "longitude": 90.66973169
+  },
+  {
+    "name": "গৌরীপুর থানা",
+    "division": "ময়মনসিংহ",
+    "oc_mobile": "01320103373",
+    "inspector_mobile": "01320103374",
+    "duty_officer_mobile": "01320103378",
+    "latitude": 24.75507775,
+    "longitude": 90.57270424
+  },
+  {
+    "name": "ঈশ্বরগঞ্জ থানা",
+    "division": "ময়মনসিংহ",
+    "oc_mobile": "01320103399",
+    "inspector_mobile": "01320103400",
+    "duty_officer_mobile": "01320103404",
+    "latitude": 24.68439225,
+    "longitude": 90.59265965
+  },
+  {
+    "name": "গফরগাঁও থানা",
+    "division": "ময়মনসিংহ",
+    "oc_mobile": "01320103321",
+    "inspector_mobile": "01320103322",
+    "duty_officer_mobile": "01320103326",
+    "latitude": 24.45214501,
+    "longitude": 90.55472488
+  },
+  {
+    "name": "ত্রিশাল থানা",
+    "division": "ময়মনসিংহ",
+    "oc_mobile": "01320103269",
+    "inspector_mobile": "01320103270",
+    "duty_officer_mobile": "01320103274",
+    "latitude": 24.581726,
+    "longitude": 90.393374
+  },
+  {
+    "name": "ধোবাউড়া থানা",
+    "division": "ময়মনসিংহ",
+    "oc_mobile": "01320103529",
+    "inspector_mobile": "01320103530",
+    "duty_officer_mobile": "01320103534",
+    "latitude": 25.08988661,
+    "longitude": 90.51903006
+  },
+  {
+    "name": "নান্দাইল থানা",
+    "division": "ময়মনসিংহ",
+    "oc_mobile": "01320103425",
+    "inspector_mobile": "01320103426",
+    "duty_officer_mobile": "01320103430",
+    "latitude": 24.57137953,
+    "longitude": 90.6912547
+  },
+  {
+    "name": "ফুলপুর থানা",
+    "division": "ময়মনসিংহ",
+    "oc_mobile": "01320103451",
+    "inspector_mobile": "01320103452",
+    "duty_officer_mobile": "01320103456",
+    "latitude": 24.95373748,
+    "longitude": 90.36208861
+  },
+  {
+    "name": "ফুলবাড়ীয়া থানা",
+    "division": "ময়মনসিংহ",
+    "oc_mobile": "01320103243",
+    "inspector_mobile": "01320103244",
+    "duty_officer_mobile": "01320103248",
+    "latitude": 24.63350844,
+    "longitude": 90.27097668
+  },
+  {
+    "name": "ভালুকা থানা",
+    "division": "ময়মনসিংহ",
+    "oc_mobile": "01320103295",
+    "inspector_mobile": "01320103296",
+    "duty_officer_mobile": "01320103300",
+    "latitude": 24.40056889,
+    "longitude": 90.3848709
+  },
+  {
+    "name": "মুক্তাগাছা থানা",
+    "division": "ময়মনসিংহ",
+    "oc_mobile": "01320103217",
+    "inspector_mobile": "01320103218",
+    "duty_officer_mobile": "01320103222",
+    "latitude": 24.764198,
+    "longitude": 90.257119
+  },
+  {
+    "name": "হালুয়াঘাট থানা",
+    "division": "ময়মনসিংহ",
+    "oc_mobile": "01320103503",
+    "inspector_mobile": "01320103504",
+    "duty_officer_mobile": "01320103508",
+    "latitude": 25.12075176,
+    "longitude": 90.34039648
+  },
+  {
+    "name": "পাগলা থানা",
+    "division": "ময়মনসিংহ",
+    "oc_mobile": "01320103347",
+    "inspector_mobile": "01320103348",
+    "duty_officer_mobile": "01320103352",
+    "latitude": 24.32986702,
+    "longitude": 90.58335058
+  },
+  {
+    "name": "তারাকান্দা থানা",
+    "division": "ময়মনসিংহ",
+    "oc_mobile": "01320103477",
+    "inspector_mobile": "01320103478",
+    "duty_officer_mobile": "01320103482",
+    "latitude": 24.87764876,
+    "longitude": 90.43000662
+  },
+  {
+    "name": "কোতোয়ালী মডেল থানা",
+    "division": "ময়মনসিংহ",
+    "oc_mobile": "01320103191",
+    "inspector_mobile": "01320103192",
+    "duty_officer_mobile": "01320103196",
+    "latitude": 24.75789102,
+    "longitude": 90.41242012
+  },
+  {
+    "name": "মহম্মদপুর থানা",
+    "division": "মাগুরা",
+    "oc_mobile": "01320145222",
+    "inspector_mobile": "01320145223",
+    "duty_officer_mobile": "01320145227",
+    "latitude": 23.39763493,
+    "longitude": 89.60699195
+  },
+  {
+    "name": "শালিখা থানা",
+    "division": "মাগুরা",
+    "oc_mobile": "01320145248",
+    "inspector_mobile": "01320145249",
+    "duty_officer_mobile": "01320145253",
+    "latitude": 23.37223375,
+    "longitude": 89.36920681
+  },
+  {
+    "name": "শ্রীপুর থানা",
+    "division": "মাগুরা",
+    "oc_mobile": "01320145196",
+    "inspector_mobile": "01320145197",
+    "duty_officer_mobile": "01320145201",
+    "latitude": 24.20019674,
+    "longitude": 90.47842575
+  },
+  {
+    "name": "মাগুরা সদর থানা",
+    "division": "মাগুরা",
+    "oc_mobile": "01320145170",
+    "inspector_mobile": "01320145171",
+    "duty_officer_mobile": "01320145175",
+    "latitude": 23.49115941,
+    "longitude": 89.42238088
+  },
+  {
+    "name": "কালকিনী থানা",
+    "division": "মাদারীপুর",
+    "oc_mobile": "01320098422",
+    "inspector_mobile": "01320098423",
+    "duty_officer_mobile": "01320098427",
+    "latitude": 23.0723906,
+    "longitude": 90.24215247
+  },
+  {
+    "name": "রাজৈর থানা",
+    "division": "মাদারীপুর",
+    "oc_mobile": "01320098396",
+    "inspector_mobile": "01320098397",
+    "duty_officer_mobile": "01320098401",
+    "latitude": 23.20712635,
+    "longitude": 90.05669121
+  },
+  {
+    "name": "শিবচর থানা",
+    "division": "মাদারীপুর",
+    "oc_mobile": "01320098448",
+    "inspector_mobile": "01320098449",
+    "duty_officer_mobile": "01320098453",
+    "latitude": 23.34590549,
+    "longitude": 90.15757977
+  },
+  {
+    "name": "মাদারীপুর সদর থানা",
+    "division": "মাদারীপুর",
+    "oc_mobile": "01320098370",
+    "inspector_mobile": "01320098371",
+    "duty_officer_mobile": "01320098375",
+    "latitude": 23.16702577,
+    "longitude": 90.20051971
+  },
+  {
+    "name": "ডাসার থানা",
+    "division": "মাদারীপুর",
+    "oc_mobile": "01320098474",
+    "inspector_mobile": "01320098475",
+    "duty_officer_mobile": "01320098479",
+    "latitude": 23.06171871,
+    "longitude": 90.14872712
+  },
+  {
+    "name": "ঘিওর থানা",
+    "division": "মানিকগঞ্জ",
+    "oc_mobile": "01320094505",
+    "inspector_mobile": "01320094506",
+    "duty_officer_mobile": "01320094510",
+    "latitude": 23.89990862,
+    "longitude": 89.87257753
+  },
+  {
+    "name": "দৌলতপুর থানা",
+    "division": "মানিকগঞ্জ",
+    "oc_mobile": "01320094531",
+    "inspector_mobile": "01320094532",
+    "duty_officer_mobile": "01320094536",
+    "latitude": 23.97206665,
+    "longitude": 89.83346435
+  },
+  {
+    "name": "শিবালয় থানা",
+    "division": "মানিকগঞ্জ",
+    "oc_mobile": "01320094479",
+    "inspector_mobile": "01320094480",
+    "duty_officer_mobile": "01320094484",
+    "latitude": 23.83640836,
+    "longitude": 89.78225628
+  },
+  {
+    "name": "সাটুরিয়া থানা",
+    "division": "মানিকগঞ্জ",
+    "oc_mobile": "01320094401",
+    "inspector_mobile": "01320094402",
+    "duty_officer_mobile": "01320094406",
+    "latitude": 23.97373591,
+    "longitude": 90.03919939
+  },
+  {
+    "name": "সিংগাইর থানা",
+    "division": "মানিকগঞ্জ",
+    "oc_mobile": "01320094427",
+    "inspector_mobile": "01320094428",
+    "duty_officer_mobile": "01320094432",
+    "latitude": 23.81623943,
+    "longitude": 90.14593635
+  },
+  {
+    "name": "হরিরামপুর থানা",
+    "division": "মানিকগঞ্জ",
+    "oc_mobile": "01320094453",
+    "inspector_mobile": "01320094454",
+    "duty_officer_mobile": "01320094458",
+    "latitude": 23.74058346,
+    "longitude": 89.96843942
+  },
+  {
+    "name": "মানিকগঞ্জ সদর থানা",
+    "division": "মানিকগঞ্জ",
+    "oc_mobile": "01320094375",
+    "inspector_mobile": "01320094376",
+    "duty_officer_mobile": "01320094380",
+    "latitude": 23.86165416,
+    "longitude": 90.00125376
+  },
+  {
+    "name": "টংগীবাড়ী থানা",
+    "division": "মুন্সিগঞ্জ",
+    "oc_mobile": "01320093400",
+    "inspector_mobile": "01320093401",
+    "duty_officer_mobile": "01320093405",
+    "latitude": 23.51133995,
+    "longitude": 90.4684072
+  },
+  {
+    "name": "লৌহজং থানা",
+    "division": "মুন্সিগঞ্জ",
+    "oc_mobile": "01320093452",
+    "inspector_mobile": "01320093453",
+    "duty_officer_mobile": "01320093457",
+    "latitude": 23.47498294,
+    "longitude": 90.34240342
+  },
+  {
+    "name": "শ্রীনগর থানা",
+    "division": "মুন্সিগঞ্জ",
+    "oc_mobile": "01320093478",
+    "inspector_mobile": "01320093479",
+    "duty_officer_mobile": "01320093483",
+    "latitude": 23.54048205,
+    "longitude": 90.28653276
+  },
+  {
+    "name": "সিরাজদিখান থানা",
+    "division": "মুন্সিগঞ্জ",
+    "oc_mobile": "01320093504",
+    "inspector_mobile": "01320093505",
+    "duty_officer_mobile": "01320093509",
+    "latitude": 23.57441091,
+    "longitude": 90.38100245
+  },
+  {
+    "name": "গজারিয়া থানা",
+    "division": "মুন্সিগঞ্জ",
+    "oc_mobile": "01320093426",
+    "inspector_mobile": "01320093427",
+    "duty_officer_mobile": "01320093431",
+    "latitude": 23.55818111,
+    "longitude": 90.65596523
+  },
+  {
+    "name": "মুন্সিগঞ্জ থানা",
+    "division": "মুন্সিগঞ্জ",
+    "oc_mobile": "01320093374",
+    "inspector_mobile": "01320093375",
+    "duty_officer_mobile": "01320093379",
+    "latitude": 23.55254824,
+    "longitude": 90.53541481
+  },
+  {
+    "name": "পদ্ম সেতু (উত্তর) থানা",
+    "division": "মুন্সিগঞ্জ",
+    "oc_mobile": "01320093591",
+    "inspector_mobile": "01320093592",
+    "duty_officer_mobile": "01320093596",
+    "latitude": 23.48903861,
+    "longitude": 90.26919602
+  },
+  {
+    "name": "গাংনি থানা",
+    "division": "মেহেরপুর",
+    "oc_mobile": "01320149164",
+    "inspector_mobile": "01320149165",
+    "duty_officer_mobile": "01320149169",
+    "latitude": 23.81050483,
+    "longitude": 88.75825261
+  },
+  {
+    "name": "মেহেরপুর সদর থানা",
+    "division": "মেহেরপুর",
+    "oc_mobile": "01320149190",
+    "inspector_mobile": "01320149191",
+    "duty_officer_mobile": "01320149195",
+    "latitude": 23.77911553,
+    "longitude": 88.625894
+  },
+  {
+    "name": "মুজিবনগর  থানা",
+    "division": "মেহেরপুর",
+    "oc_mobile": "01320149216",
+    "inspector_mobile": "01320149217",
+    "duty_officer_mobile": "01320149221",
+    "latitude": 23.65557761,
+    "longitude": 88.59973031
+  },
+  {
+    "name": "কমলগঞ্জ থানা",
+    "division": "মৌলভীবাজার",
+    "oc_mobile": "01320119827",
+    "inspector_mobile": "01320119828",
+    "duty_officer_mobile": "01320119832",
+    "latitude": 24.35029288,
+    "longitude": 91.84693158
+  },
+  {
+    "name": "কুলাউড়া থানা",
+    "division": "মৌলভীবাজার",
+    "oc_mobile": "01320119879",
+    "inspector_mobile": "01320119880",
+    "duty_officer_mobile": "01320119884",
+    "latitude": 24.52391729,
+    "longitude": 92.03524145
+  },
+  {
+    "name": "জুরি থানা",
+    "division": "মৌলভীবাজার",
+    "oc_mobile": "01320119931",
+    "inspector_mobile": "01320119932",
+    "duty_officer_mobile": "01320119936",
+    "latitude": 24.60413666,
+    "longitude": 92.12510616
+  },
+  {
+    "name": "বড়লেখা থানা",
+    "division": "মৌলভীবাজার",
+    "oc_mobile": "01320119905",
+    "inspector_mobile": "01320119906",
+    "duty_officer_mobile": "01320119910",
+    "latitude": 24.6943021,
+    "longitude": 92.18416206
+  },
+  {
+    "name": "রাজনগর থানা",
+    "division": "মৌলভীবাজার",
+    "oc_mobile": "01320119853",
+    "inspector_mobile": "01320119854",
+    "duty_officer_mobile": "01320119858",
+    "latitude": 24.51831301,
+    "longitude": 91.85924387
+  },
+  {
+    "name": "শ্রীমঙ্গল থানা",
+    "division": "মৌলভীবাজার",
+    "oc_mobile": "01320119801",
+    "inspector_mobile": "01320119802",
+    "duty_officer_mobile": "01320119806",
+    "latitude": 24.31065631,
+    "longitude": 91.73217597
+  },
+  {
+    "name": "মৌলভীবাজার সদর থানা",
+    "division": "মৌলভীবাজার",
+    "oc_mobile": "01320119775",
+    "inspector_mobile": "01320119776",
+    "duty_officer_mobile": "01320119780",
+    "latitude": 24.47959102,
+    "longitude": 91.76627213
+  },
+  {
+    "name": "কোতয়ালী থানা",
+    "division": "যশোর",
+    "oc_mobile": "01320143180",
+    "inspector_mobile": "01320143181",
+    "duty_officer_mobile": "01320143185",
+    "latitude": 23.16569164,
+    "longitude": 89.21392421
+  },
+  {
+    "name": "অভয়নগর থানা",
+    "division": "যশোর",
+    "oc_mobile": "01320143362",
+    "inspector_mobile": "01320143363",
+    "duty_officer_mobile": "01320143367",
+    "latitude": 23.02022165,
+    "longitude": 89.4085032
+  },
+  {
+    "name": "কেশবপুর থানা",
+    "division": "যশোর",
+    "oc_mobile": "01320143336",
+    "inspector_mobile": "01320143337",
+    "duty_officer_mobile": "01320143341",
+    "latitude": 22.90673553,
+    "longitude": 89.22047484
+  },
+  {
+    "name": "চৌগাছা থানা",
+    "division": "যশোর",
+    "oc_mobile": "01320143284",
+    "inspector_mobile": "01320143285",
+    "duty_officer_mobile": "01320143289",
+    "latitude": 23.26855691,
+    "longitude": 89.02274528
+  },
+  {
+    "name": "ঝিকরগাছা থানা",
+    "division": "যশোর",
+    "oc_mobile": "01320143206",
+    "inspector_mobile": "01320143207",
+    "duty_officer_mobile": "01320143211",
+    "latitude": 23.09989249,
+    "longitude": 89.09622774
+  },
+  {
+    "name": "বাঘারপাড়া থানা",
+    "division": "যশোর",
+    "oc_mobile": "01320143258",
+    "inspector_mobile": "01320143259",
+    "duty_officer_mobile": "01320143263",
+    "latitude": 23.2218643,
+    "longitude": 89.3479721
+  },
+  {
+    "name": "মনিরামপুর থানা",
+    "division": "যশোর",
+    "oc_mobile": "01320143232",
+    "inspector_mobile": "01320143233",
+    "duty_officer_mobile": "01320143237",
+    "latitude": 23.0145709,
+    "longitude": 89.21337
+  },
+  {
+    "name": "শার্শা থানা",
+    "division": "যশোর",
+    "oc_mobile": "01320143310",
+    "inspector_mobile": "01320143311",
+    "duty_officer_mobile": "01320143315",
+    "latitude": 23.05702383,
+    "longitude": 88.95097782
+  },
+  {
+    "name": "বেনাপোল পোর্ট  থানা",
+    "division": "যশোর",
+    "oc_mobile": "01320143388",
+    "inspector_mobile": "01320143389",
+    "duty_officer_mobile": "01320143393",
+    "latitude": 23.04178161,
+    "longitude": 88.8929172
+  },
+  {
+    "name": "কাউনিয়া থানা",
+    "division": "রংপুর",
+    "oc_mobile": "01320131563",
+    "inspector_mobile": "01320131564",
+    "duty_officer_mobile": "01320131568",
+    "latitude": 25.77460934,
+    "longitude": 89.4299111
+  },
+  {
+    "name": "গঙ্গাচরা থানা",
+    "division": "রংপুর",
+    "oc_mobile": "01320131407",
+    "inspector_mobile": "01320131408",
+    "duty_officer_mobile": "01320131412",
+    "latitude": 25.883695,
+    "longitude": 89.121522
+  },
+  {
+    "name": "তারাগঞ্জ থানা",
+    "division": "রংপুর",
+    "oc_mobile": "01320131459",
+    "inspector_mobile": "01320131460",
+    "duty_officer_mobile": "01320131464",
+    "latitude": 25.81771016,
+    "longitude": 89.01162842
+  },
+  {
+    "name": "পীরগঞ্জ(রংপুর) থানা",
+    "division": "রংপুর",
+    "oc_mobile": "01320131511",
+    "inspector_mobile": "01320131512",
+    "duty_officer_mobile": "01320131516",
+    "latitude": 25.41765684,
+    "longitude": 89.30411656
+  },
+  {
+    "name": "পীরগাছা থানা",
+    "division": "রংপুর",
+    "oc_mobile": "01320131537",
+    "inspector_mobile": "01320131538",
+    "duty_officer_mobile": "01320131542",
+    "latitude": 25.65910886,
+    "longitude": 89.40968293
+  },
+  {
+    "name": "বদরগঞ্জ থানা",
+    "division": "রংপুর",
+    "oc_mobile": "01320131433",
+    "inspector_mobile": "01320131434",
+    "duty_officer_mobile": "01320131438",
+    "latitude": 25.67580955,
+    "longitude": 89.05563177
+  },
+  {
+    "name": "মিঠাপুকুর থানা",
+    "division": "রংপুর",
+    "oc_mobile": "01320131485",
+    "inspector_mobile": "01320131486",
+    "duty_officer_mobile": "01320131490",
+    "latitude": 25.64792047,
+    "longitude": 89.16226122
+  },
+  {
+    "name": "সদর থানা",
+    "division": "রংপুর",
+    "oc_mobile": "01320131381",
+    "inspector_mobile": "01320131382",
+    "duty_officer_mobile": "01320131386",
+    "latitude": 23.5939184,
+    "longitude": 89.82984897
+  },
+  {
+    "name": "কাউখালী (বেতবুনিয়া) থানা",
+    "division": "রাঙ্গামাটি",
+    "oc_mobile": "01320109533",
+    "inspector_mobile": "01320109534",
+    "duty_officer_mobile": "01320109538",
+    "latitude": 22.63267456,
+    "longitude": 92.03912623
+  },
+  {
+    "name": "কাপ্তাই থানা",
+    "division": "রাঙ্গামাটি",
+    "oc_mobile": "01320109559",
+    "inspector_mobile": "01320109560",
+    "duty_officer_mobile": "01320109564",
+    "latitude": 22.5025147,
+    "longitude": 92.1381953
+  },
+  {
+    "name": "জুরাছড়ি থানা",
+    "division": "রাঙ্গামাটি",
+    "oc_mobile": "01320109689",
+    "inspector_mobile": "01320109690",
+    "duty_officer_mobile": "01320109694",
+    "latitude": 22.66520928,
+    "longitude": 92.39016282
+  },
+  {
+    "name": "নানিয়ার চর থানা",
+    "division": "রাঙ্গামাটি",
+    "oc_mobile": "01320109507",
+    "inspector_mobile": "01320109508",
+    "duty_officer_mobile": "01320109512",
+    "latitude": 22.84240164,
+    "longitude": 92.10316645
+  },
+  {
+    "name": "বরকল থানা",
+    "division": "রাঙ্গামাটি",
+    "oc_mobile": "01320109838",
+    "inspector_mobile": "01320109839",
+    "duty_officer_mobile": "01320109840",
+    "latitude": 22.72516067,
+    "longitude": 92.38049868
+  },
+  {
+    "name": "বাঘাইছড়ি থানা",
+    "division": "রাঙ্গামাটি",
+    "oc_mobile": "01320109637",
+    "inspector_mobile": "01320109638",
+    "duty_officer_mobile": "01320109642",
+    "latitude": 23.15946211,
+    "longitude": 92.18971178
+  },
+  {
+    "name": "বিলাইছড়ি থানা",
+    "division": "রাঙ্গামাটি",
+    "oc_mobile": "01320109741",
+    "inspector_mobile": "01320109742",
+    "duty_officer_mobile": "01320109746",
+    "latitude": 22.50147981,
+    "longitude": 92.3382338
+  },
+  {
+    "name": "রাজস্থলী থানা",
+    "division": "রাঙ্গামাটি",
+    "oc_mobile": "01320109663",
+    "inspector_mobile": "01320109664",
+    "duty_officer_mobile": "01320109668",
+    "latitude": 22.36764215,
+    "longitude": 92.2555564
+  },
+  {
+    "name": "লংগদু থানা",
+    "division": "রাঙ্গামাটি",
+    "oc_mobile": "01320109611",
+    "inspector_mobile": "01320109612",
+    "duty_officer_mobile": "01320109616",
+    "latitude": 22.9692614,
+    "longitude": 92.20043061
+  },
+  {
+    "name": "চন্দ্রঘোনা থানা",
+    "division": "রাঙ্গামাটি",
+    "oc_mobile": "01320109585",
+    "inspector_mobile": "01320109586",
+    "duty_officer_mobile": "01320109590",
+    "latitude": 22.46488817,
+    "longitude": 92.1364014
+  },
+  {
+    "name": "সাজেক থানা",
+    "division": "রাঙ্গামাটি",
+    "oc_mobile": "01320109715",
+    "inspector_mobile": "01320109716",
+    "duty_officer_mobile": "01320109720",
+    "latitude": 23.36112984,
+    "longitude": 92.20678512
+  },
+  {
+    "name": "রাঙ্গামাটি সদর থানা",
+    "division": "রাঙ্গামাটি",
+    "oc_mobile": "01320109481",
+    "inspector_mobile": "01320109482",
+    "duty_officer_mobile": "01320109486",
+    "latitude": 22.63731593,
+    "longitude": 92.18586562
+  },
+  {
+    "name": "গোয়ালন্দঘাট থানা",
+    "division": "রাজবাড়ী",
+    "oc_mobile": "01320101447",
+    "inspector_mobile": "01320101448",
+    "duty_officer_mobile": "01320101452",
+    "latitude": 23.72560288,
+    "longitude": 89.76446719
+  },
+  {
+    "name": "পাংশা থানা",
+    "division": "রাজবাড়ী",
+    "oc_mobile": "01320101421",
+    "inspector_mobile": "01320101422",
+    "duty_officer_mobile": "01320101426",
+    "latitude": 23.79466935,
+    "longitude": 89.41357453
+  },
+  {
+    "name": "বালিয়াকান্দি থানা",
+    "division": "রাজবাড়ী",
+    "oc_mobile": "01320101395",
+    "inspector_mobile": "01320101396",
+    "duty_officer_mobile": "01320101400",
+    "latitude": 23.63711842,
+    "longitude": 89.55034375
+  },
+  {
+    "name": "কালুখালী থানা",
+    "division": "রাজবাড়ী",
+    "oc_mobile": "01320101473",
+    "inspector_mobile": "01320101474",
+    "duty_officer_mobile": "01320101478",
+    "latitude": 23.765114,
+    "longitude": 89.48848564
+  },
+  {
+    "name": "রাজবাড়ী সদর থানা",
+    "division": "রাজবাড়ী",
+    "oc_mobile": "01320101369",
+    "inspector_mobile": "01320101370",
+    "duty_officer_mobile": "01320101374",
+    "latitude": 23.75661628,
+    "longitude": 89.6433479
+  },
+  {
+    "name": "গোদাগাড়ী থানা",
+    "division": "রাজশাহী",
+    "oc_mobile": "01320122594",
+    "inspector_mobile": "01320122595",
+    "duty_officer_mobile": "01320122599",
+    "latitude": 24.4665578,
+    "longitude": 88.31850519
+  },
+  {
+    "name": "চারঘাট থানা",
+    "division": "রাজশাহী",
+    "oc_mobile": "01320122750",
+    "inspector_mobile": "01320122751",
+    "duty_officer_mobile": "01320122755",
+    "latitude": 24.28234003,
+    "longitude": 88.74716696
+  },
+  {
+    "name": "তানোর থানা",
+    "division": "রাজশাহী",
+    "oc_mobile": "01320122620",
+    "inspector_mobile": "01320122621",
+    "duty_officer_mobile": "01320122625",
+    "latitude": 24.58913913,
+    "longitude": 88.57672565
+  },
+  {
+    "name": "দূর্গাপুর থানা",
+    "division": "রাজশাহী",
+    "oc_mobile": "01320122724",
+    "inspector_mobile": "01320122725",
+    "duty_officer_mobile": "01320122729",
+    "latitude": 24.44660866,
+    "longitude": 88.76401232
+  },
+  {
+    "name": "পুঠিয়া থানা",
+    "division": "রাজশাহী",
+    "oc_mobile": "01320122672",
+    "inspector_mobile": "01320122673",
+    "duty_officer_mobile": "01320122677",
+    "latitude": 24.36540321,
+    "longitude": 88.83742868
+  },
+  {
+    "name": "বাগমারা থানা",
+    "division": "রাজশাহী",
+    "oc_mobile": "01320122698",
+    "inspector_mobile": "01320122699",
+    "duty_officer_mobile": "01320122703",
+    "latitude": 24.55835269,
+    "longitude": 88.80779125
+  },
+  {
+    "name": "বাঘা থানা",
+    "division": "রাজশাহী",
+    "oc_mobile": "01320122776",
+    "inspector_mobile": "01320122777",
+    "duty_officer_mobile": "01320122781",
+    "latitude": 24.19776824,
+    "longitude": 88.83534862
+  },
+  {
+    "name": "মোহনপুর থানা",
+    "division": "রাজশাহী",
+    "oc_mobile": "01320122646",
+    "inspector_mobile": "01320122647",
+    "duty_officer_mobile": "01320122651",
+    "latitude": 24.54749746,
+    "longitude": 88.64718509
+  },
+  {
+    "name": "রামগতি থানা",
+    "division": "লক্ষ্মীপুর",
+    "oc_mobile": "01320112054",
+    "inspector_mobile": "01320112055",
+    "duty_officer_mobile": "01320112059",
+    "latitude": 22.66746948,
+    "longitude": 90.9116539
+  },
+  {
+    "name": "রায়পুর থানা",
+    "division": "লক্ষ্মীপুর",
+    "oc_mobile": "01320112002",
+    "inspector_mobile": "01320112003",
+    "duty_officer_mobile": "01320112007",
+    "latitude": 23.03645428,
+    "longitude": 90.77522254
+  },
+  {
+    "name": "চন্দ্রগঞ্জ থানা",
+    "division": "লক্ষ্মীপুর",
+    "oc_mobile": "01320112106",
+    "inspector_mobile": "01320112107",
+    "duty_officer_mobile": "01320112111",
+    "latitude": 22.94292267,
+    "longitude": 90.97673815
+  },
+  {
+    "name": "লক্ষ্মীপুর সদর থানা",
+    "division": "লক্ষ্মীপুর",
+    "oc_mobile": "01320111976",
+    "inspector_mobile": "01320111977",
+    "duty_officer_mobile": "01320111981",
+    "latitude": 23.01849285,
+    "longitude": 90.82466543
+  },
+  {
+    "name": "আদিতমারী থানা",
+    "division": "লালমনিরহাট",
+    "oc_mobile": "01320134397",
+    "inspector_mobile": "01320134398",
+    "duty_officer_mobile": "01320134402",
+    "latitude": 25.92412446,
+    "longitude": 89.34594572
+  },
+  {
+    "name": "কালীগঞ্জ থানা",
+    "division": "লালমনিরহাট",
+    "oc_mobile": "01320134423",
+    "inspector_mobile": "01320134424",
+    "duty_officer_mobile": "01320134428",
+    "latitude": 25.97010306,
+    "longitude": 89.2054872
+  },
+  {
+    "name": "পাটগ্রাম থানা",
+    "division": "লালমনিরহাট",
+    "oc_mobile": "01320134475",
+    "inspector_mobile": "01320134476",
+    "duty_officer_mobile": "01320134480",
+    "latitude": 26.3495463,
+    "longitude": 89.02168031
+  },
+  {
+    "name": "হাতিবান্ধা থানা",
+    "division": "লালমনিরহাট",
+    "oc_mobile": "01320134449",
+    "inspector_mobile": "01320134450",
+    "duty_officer_mobile": "01320134454",
+    "latitude": 26.12444258,
+    "longitude": 89.1411722
+  },
+  {
+    "name": "লালমনিরহাট সদর থানা",
+    "division": "লালমনিরহাট",
+    "oc_mobile": "01320134371",
+    "inspector_mobile": "01320134372",
+    "duty_officer_mobile": "01320134376",
+    "latitude": 25.91953859,
+    "longitude": 89.44544132
+  },
+  {
+    "name": "গোসাইরহাট থানা",
+    "division": "শরীয়তপুর",
+    "oc_mobile": "01320100504",
+    "inspector_mobile": "01320100505",
+    "duty_officer_mobile": "01320100509",
+    "latitude": 23.07042391,
+    "longitude": 90.43523408
+  },
+  {
+    "name": "জাজিরা থানা",
+    "division": "শরীয়তপুর",
+    "oc_mobile": "01320100426",
+    "inspector_mobile": "01320100427",
+    "duty_officer_mobile": "01320100431",
+    "latitude": 23.33159206,
+    "longitude": 90.32472319
+  },
+  {
+    "name": "ডামুড্যা থানা",
+    "division": "শরীয়তপুর",
+    "oc_mobile": "01320100478",
+    "inspector_mobile": "01320100479",
+    "duty_officer_mobile": "01320100483",
+    "latitude": 23.13494363,
+    "longitude": 90.44177052
+  },
+  {
+    "name": "নড়িয়া থানা",
+    "division": "শরীয়তপুর",
+    "oc_mobile": "01320100400",
+    "inspector_mobile": "01320100401",
+    "duty_officer_mobile": "01320100405",
+    "latitude": 23.30262325,
+    "longitude": 90.40595151
+  },
+  {
+    "name": "ভেদরগঞ্জ থানা",
+    "division": "শরীয়তপুর",
+    "oc_mobile": "01320100452",
+    "inspector_mobile": "01320100453",
+    "duty_officer_mobile": "01320100457",
+    "latitude": 23.19646442,
+    "longitude": 90.44961966
+  },
+  {
+    "name": "সখিপুর থানা",
+    "division": "শরীয়তপুর",
+    "oc_mobile": "01320100531",
+    "inspector_mobile": "01320100532",
+    "duty_officer_mobile": "01320100535",
+    "latitude": 23.23185944,
+    "longitude": 90.52992446
+  },
+  {
+    "name": "পালং মডেল  (সদর) থানা",
+    "division": "শরীয়তপুর",
+    "oc_mobile": "01320100374",
+    "inspector_mobile": "01320100375",
+    "duty_officer_mobile": "01320100379",
+    "latitude": 23.2187698,
+    "longitude": 90.34865301
+  },
+  {
+    "name": "পদ্ম সেতু (দক্ষিণ) থানা",
+    "division": "শরীয়তপুর",
+    "oc_mobile": "01320100624",
+    "inspector_mobile": "01320100625",
+    "duty_officer_mobile": "01320100629",
+    "latitude": 23.40676476,
+    "longitude": 90.25155254
+  },
+  {
+    "name": "ঝিনাইগাঁতী থানা",
+    "division": "শেরপুর",
+    "oc_mobile": "01320106273",
+    "inspector_mobile": "01320106274",
+    "duty_officer_mobile": "01320106278",
+    "latitude": 25.1883308,
+    "longitude": 90.0624633
+  },
+  {
+    "name": "নকলা থানা",
+    "division": "শেরপুর",
+    "oc_mobile": "01320106195",
+    "inspector_mobile": "01320106196",
+    "duty_officer_mobile": "01320106200",
+    "latitude": 24.96908896,
+    "longitude": 90.17863547
+  },
+  {
+    "name": "নালিতাবাড়ী থানা",
+    "division": "শেরপুর",
+    "oc_mobile": "01320106221",
+    "inspector_mobile": "01320106222",
+    "duty_officer_mobile": "01320106226",
+    "latitude": 25.08617092,
+    "longitude": 90.19378717
+  },
+  {
+    "name": "শ্রীবর্দী থানা",
+    "division": "শেরপুর",
+    "oc_mobile": "01320106247",
+    "inspector_mobile": "01320106248",
+    "duty_officer_mobile": "01320106252",
+    "latitude": 25.15024703,
+    "longitude": 89.93715435
+  },
+  {
+    "name": "শেরপুর সদর থানা",
+    "division": "শেরপুর",
+    "oc_mobile": "01320106170",
+    "inspector_mobile": "01320106171",
+    "duty_officer_mobile": "01320106174",
+    "latitude": 25.02098318,
+    "longitude": 90.01757949
+  },
+  {
+    "name": "আশাশুনি থানা",
+    "division": "সাতক্ষীরা",
+    "oc_mobile": "01320142335",
+    "inspector_mobile": "01320142336",
+    "duty_officer_mobile": "01320142340",
+    "latitude": 22.54723051,
+    "longitude": 89.17522822
+  },
+  {
+    "name": "কলারোয়া থানা",
+    "division": "সাতক্ষীরা",
+    "oc_mobile": "01320142205",
+    "inspector_mobile": "01320142206",
+    "duty_officer_mobile": "01320142210",
+    "latitude": 22.85917615,
+    "longitude": 89.04132141
+  },
+  {
+    "name": "তালা থানা",
+    "division": "সাতক্ষীরা",
+    "oc_mobile": "01320142231",
+    "inspector_mobile": "01320142232",
+    "duty_officer_mobile": "01320142236",
+    "latitude": 22.7466649,
+    "longitude": 89.25656484
+  },
+  {
+    "name": "দেবহাটা থানা",
+    "division": "সাতক্ষীরা",
+    "oc_mobile": "01320142309",
+    "inspector_mobile": "01320142310",
+    "duty_officer_mobile": "01320142314",
+    "latitude": 22.55412545,
+    "longitude": 88.96070499
+  },
+  {
+    "name": "শ্যামনগর থানা",
+    "division": "সাতক্ষীরা",
+    "oc_mobile": "01320142283",
+    "inspector_mobile": "01320142284",
+    "duty_officer_mobile": "01320142288",
+    "latitude": 22.3451903,
+    "longitude": 89.1057602
+  },
+  {
+    "name": "কালীগঞ্জ থানা",
+    "division": "সাতক্ষীরা",
+    "oc_mobile": "01320142257",
+    "inspector_mobile": "01320142258",
+    "duty_officer_mobile": "01320142262",
+    "latitude": 22.45568245,
+    "longitude": 89.02989098
+  },
+  {
+    "name": "পাটকেলঘাটা থানা",
+    "division": "সাতক্ষীরা",
+    "oc_mobile": "01320142361",
+    "inspector_mobile": "01320142362",
+    "duty_officer_mobile": "01320142366",
+    "latitude": 22.770891,
+    "longitude": 89.162574
+  },
+  {
+    "name": "সাতক্ষীরা সদর থানা",
+    "division": "সাতক্ষীরা",
+    "oc_mobile": "01320142179",
+    "inspector_mobile": "01320142180",
+    "duty_officer_mobile": "01320142184",
+    "latitude": 22.71156904,
+    "longitude": 89.07364053
+  },
+  {
+    "name": "খুলশী থানা",
+    "division": "সিএমপি, চট্টগ্রাম",
+    "oc_mobile": "01320052497",
+    "inspector_mobile": "01320052498",
+    "duty_officer_mobile": "01320052503",
+    "latitude": 22.36226671,
+    "longitude": 91.81094336
+  },
+  {
+    "name": "বায়েজিদ বোস্তামি থানা",
+    "division": "সিএমপি, চট্টগ্রাম",
+    "oc_mobile": "01320052524",
+    "inspector_mobile": "01320052525",
+    "duty_officer_mobile": "01320052530",
+    "latitude": 22.38028713,
+    "longitude": 91.8201916
+  },
+  {
+    "name": "চান্দগাঁও থানা",
+    "division": "সিএমপি, চট্টগ্রাম",
+    "oc_mobile": "01320052443",
+    "inspector_mobile": "01320052444",
+    "duty_officer_mobile": "01320052449",
+    "latitude": 22.36822808,
+    "longitude": 91.84876084
+  },
+  {
+    "name": "কোতয়ালী থানা",
+    "division": "সিএমপি, চট্টগ্রাম",
+    "oc_mobile": "01320052593",
+    "inspector_mobile": "01320052594",
+    "duty_officer_mobile": "01320052599",
+    "latitude": 22.33372798,
+    "longitude": 91.83687532
+  },
+  {
+    "name": "বাকলিয়া থানা",
+    "division": "সিএমপি, চট্টগ্রাম",
+    "oc_mobile": "01320052620",
+    "inspector_mobile": "01320052621",
+    "duty_officer_mobile": "01320052626",
+    "latitude": 22.34646648,
+    "longitude": 91.8618613
+  },
+  {
+    "name": "চকবাজার থানা",
+    "division": "সিএমপি, চট্টগ্রাম",
+    "oc_mobile": "01320052647",
+    "inspector_mobile": "01320052648",
+    "duty_officer_mobile": "01320052653",
+    "latitude": 22.35775835,
+    "longitude": 91.83900429
+  },
+  {
+    "name": "সদরঘাট থানা",
+    "division": "সিএমপি, চট্টগ্রাম",
+    "oc_mobile": "01320052674",
+    "inspector_mobile": "01320052675",
+    "duty_officer_mobile": "01320052680",
+    "latitude": 22.32746038,
+    "longitude": 91.8303266
+  },
+  {
+    "name": "পাহাড়তলী থানা",
+    "division": "সিএমপি, চট্টগ্রাম",
+    "oc_mobile": "01320052797",
+    "inspector_mobile": "01320052798",
+    "duty_officer_mobile": "01320052803",
+    "latitude": 22.35787087,
+    "longitude": 91.78898771
+  },
+  {
+    "name": "ডবলমুরিং থানা",
+    "division": "সিএমপি, চট্টগ্রাম",
+    "oc_mobile": "01320052743",
+    "inspector_mobile": "01320052744",
+    "duty_officer_mobile": "01320052749",
+    "latitude": 22.33866646,
+    "longitude": 91.811415
+  },
+  {
+    "name": "হালিশহর থানা",
+    "division": "সিএমপি, চট্টগ্রাম",
+    "oc_mobile": "01320052770",
+    "inspector_mobile": "01320052771",
+    "duty_officer_mobile": "01320052776",
+    "latitude": 22.34518136,
+    "longitude": 91.77776784
+  },
+  {
+    "name": "আকবর শাহ্ থানা",
+    "division": "সিএমপি, চট্টগ্রাম",
+    "oc_mobile": "01320052824",
+    "inspector_mobile": "01320052825",
+    "duty_officer_mobile": "01320052830",
+    "latitude": 22.37540161,
+    "longitude": 91.78085804
+  },
+  {
+    "name": "পতেঙ্গা থানা",
+    "division": "সিএমপি, চট্টগ্রাম",
+    "oc_mobile": "01320052974",
+    "inspector_mobile": "01320052975",
+    "duty_officer_mobile": "01320052980",
+    "latitude": 22.27017887,
+    "longitude": 91.78856407
+  },
+  {
+    "name": "কর্ণফুলী (পুলিশ স্টেশন) থানা",
+    "division": "সিএমপি, চট্টগ্রাম",
+    "oc_mobile": "01320052947",
+    "inspector_mobile": "01320052948",
+    "duty_officer_mobile": "01320052953",
+    "latitude": 22.30375106,
+    "longitude": 91.84479042
+  },
+  {
+    "name": "বন্দর থানা",
+    "division": "সিএমপি, চট্টগ্রাম",
+    "oc_mobile": "01320052893",
+    "inspector_mobile": "01320052894",
+    "duty_officer_mobile": "01320052899",
+    "latitude": 22.31405328,
+    "longitude": 91.80353296
+  },
+  {
+    "name": "উল্লাপাড়া থানা",
+    "division": "সিরাজগঞ্জ",
+    "oc_mobile": "01320129642",
+    "inspector_mobile": "01320129643",
+    "duty_officer_mobile": "01320129647",
+    "latitude": 24.31326002,
+    "longitude": 89.57041381
+  },
+  {
+    "name": "কাজিপুর থানা",
+    "division": "সিরাজগঞ্জ",
+    "oc_mobile": "01320129720",
+    "inspector_mobile": "01320129721",
+    "duty_officer_mobile": "01320129725",
+    "latitude": 24.66848822,
+    "longitude": 89.64468961
+  },
+  {
+    "name": "রায়গঞ্জ থানা",
+    "division": "সিরাজগঞ্জ",
+    "oc_mobile": "01320129772",
+    "inspector_mobile": "01320129773",
+    "duty_officer_mobile": "01320129777",
+    "latitude": 24.50729217,
+    "longitude": 89.52515917
+  },
+  {
+    "name": "কামারখন্দ থানা",
+    "division": "সিরাজগঞ্জ",
+    "oc_mobile": "01320129746",
+    "inspector_mobile": "01320129747",
+    "duty_officer_mobile": "01320129751",
+    "latitude": 24.36367422,
+    "longitude": 89.64696976
+  },
+  {
+    "name": "চৌহালী থানা",
+    "division": "সিরাজগঞ্জ",
+    "oc_mobile": "01320129668",
+    "inspector_mobile": "01320129669",
+    "duty_officer_mobile": "01320129673",
+    "latitude": 24.2198787,
+    "longitude": 89.74926799
+  },
+  {
+    "name": "তাড়াশ থানা",
+    "division": "সিরাজগঞ্জ",
+    "oc_mobile": "01320129694",
+    "inspector_mobile": "01320129695",
+    "duty_officer_mobile": "01320129699",
+    "latitude": 24.4272771,
+    "longitude": 89.37053384
+  },
+  {
+    "name": "বেলকুচি থানা",
+    "division": "সিরাজগঞ্জ",
+    "oc_mobile": "01320129798",
+    "inspector_mobile": "01320129799",
+    "duty_officer_mobile": "01320129803",
+    "latitude": 24.30190031,
+    "longitude": 89.6969855
+  },
+  {
+    "name": "শাহজাদপুর থানা",
+    "division": "সিরাজগঞ্জ",
+    "oc_mobile": "01320129616",
+    "inspector_mobile": "01320129617",
+    "duty_officer_mobile": "01320129621",
+    "latitude": 24.17617204,
+    "longitude": 89.59970564
+  },
+  {
+    "name": "এনায়েতপুর থানা",
+    "division": "সিরাজগঞ্জ",
+    "oc_mobile": "01320129876",
+    "inspector_mobile": "01320129877",
+    "duty_officer_mobile": "01320129881",
+    "latitude": 23.81214702,
+    "longitude": 89.250638
+  },
+  {
+    "name": "সলঙ্গা থানা",
+    "division": "সিরাজগঞ্জ",
+    "oc_mobile": "01320129850",
+    "inspector_mobile": "01320129851",
+    "duty_officer_mobile": "01320129855",
+    "latitude": 24.4151869,
+    "longitude": 89.50834807
+  },
+  {
+    "name": "বঙ্গবন্ধু সেতু পশ্চিম থানা",
+    "division": "সিরাজগঞ্জ",
+    "oc_mobile": "01320129824",
+    "inspector_mobile": "01320129825",
+    "duty_officer_mobile": "01320129829",
+    "latitude": 24.39533962,
+    "longitude": 89.73891292
+  },
+  {
+    "name": "সিরাজগঞ্জ সদর থানা",
+    "division": "সিরাজগঞ্জ",
+    "oc_mobile": "01320129590",
+    "inspector_mobile": "01320129591",
+    "duty_officer_mobile": "01320129595",
+    "latitude": 24.45819004,
+    "longitude": 89.70085281
+  },
+  {
+    "name": "কানাইঘাট থানা",
+    "division": "সিলেট",
+    "oc_mobile": "01320117943",
+    "inspector_mobile": "01320117944",
+    "duty_officer_mobile": "01320117944",
+    "latitude": 25.00879221,
+    "longitude": 92.25637429
+  },
+  {
+    "name": "কোম্পানীগঞ্জ থানা",
+    "division": "সিলেট",
+    "oc_mobile": "01320117995",
+    "inspector_mobile": "01320117996",
+    "duty_officer_mobile": "01320118000",
+    "latitude": 25.08875261,
+    "longitude": 91.75947745
+  },
+  {
+    "name": "গোলাপগঞ্জ থানা",
+    "division": "সিলেট",
+    "oc_mobile": "01320117891",
+    "inspector_mobile": "01320117892",
+    "duty_officer_mobile": "01320117896",
+    "latitude": 24.85651243,
+    "longitude": 92.01114305
+  },
+  {
+    "name": "গোয়াইনঘাট থানা",
+    "division": "সিলেট",
+    "oc_mobile": "01320117969",
+    "inspector_mobile": "01320117970",
+    "duty_officer_mobile": "01320117974",
+    "latitude": 25.09320048,
+    "longitude": 91.98297262
+  },
+  {
+    "name": "জকিগঞ্জ থানা",
+    "division": "সিলেট",
+    "oc_mobile": "01320118021",
+    "inspector_mobile": "01320118022",
+    "duty_officer_mobile": "01320118026",
+    "latitude": 24.87450288,
+    "longitude": 92.36574959
+  },
+  {
+    "name": "জৈয়ন্তিয়াপুর থানা",
+    "division": "সিলেট",
+    "oc_mobile": "01320118047",
+    "inspector_mobile": "01320118048",
+    "duty_officer_mobile": "01320118052",
+    "latitude": 25.13623555,
+    "longitude": 92.12279005
+  },
+  {
+    "name": "ফেঞ্চুগঞ্জ থানা",
+    "division": "সিলেট",
+    "oc_mobile": "01320117865",
+    "inspector_mobile": "01320117866",
+    "duty_officer_mobile": "01320117870",
+    "latitude": 24.70057419,
+    "longitude": 91.94564128
+  },
+  {
+    "name": "বিশ্বনাথ থানা",
+    "division": "সিলেট",
+    "oc_mobile": "01320117838",
+    "inspector_mobile": "01320117839",
+    "duty_officer_mobile": "01320117843",
+    "latitude": 24.80532,
+    "longitude": 91.76512
+  },
+  {
+    "name": "বিয়ানীবাজার থানা",
+    "division": "সিলেট",
+    "oc_mobile": "01320117917",
+    "inspector_mobile": "01320117918",
+    "duty_officer_mobile": "01320117922",
+    "latitude": 24.82522422,
+    "longitude": 92.15903355
+  },
+  {
+    "name": "ওসমানীনগর থানা",
+    "division": "সিলেট",
+    "oc_mobile": "01320117786",
+    "inspector_mobile": "01320117787",
+    "duty_officer_mobile": "01320117791",
+    "latitude": 24.71436442,
+    "longitude": 91.74543477
+  },
+  {
+    "name": "আখাউড়া রেলওয় থানা",
+    "division": "সিলেট রেলওয়ে জেলা",
+    "oc_mobile": "01320177719",
+    "inspector_mobile": "01320177720",
+    "duty_officer_mobile": "01320177724",
+    "latitude": 23.87387701,
+    "longitude": 91.20527273
+  },
+  {
+    "name": "শ্রীমঙ্গল রেলওয়ে থানা",
+    "division": "সিলেট রেলওয়ে জেলা",
+    "oc_mobile": "01320799400",
+    "inspector_mobile": "01320799401",
+    "duty_officer_mobile": "01320177776",
+    "latitude": 24.30639854,
+    "longitude": 91.73362913
+  },
+  {
+    "name": "কুলাউড়া রেলওয়ে থানা",
+    "division": "সিলেট রেলওয়ে জেলা",
+    "oc_mobile": "01320177797",
+    "inspector_mobile": "01320177798",
+    "duty_officer_mobile": "01320177802",
+    "latitude": 24.52190056,
+    "longitude": 92.03621997
+  },
+  {
+    "name": "সিলেট রেলওয়ে থানা",
+    "division": "সিলেট রেলওয়ে জেলা",
+    "oc_mobile": "01320177745",
+    "inspector_mobile": "01320177746",
+    "duty_officer_mobile": "01320177750",
+    "latitude": 24.88222776,
+    "longitude": 91.86541561
+  },
+  {
+    "name": "ছাতক থানা",
+    "division": "সুনামগঞ্জ",
+    "oc_mobile": "01320120816",
+    "inspector_mobile": "01320120817",
+    "duty_officer_mobile": "01320120821",
+    "latitude": 25.03890543,
+    "longitude": 91.67065985
+  },
+  {
+    "name": "জগন্নাথপুর থানা",
+    "division": "সুনামগঞ্জ",
+    "oc_mobile": "01320120842",
+    "inspector_mobile": "01320120843",
+    "duty_officer_mobile": "01320120847",
+    "latitude": 24.8349482,
+    "longitude": 91.48432679
+  },
+  {
+    "name": "জামালগঞ্জ থানা",
+    "division": "সুনামগঞ্জ",
+    "oc_mobile": "01320120998",
+    "inspector_mobile": "01320120999",
+    "duty_officer_mobile": "01320121003",
+    "latitude": 24.99996991,
+    "longitude": 91.23701293
+  },
+  {
+    "name": "তাহিরপুর থানা",
+    "division": "সুনামগঞ্জ",
+    "oc_mobile": "01320120868",
+    "inspector_mobile": "01320120869",
+    "duty_officer_mobile": "01320120873",
+    "latitude": 25.10133916,
+    "longitude": 91.17897305
+  },
+  {
+    "name": "দক্ষিণ সুনামগঞ্জ থানা",
+    "division": "সুনামগঞ্জ",
+    "oc_mobile": "01320121076",
+    "inspector_mobile": "01320121077",
+    "duty_officer_mobile": "01320121081",
+    "latitude": 24.93882637,
+    "longitude": 91.41232549
+  },
+  {
+    "name": "দোয়ারাবাজার থানা",
+    "division": "সুনামগঞ্জ",
+    "oc_mobile": "01320120920",
+    "inspector_mobile": "01320120921",
+    "duty_officer_mobile": "01320120925",
+    "latitude": 25.04994902,
+    "longitude": 91.55900082
+  },
+  {
+    "name": "ধর্মপাশা থানা",
+    "division": "সুনামগঞ্জ",
+    "oc_mobile": "01320121024",
+    "inspector_mobile": "01320121025",
+    "duty_officer_mobile": "01320121029",
+    "latitude": 24.89632255,
+    "longitude": 91.01176816
+  },
+  {
+    "name": "দিরাই থানা",
+    "division": "সুনামগঞ্জ",
+    "oc_mobile": "01320120946",
+    "inspector_mobile": "01320120947",
+    "duty_officer_mobile": "01320120951",
+    "latitude": 24.7903312,
+    "longitude": 91.35609305
+  },
+  {
+    "name": "বিশ্বম্ভরপুর থানা",
+    "division": "সুনামগঞ্জ",
+    "oc_mobile": "01320120894",
+    "inspector_mobile": "01320120895",
+    "duty_officer_mobile": "01320120899",
+    "latitude": 25.09891219,
+    "longitude": 91.30203664
+  },
+  {
+    "name": "শাল্লা থানা",
+    "division": "সুনামগঞ্জ",
+    "oc_mobile": "01320120972",
+    "inspector_mobile": "01320120973",
+    "duty_officer_mobile": "01320120977",
+    "latitude": 24.67015502,
+    "longitude": 91.27120077
+  },
+  {
+    "name": "মধ্যনগর থানা",
+    "division": "সুনামগঞ্জ",
+    "oc_mobile": "01320121051",
+    "inspector_mobile": "01320121052",
+    "duty_officer_mobile": "01320121055",
+    "latitude": 25.05069338,
+    "longitude": 90.993806
+  },
+  {
+    "name": "সুনামগঞ্জ থানা",
+    "division": "সুনামগঞ্জ",
+    "oc_mobile": "01320120790",
+    "inspector_mobile": "01320120791",
+    "duty_officer_mobile": "01320120795",
+    "latitude": 25.07427166,
+    "longitude": 91.4023901
+  },
+  {
+    "name": "বোনারপাড়া রেলওয়ে থানা",
+    "division": "সৈয়দপুর রেলওয়ে জেলা",
+    "oc_mobile": "01320178245",
+    "inspector_mobile": "01320178246",
+    "duty_officer_mobile": "01320178250",
+    "latitude": 25.16425521,
+    "longitude": 89.52301357
+  },
+  {
+    "name": "লালমনিরহাট রেলওয়ে থানা",
+    "division": "সৈয়দপুর রেলওয়ে জেলা",
+    "oc_mobile": "01320178219",
+    "inspector_mobile": "01320178220",
+    "duty_officer_mobile": "01320178224",
+    "latitude": 25.91147969,
+    "longitude": 89.44528787
+  },
+  {
+    "name": "সৈয়দপুর রেলওয়ে থানা",
+    "division": "সৈয়দপুর রেলওয়ে জেলা",
+    "oc_mobile": "01320178141",
+    "inspector_mobile": "01320178142",
+    "duty_officer_mobile": "01320178146",
+    "latitude": 25.78632739,
+    "longitude": 88.89322898
+  },
+  {
+    "name": "দিনাজপুর রেলওয়ে থানা",
+    "division": "সৈয়দপুর রেলওয়ে জেলা",
+    "oc_mobile": "01320178271",
+    "inspector_mobile": "01320178272",
+    "duty_officer_mobile": "01320178276",
+    "latitude": 25.62511168,
+    "longitude": 88.63222592
+  },
+  {
+    "name": "পার্বতীপুর রেলওয়ে থানা",
+    "division": "সৈয়দপুর রেলওয়ে জেলা",
+    "oc_mobile": "01320178167",
+    "inspector_mobile": "01320178168",
+    "duty_officer_mobile": "01320178172",
+    "latitude": 25.65317003,
+    "longitude": 88.91593406
+  },
+  {
+    "name": "আজমিরীগঞ্জ থানা",
+    "division": "হবিগঞ্জ",
+    "oc_mobile": "01320118961",
+    "inspector_mobile": "01320118962",
+    "duty_officer_mobile": "01320118966",
+    "latitude": 24.56050489,
+    "longitude": 91.23582637
+  },
+  {
+    "name": "নবীগঞ্জ থানা",
+    "division": "হবিগঞ্জ",
+    "oc_mobile": "01320118909",
+    "inspector_mobile": "01320118910",
+    "duty_officer_mobile": "01320118914",
+    "latitude": 24.56825,
+    "longitude": 91.51216505
+  },
+  {
+    "name": "শায়েস্তাগঞ্জ থানা",
+    "division": "হবিগঞ্জ",
+    "oc_mobile": "01320118987",
+    "inspector_mobile": "01320118988",
+    "duty_officer_mobile": "01320118992",
+    "latitude": 24.2799113,
+    "longitude": 91.4363926
+  }
+]

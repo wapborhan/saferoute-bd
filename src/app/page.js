@@ -2,20 +2,39 @@
 
 import { useEffect, useState } from "react";
 import ArmyMap from "./ArmyMap";
+import { normalizeAllLocations } from "@/utils/normalizeData";
 
 export default function Home() {
-  const [allCamps, setAllCamps] = useState([]);
+  const [locations, setLocations] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("armyCampData.json")
-      .then((res) => res.json())
-      .then((data) => setAllCamps(data))
-      .catch((err) => console.error("Error loading camp data:", err));
+    Promise.all([
+      fetch("armyCampData.json")
+        .then((r) => r.json())
+        .catch(() => []),
+      fetch("BDbdthanasData.json")
+        .then((r) => r.json())
+        .catch(() => []),
+      fetch("highwayThanaData.json")
+        .then((r) => r.json())
+        .catch(() => ({})),
+    ])
+      .then(([armyData, thanaData, highwayObj]) => {
+        const unified = normalizeAllLocations({
+          armyData,
+          thanaData,
+          highwayData: highwayObj,
+        });
+        setLocations(unified);
+      })
+      .catch((err) => console.error("Error loading location datasets:", err))
+      .finally(() => setLoading(false));
   }, []);
 
   return (
     <main className="w-full min-h-screen bg-slate-950">
-      <ArmyMap allCamps={allCamps} />
+      <ArmyMap allLocations={locations} isLoading={loading} />
     </main>
   );
 }

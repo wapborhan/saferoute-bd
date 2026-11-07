@@ -1,13 +1,13 @@
-# 🇧🇩 Bangladesh Army Camp Location & Emergency Directory
-### বাংলাদেশ সেনাবাহিনী ক্যাম্প লোকেশন ও জরুরি যোগাযোগ ডিরেক্টরি
+# 🇧🇩 Bangladesh Army Camp & Police Thana Emergency Directory
+### বাংলাদেশ সেনা ক্যাম্প, পুলিশ থানা ও হাইওয়ে থানা লোকেশন ও জরুরি যোগাযোগ ডিরেক্টরি
 
 <div align="center">
-  <img src="public/screenshot.png" alt="Bangladesh Army Camp Location App Preview" width="100%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+  <img src="public/screenshot.png" alt="Bangladesh Emergency Locations Preview" width="100%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
   
   <p align="center">
-    <strong>An interactive emergency map and contact directory locating Bangladesh Army camps across all 64+ districts.</strong>
+    <strong>An interactive emergency map and contact directory locating 740+ Bangladesh Army camps, Police Thanas, and Highway Police Stations across all districts.</strong>
     <br />
-    <em>নিকটস্থ সেনা ক্যাম্পের অবস্থান, জরুরি যোগাযোগ নম্বর এবং সরাসরি লাইভ ড্রাইভিং রুট ম্যাপ।</em>
+    <em>নিকটস্থ সেনা ক্যাম্প ও পুলিশ থানার অবস্থান, ওসি ও ডিউটি অফিসারের জরুরি নম্বর এবং সরাসরি লাইভ ড্রাইভিং রুট ম্যাপ।</em>
   </p>
   
   <p align="center">
@@ -25,33 +25,41 @@
 
 ## 🌟 Overview (প্রজেক্ট পরিচিতি)
 
-**Army Camp Location** is a responsive, client-side interactive map application built with **Next.js 15**, **React 19**, **Leaflet**, and **Tailwind CSS 4**. It provides citizens with instant access to Bangladesh Army emergency camps and control room phone numbers nationwide.
+**Emergency Camp & Thana Location** is a responsive, client-side interactive map application built with **Next.js 15**, **React 19**, **Leaflet**, and **Tailwind CSS 4**. It provides citizens with instant access to 740+ emergency response locations across Bangladesh:
+- 🛡️ **সেনা ক্যাম্প (Army Camps)**: 66 operational army camps with emergency hotline contacts.
+- 👮 **পুলিশ থানা (Police Thanas)**: 598 regular police stations nationwide with direct contact details for OC, Duty Officer, and Inspector.
+- 🛣️ **হাইওয়ে থানা (Highway Police Thanas)**: 78 highway police stations covering national highways and expressways.
 
-During national emergencies, natural disasters, or law-and-order situations, this tool allows users to:
-1. **Find their nearest army camp** using browser GPS and Haversine distance calculations.
-2. **View live driving road routes** on the map directly from their current location to the selected camp.
-3. **Initiate one-touch phone calls** to verified emergency hotline numbers.
-4. **Share camp location and contacts** with family and friends via WhatsApp, Messenger, or SMS.
+During national emergencies, accidents, highway incidents, or law-and-order situations, this tool allows users to:
+1. **Find nearest emergency post** using browser GPS and Haversine distance calculations.
+2. **Filter by Category**: Instant one-click toggle between All, Army Camps, Regular Thanas, and Highway Thanas.
+3. **View live driving road routes** on the map directly from their current location to any selected camp or thana.
+4. **Initiate one-touch phone calls** to verified OC, Duty Officer, or camp control room numbers.
+5. **Share location and contacts** via WhatsApp, Messenger, or SMS with a single tap.
 
 ---
 
 ## ✨ Key Features (প্রধান বৈশিষ্ট্যসমূহ)
 
-### 🗺️ Interactive Leaflet Map
-- **Custom Army Shield Pins**: Styled vector pins with gold stars for camps, highlighting with an amber glow when selected.
+### 🗺️ Interactive Leaflet Map with Distinct Category Pins
+- **Multi-Type Custom Pins**:
+  - 🛡️ **সেনা ক্যাম্প (Army)**: Emerald shield pin with golden star badge.
+  - 👮 **পুলিশ থানা (Police Thana)**: Blue shield pin with badge icon.
+  - 🛣️ **হাইওয়ে থানা (Highway Thana)**: Purple shield pin with road landmark icon.
 - **Pulsing GPS Radar Marker**: Visual indicator of the user's detected location with a 1.2 km perimeter circle.
-- **Interactive Marker Popups**: Detailed camp popup cards with phone dialers, navigation links, and distance indicators.
+- **Interactive Marker Popups**: Detailed cards with phone dialers, role labels (ওসি, ডিউটি অফিসার, তদন্ত কর্মকর্তা), navigation links, and distance indicators.
 
-### 🛣️ Driving Route to Selected Camp
+### 🛣️ Driving Route to Selected Location
 - **OSRM Road Routing**: Fetches actual road network routes via the Open Source Routing Machine API.
 - **Dual-Layer Route Polyline**: Glowing emerald border with high-visibility core navigation line.
 - **Route Summary Card**: Displays real-time driving distance in kilometers, estimated travel time in minutes, and a button to launch Google Maps turn-by-turn navigation.
 - **Offline / Fallback Routing**: If routing servers are unreachable, automatically falls back to straight-line distance calculations.
 
 ### 🔍 Bilingual Smart Search & Division Filters
-- **Instant Search**: Search in Bengali (e.g. `ঢাকা`, `কুমিল্লা`, `চট্টগ্রাম`), English aliases (`dhaka`, `comilla`, `sylhet`, `ctg`), or by phone digits.
+- **Instant Search**: Search in Bengali (e.g. `ঢাকা`, `মিরপুর`, `হাটিকুমরুল`, `কুমিল্লা`), English aliases (`dhaka`, `comilla`, `sylhet`, `ctg`), or by phone digits.
 - **8 Administrative Divisions**: Filter chips for **সকল**, **ঢাকা**, **চট্টগ্রাম**, **রাজশাহী**, **খুলনা**, **বরিশাল**, **সিলেট**, **রংপুর**, and **ময়মনসিংহ**.
-- **Nearest 5 Camps**: One-click filter to display only the closest camps when GPS is active.
+- **Category Filter Pills**: Quick switch between **সবগুলো**, **সেনা ক্যাম্প**, **পুলিশ থানা**, and **হাইওয়ে থানা**.
+- **Nearest 5 Locations**: One-click filter to display only the closest posts when GPS is active.
 
 ### 📞 Emergency Hotlines Directory
 - **National Emergency 999**: Quick-dial pill in the header.
@@ -64,7 +72,7 @@ During national emergencies, natural disasters, or law-and-order situations, thi
 
 ### 📱 Mobile-First Responsive Design
 - **Guaranteed Full Viewport (`100dvh`)**: Zero container height collapse on mobile screens.
-- **Floating View Switcher**: Thumb-friendly bottom toggle button on mobile to easily switch between **ম্যাপ ভিউ (Map View)** and **ক্যাম্প তালিকা (Camp List)**.
+- **Floating View Switcher**: Thumb-friendly bottom toggle button on mobile to easily switch between **ম্যাপ ভিউ (Map View)** and **তালিকা ভিউ (List View)**.
 - **Zero-Dimension Protection**: Prevents Leaflet `flyTo` division-by-zero crashes on mobile tab transitions.
 
 ---
@@ -89,15 +97,28 @@ During national emergencies, natural disasters, or law-and-order situations, thi
 ```text
 army-camp-location/
 ├── public/
-│   ├── armyCampData.json         # 66 army camp coordinates & contact details
+│   ├── armyCampData.json         # 66 army camp coordinates & hotline contacts
+│   ├── BDbdthanasData.json       # 598 police thanas with OC & duty officer contacts
+│   ├── highwayThanaData.json     # 78 highway police stations with patrol points & contacts
 │   ├── screenshot.png            # Application preview image
 │   └── wb-logo.png               # Developer brand logo
 ├── src/
 │   ├── app/
-│   │   ├── ArmyMap.js            # Main map, search, and routing controller
+│   │   ├── ArmyMap.js            # Main map, category filters, and routing controller
 │   │   ├── globals.css           # Tailwind v4, custom scrollbars & Leaflet styles
 │   │   ├── layout.js             # Root layout with metadata and OpenGraph tags
-│   │   └── page.js               # Main page entry loading camp data
+│   │   └── page.js               # Multi-dataset loader & normalizer
+│   ├── components/
+│   │   ├── CampCard.js           # Location card with dial, copy, share, and route buttons
+│   │   ├── EmergencyModal.js     # National emergency hotlines directory modal
+│   │   ├── Header.js             # Branded topbar with 999 dialer and mobile tabs
+│   │   └── SocialNavigation.js   # Floating developer & social links widget
+│   └── utils/
+│       └── distance.js           # Haversine distance, Bengali numerals & division maps
+├── next.config.mjs               # Next.js configuration
+├── package.json                  # Scripts & dependencies
+└── README.md                     # Project documentation
+```
 │   ├── components/
 │   │   ├── CampCard.js           # Camp card with dial, copy, share, and route buttons
 │   │   ├── EmergencyModal.js     # National emergency hotlines directory modal

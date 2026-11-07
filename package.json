@@ -1,8 +1,8 @@
 {
-  "name": "army-camp-location",
+  "name": "saferoute-bd",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://code.wapborhan.com/army-camp-location",
+  "homepage": "https://code.wapborhan.com/saferoute-bd",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
