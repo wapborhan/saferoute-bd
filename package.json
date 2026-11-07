@@ -4,8 +4,8 @@
   "private": true,
   "homepage": "https://code.wapborhan.com/army-camp-location",
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
+    "dev": "next dev",
+    "build": "next build",
     "start": "next start",
     "lint": "eslint"
   },

@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import ArmyMap from "./ArmyMap";
-import SocialNavigation from "@/components/SocialNavigation";
 
 export default function Home() {
   const [allCamps, setAllCamps] = useState([]);
@@ -10,15 +9,13 @@ export default function Home() {
   useEffect(() => {
     fetch("armyCampData.json")
       .then((res) => res.json())
-      .then((data) => setAllCamps(data));
+      .then((data) => setAllCamps(data))
+      .catch((err) => console.error("Error loading camp data:", err));
   }, []);
 
   return (
-    <div>
-      <main className="flexs flex-cols md:flex-rows">
-        <ArmyMap allCamps={allCamps} />
-        <SocialNavigation />
-      </main>
-    </div>
+    <main className="w-full min-h-screen bg-slate-950">
+      <ArmyMap allCamps={allCamps} />
+    </main>
   );
 }
